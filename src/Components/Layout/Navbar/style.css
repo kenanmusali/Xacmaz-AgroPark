@@ -1,0 +1,11 @@
+/* 66b64d */
+
+.Navbar {
+    background-color: #66b64d ;
+    display: flex;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 3rem;
+    color: white;
+}
