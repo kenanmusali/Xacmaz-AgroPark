@@ -26,7 +26,7 @@ function Navbar() {
 
   return (
     <div className={`Navbar ${isScrolled ? 'scrolled' : ''}`}>
-      <div className="TopSection">
+      <div className={`TopSection ${isScrolled ? 'none':''}`}>
         <p className='text'>+994 50 123 45 67 / For More Info, Contact Us</p>
         <div className="navSocialSection">
           <IoMailOutline className='icon1' />

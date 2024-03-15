@@ -1,0 +1,49 @@
+.Footer {
+    height: 25rem;
+    background: url(../../../../Public/Elements/footer.svg);
+    background-color: var(--color1);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 6rem;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 12rem;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 12rem;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.logoFooter {
+    width: 4rem;
+    border: 2px solid var(--color);
+    border-radius: 100px;
+    margin-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem
+}
+
+.flex1 {
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem
+}
