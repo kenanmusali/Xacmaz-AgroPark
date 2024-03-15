@@ -1,16 +1,16 @@
 /* 66b64d */
 
 .Navbar {
-   height: fit-content;
-   position: fixed;
-   width: 100%;
-   z-index: 3;
+    height: fit-content;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
 }
 
 /* Top Section Starts */
 
 .TopSection {
-    background-color: #66b64d;
+    background-color: var(--color);
     display: flex;
     height: 2.5rem;
     align-items: center;
@@ -51,7 +51,7 @@
     padding-inline: 3rem;
     height: 6rem;
     color: white;
-    background: linear-gradient(180deg, rgba(25,25,25,0.5) 0%, rgba(97,97,97,0.4) 19%, rgba(255,255,255,0) 46%);
+    background: linear-gradient(180deg, rgba(25, 25, 25, 0.5) 0%, rgba(97, 97, 97, 0.4) 19%, rgba(255, 255, 255, 0) 46%);
 }
 
 .scrolled .BottomSection {
@@ -64,12 +64,16 @@
     box-shadow: 0 3px 16px rgba(0, 0, 0, 0.10);
     background: white 100%;
     color: black;
-    transition: all 0.3s;
+    transition: all 1s;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
-    
+
+}
+
+.scrolled .logotext {
+    color: var(--color2);
 }
 
 
@@ -81,16 +85,37 @@
     -moz-border-radius: 100px;
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
+    z-index: 2;
+}
+
+.logoSec {
+    display: flex;
+    align-items: center;
+}
+
+.logotext {
+    font-size: 2rem;
+    font-weight: 600;
+color: white;
+    margin-left: 1rem;
 }
 
 .LanguageSection {
     display: flex;
-    color: black;
+    gap: 3rem;
+    font-weight: 600;
 }
 
-.LanguageSection a{
+.LanguageSection a:hover{
+    color: var(--color);
+    font-weight: 600;
+}
+
+.LanguageSection a {
     text-decoration: none;
-    color: black;
+;
+    font-size: 1.2rem;
+    font-family: "Nunito", sans-serif;
 }
 
 .MenuSection {
@@ -99,6 +124,106 @@
     gap: 1rem;
 }
 
+
+
+
+
+/* Hamburger Menu */
+/* 
+.topnav {
+    overflow: hidden;
+    background-color: var(--color2);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
 .icon4 {
     font-size: 26px;
+    z-index: 2;
+    cursor: pointer;
 }
+
+.icon4:hover {
+    font-size: 26px;
+    z-index: 2;
+    color: var(--color);
+}
+
+.topnav #myLinks {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+.mSection {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.topnav.show #myLinks {
+    height: 100vh;
+}
+
+.topnav a {
+    display: block;
+    transition: color 0.3s;
+}
+
+.Links a {
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
+    line-height: 5rem;
+}
+
+
+.pDiv {
+    display: flex;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-right: 10rem
+}
+
+.Links {
+    color: white;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topnav {
+    padding-inline: 3vw;
+}
+
+.top {
+    margin-top: 4rem;
+}
+
+.menutext {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    
+
+}
+
+.menutext1 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 30rem;
+}
+
+.bottom {
+    margin-bottom: 4rem;
+} */

@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 :root {
   --color: #66b64d;
   --color1: #466e61;
+  --color2: #00421d;
 }
-
 
 * {
   margin: 0;
@@ -13,10 +15,10 @@
 
  /* Scroll */
  ::-webkit-scrollbar {
-  width: 8px;
+  width: 0.1px;
  
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #c4c4c4;
+  background: transparent;
 }
