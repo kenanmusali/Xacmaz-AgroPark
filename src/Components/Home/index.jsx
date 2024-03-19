@@ -2,10 +2,18 @@ import React, { useState, useEffect } from 'react';
 import './style.css';
 import ArrowBackIosRoundedIcon from '@mui/icons-material/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRounded';
+import EastRoundedIcon from '@mui/icons-material/EastRounded';
 import HomeIcons from '../../../Public/Icons/Group164.svg'
 import HomeIcons1 from '../../../Public/Icons/Group165.svg'
 import HomeIcons2 from '../../../Public/Icons/Group166.svg'
-import HomeIamge1 from '../../../Public/Images/image19.png'
+import HomeImage1 from '../../../Public/Images/image19.png'
+import HomeImage2 from '../../../Public/Images/Rectangle9.png'
+import HomeImage3 from '../../../Public/Images/Rectangle8.png'
+import HomeImage4 from '../../../Public/Images/Rectangle6.png'
+import HomeImage5 from '../../../Public/Images/Rectangle5.png'
+import HomeIcons3 from '../../../Public/Icons/Group179.svg'
+
+
 
 function HomeSection() {
   const images = [
@@ -100,7 +108,68 @@ function HomeSection() {
           <button className='Nunito bckBtn' type="button">Ətraflı</button>
         </div>
         <div className="divAboutSectionHomeMenuImg">
-          <img src={HomeIamge1} className='HomeIamge1' />
+          <img src={HomeImage1} className='HomeImage1' />
+        </div>
+      </div>
+
+      {/* Add PopsUp */}
+      <div className="divHomemenuSectionAdds">
+        <div className="divGrisHomeMenuSection1">
+          <div className="divGridSections">
+            <img src={HomeImage2} className='HomeImage2' />
+            <p className='HomeMenuTextGrid'>Xəbərlər</p>
+            <div className="divGridSectionMenu">
+              <p className='Nunito HomeMenuTextGrid1'>Ətraflı</p>
+              <EastRoundedIcon className='IconAdds' />
+            </div>
+          </div>
+          <div className="divGridSections">
+            <img src={HomeImage3} className='HomeImage3' />
+            <p className='HomeMenuTextGrid'>Vakansiya</p>
+            <div className="divGridSectionMenu">
+              <p className='Nunito HomeMenuTextGrid1'>Ətraflı</p>
+              <EastRoundedIcon className='IconAdds' />
+            </div>
+          </div>
+        </div>
+        <div className="divGrisHomeMenuSection2">
+          <div className="divGridSections1">
+            <img src={HomeImage4} className='HomeImage4' />
+            <p className='HomeMenuTextGrid'>Vakansiya</p>
+            <div className="divGridSectionMenu">
+              <p className='Nunito HomeMenuTextGrid1 HomeMenuTextGridDesp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <EastRoundedIcon className='IconAdds' />
+            </div>
+          </div>
+          <div className="divGridSections1">
+            <div className="divVideoAddSection">
+              <img src={HomeImage5} className='HomeImage4' />
+              <img src={HomeIcons3} className='HomeIcons3' />
+            </div>
+            <p className='HomeMenuTextGrid'>Videolar</p>
+            <div className="divGridSectionMenu">
+              <p className='Nunito HomeMenuTextGrid1 HomeMenuTextGridDesp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <EastRoundedIcon className='IconAdds' />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Contact Section */}
+      <div className="divHomeMenuSectionContact">
+        <div className="divAboutSectionHomeMenuText">
+          <p className='Nunito HomeSectionText1'>Nə etdiyimizi bilmək istəyirsiniz?</p>
+          <p className='HomeSectionText2 HomeContactSecText'>Yeniliklərdən xəbərdar olmaq üçün qeydiyyatdan keçin</p>
+        </div>
+        <div className="divHomeContactSec">
+          <div className="inputbar1HomeSec">
+            <input className='inputCon' type="text" placeholder='Ad, Soyad*' />
+            <input className='inputCon' type="email" placeholder='Email*' />
+          </div>
+          <div className="inputbar1HomeSec">
+            <input  className='inputCon' type="text" placeholder='Mesaj*' />
+          </div>
+          <button className='ContactSendBtn' type="button">Göndər</button>
         </div>
       </div>
 
