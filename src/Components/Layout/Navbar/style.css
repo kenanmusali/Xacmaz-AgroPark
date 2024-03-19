@@ -24,16 +24,9 @@
 }
 
 .icon1 {
-    font-size: 21px;
+    font-size: 1.5rem !important;
 }
 
-.icon2 {
-    font-size: 18px;
-}
-
-.icon3 {
-    font-size: 17.5px;
-}
 
 .navSocialSection {
     display: flex;
@@ -76,6 +69,21 @@
     color: var(--color2);
 }
 
+.scrolled .TopSection{
+    display: none;
+}
+
+.scrolled .LanguageSection a{
+    color: var(--color2); 
+    font-size: 1.1rem;
+}
+
+.LanguageSection a{
+    color: var(--color2);
+    color: white;
+    font-size: 1.1rem;
+}
+
 
 .logo {
     height: 3.5rem;
@@ -91,10 +99,11 @@
 .logoSec {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .logotext {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
 color: white;
     margin-left: 1rem;
@@ -102,18 +111,17 @@ color: white;
 
 .LanguageSection {
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     font-weight: 600;
 }
 
 .LanguageSection a:hover{
-    color: var(--color);
+    color: var(--color2);
     font-weight: 600;
 }
 
 .LanguageSection a {
     text-decoration: none;
-;
     font-size: 1.2rem;
     font-family: "Nunito", sans-serif;
 }

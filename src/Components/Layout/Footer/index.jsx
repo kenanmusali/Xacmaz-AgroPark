@@ -1,8 +1,8 @@
 import React from 'react'
 import './style.css'
-import { IoMailOutline } from "react-icons/io5";
-import { FaInstagram } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import EmailIcon from '@mui/icons-material/Email';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 
 function Footer() {
     return (
@@ -38,9 +38,9 @@ function Footer() {
                 <div className="one">
                     <p>Bizi izləyin!</p>
                     <div className="flex1">
-                        <IoMailOutline className='icon3' />
-                        <FaInstagram className='icon4' />
-                        <FaFacebook className='icon5' />
+                        <EmailIcon className='icon1' />
+                        <InstagramIcon className='icon1' />
+                        <FacebookOutlinedIcon className='icon1' />
                     </div>
                 </div>
             </div>

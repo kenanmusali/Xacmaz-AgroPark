@@ -1,22 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
-import { IoMailOutline } from "react-icons/io5";
-import { FaInstagram } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { HiMenuAlt2 } from "react-icons/hi";
+import EmailIcon from '@mui/icons-material/Email';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import { Link } from 'react-router-dom';
+// import { HiMenuAlt2 } from "react-icons/hi";
 // import { Link } from 'react-router-dom';
 
 // Navbar Hamburger Menu
-function toggleMenu() {
-  var topnav = document.querySelector('.topnav');
-  var myLinks = document.getElementById('myLinks');
-  topnav.classList.toggle('show');
-  if (myLinks.style.height === '0px') {
-    myLinks.style.height = '100vh';
-  } else {
-    myLinks.style.height = '0';
-  }
-}
+// function toggleMenu() {
+//   var topnav = document.querySelector('.topnav');
+//   var myLinks = document.getElementById('myLinks');
+//   topnav.classList.toggle('show');
+//   if (myLinks.style.height === '0px') {
+//     myLinks.style.height = '100vh';
+//   } else {
+//     myLinks.style.height = '0';
+//   }
+// }
 
 
 // Navbar
@@ -44,24 +45,25 @@ function Navbar() {
       <div className={`TopSection ${isScrolled ? 'none' : ''}`}>
         <p className='text'>+994 50 123 45 67 / For More Info, Contact Us</p>
         <div className="navSocialSection">
-          <IoMailOutline className='icon1' />
-          <FaInstagram className='icon2' />
-          <FaFacebook className='icon3' />
+          <EmailIcon className='icon1'/>
+          <InstagramIcon className='icon1'/>
+          <FacebookOutlinedIcon className='icon1'/>
         </div>
       </div>
 
       <div className="BottomSection">
-        <div className="logoSec">
+        <Link to='/' className="logoSec">
           <img className='logo' src="./Public/Favicon/Logo.svg" alt="Xacmaz Aqro Park Logo" />
           <p className='logotext'>Xaçmaz AqroPark</p>
-        </div>
+        </Link>
         <div className="MenuSection">
           <div className="LanguageSection">
-            <a href='#'>Məhsullar</a>
-            <a href='#'>Xəbərlər</a>
-            <a href='#'>Qalereya</a>
-            <a href='#'>Vakansiyalar</a>
-            <a href='#'>Əlaqə</a>
+            <Link to='/about'>Haqqımıda</Link>
+            <Link to='/products'>Məhsullar</Link>
+            <Link to='/news'>Xəbərlər</Link>
+            <Link to='/gallery'>Qalereya</Link>
+            <Link to='/careers'>Vakansiyalar</Link>
+            <Link to='/contact'>Əlaqə</Link>
           </div>
 
 
