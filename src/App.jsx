@@ -11,6 +11,7 @@ import Gallery from '../Page/Gallery'
 import News from '../Page/News'
 import Products from '../Page/Products'
 import { Route, Routes } from 'react-router'
+import NotFound404 from '../Page/NotFound404'
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/news' element={<News />} />
         <Route path='/products' element={<Products />} />
+        <Route path='*' element={<NotFound404 />} />
       </Routes>
       <Footer />
     </div>
