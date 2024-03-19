@@ -3,9 +3,47 @@
     height: 90vh;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .Error404 {
-margin-top: 3rem;
+    margin-top: 3rem;
+}
+
+.Notfoundtext {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.Notfoundtext1 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+.stylistic {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 2rem;
+    width: 15rem;
+    height: 4rem;
+    background-color: var(--color);
+    border: solid var(--color2) 1px;
+    border-radius: 100px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.stylistic:hover {
+    background-color: var(--color2);
+    border: solid var(--color) 1px;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
 }
