@@ -69,16 +69,16 @@
     color: var(--color2);
 }
 
-.scrolled .TopSection{
+.scrolled .TopSection {
     display: none;
 }
 
-.scrolled .LanguageSection a{
-    color: var(--color2); 
+.scrolled .LanguageSection a {
+    color: var(--color2);
     font-size: 1.1rem;
 }
 
-.LanguageSection a{
+.LanguageSection a {
     color: var(--color2);
     color: white;
     font-size: 1.1rem;
@@ -105,7 +105,7 @@
 .logotext {
     font-size: 1.5rem;
     font-weight: 600;
-color: white;
+    color: white;
     margin-left: 1rem;
 }
 
@@ -115,7 +115,7 @@ color: white;
     font-weight: 600;
 }
 
-.LanguageSection a:hover{
+.LanguageSection a:hover {
     color: var(--color2);
     font-weight: 600;
 }
@@ -133,16 +133,25 @@ color: white;
 }
 
 
+.HamMenuIcon {
+    font-size: 2rem !important;
+    color: white;
+}
 
+.scrolled .HamMenuIcon {
+    font-size: 2rem !important;
+    color: var(--color2);
+}
 
 
 /* Hamburger Menu */
-/* 
+
 .topnav {
     overflow: hidden;
     background-color: var(--color2);
     position: absolute;
     display: flex;
+    flex-direction: column;
     align-items: center;
     top: 0;
     left: 0;
@@ -170,8 +179,11 @@ color: white;
 
 .mSection {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-between;
+    background: no-repeat url(../../../../Public/Elements/footer.svg);
+    background-size: cover;
 }
 
 .topnav.show #myLinks {
@@ -191,15 +203,7 @@ color: white;
 }
 
 
-.pDiv {
-    display: flex;
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    margin-right: 10rem
-}
+
 
 .Links {
     color: white;
@@ -221,7 +225,7 @@ color: white;
     color: white;
     font-size: 3rem;
     font-weight: 600;
-    
+    margin-top: 3rem;
 
 }
 
@@ -233,5 +237,10 @@ color: white;
 }
 
 .bottom {
-    margin-bottom: 4rem;
-} */
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.topChildMargin {
+margin-top: 7rem;
+}
