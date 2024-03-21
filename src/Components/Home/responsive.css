@@ -89,7 +89,78 @@
         bottom: 0rem;
         left: 2rem;
     }
+
+    .divGrisHomeMenuSection1 {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .divGrisHomeMenuSection2 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .divHomemenuSectionAdds {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divGridSections {
+        width: 100% !important;
+    }
+
+    .divGridSections1 {
+        margin: 0;
+    }
+
+    .HomeImage2,
+    .HomeImage3,
+    .HomeImage4 {
+        width: 100%;
+        border: 1px solid var(--color);
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+
+
+    .divGridSections1 {
+        margin-top: 1.5rem;
+    }
+
+    .HomeMenuTextGridDesp {
+        width: 20rem;
+    }
+
+    .divAboutSectionHomeMenuText {
+        width: 90%;
+       }
     
+       .divHomeMenuSectionContact {
+        padding: 5rem 0rem;
+       }
+    
+       .HomeSectionText2 {
+        width: 20rem;
+        font-size: 2rem;
+       }
+
+       .ContactSendBtn {
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+       }
+
+       .divHomeContactSec {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-inline: 2rem;
+       }
 }
 
 /* Tablet */
@@ -116,6 +187,117 @@
         width: 13rem;
         text-align: center;
     }
+
+    .divAboutSectionHomeMenu {
+        display: flex;
+        flex-direction: column;
+        padding: 6rem 0rem;
+    }
+
+    .divAboutSectionHomeMenuImg {
+        margin-top: 6rem !important;
+    }
+
+    .HomeImage1 {
+        width: 30rem;
+        bottom: 2rem;
+        left: 2rem;
+    }
+
+    .divAboutSectionHomeMenuImg {
+        width: 30rem;
+        height: 20rem;
+        margin-top: 4rem;
+    }
+
+    .divAboutSectionHomeMenuImg {
+        margin-right: 3rem;
+        margin-left: 0rem;
+    }
+
+    .HomeSectionText3 {
+        width: 45rem;
+        margin-top: 1rem;
+    }
+
+    .HomeSectionText2,
+    .HomeSectionText1 {
+        width: 45rem;
+    }
+
+    .HomeSectionText2 {
+        font-size: 2.5rem;
+    }
+
+    .GroupAboutSectionHomeMenuImg {
+        margin-inline: 3rem !important;
+    }
+
+    .HomeImage1:hover {
+        position: absolute;
+        width: 30rem;
+        border-radius: 7rem 0rem 7rem 0rem;
+        -webkit-border-radius: 7rem 0rem 7rem 0rem;
+        -moz-border-radius: 7rem 0rem 7rem 0rem;
+        -ms-border-radius: 7rem 0rem 7rem 0rem;
+        -o-border-radius: 7rem 0rem 7rem 0rem;
+        top: 2rem;
+        bottom: 0rem;
+        left: 2rem;
+    }
+
+    .divGrisHomeMenuSection1 {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .divGrisHomeMenuSection2 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .divHomemenuSectionAdds {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divGridSections {
+        width: 100% !important;
+    }
+
+    .divGridSections1 {
+        margin: 0;
+    }
+
+    .HomeImage2,
+    .HomeImage3 {
+        width: 100%;
+        border: 1px solid var(--color);
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+
+
+    .divGridSections1 {
+        margin-top: 1.5rem;
+    }
+
+   .divAboutSectionHomeMenuText {
+    width: 80%;
+   }
+
+   .divHomeMenuSectionContact {
+    padding: 5rem 0rem;
+   }
+
+   .HomeSectionText2 {
+    width: 40rem;
+   }
 }
 
 /* Laptop */

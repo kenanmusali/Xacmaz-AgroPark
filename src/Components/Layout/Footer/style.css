@@ -1,5 +1,5 @@
 .Footer {
-    height: 25rem;
+    padding: 4rem 0rem;
     background: url(../../../../Public/Elements/footer.svg);
     background-color: var(--color1);
     background-position: center;
@@ -27,6 +27,7 @@
     flex-direction: column;
     font-size: 1.2rem;
     color: white;
+    font-family: "Nunito", sans-serif;
 }
 
 .logoFooter {
@@ -50,4 +51,10 @@
 
 .flex1{
     margin-top: 2rem;
+}
+
+.Footertext2 {
+    color: white;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
 }

@@ -139,7 +139,7 @@ function HomeSection() {
         <div className="divGrisHomeMenuSection2">
           <div className="divGridSections1">
             <img src={HomeImage4} className='HomeImage4' />
-            <p className='HomeMenuTextGrid'>Vakansiya</p>
+            <p className='HomeMenuTextGrid'>Şəkillər</p>
             <div className="divGridSectionMenu">
               <p className='Nunito HomeMenuTextGrid1 HomeMenuTextGridDesp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
               <EastRoundedIcon className='IconAdds' />
