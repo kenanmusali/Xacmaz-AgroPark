@@ -1,8 +1,122 @@
 /* Phone */
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+    .bckText1 {
+        font-size: 1.7rem;
+        width: 20rem !important;
+        font-weight: 600;
+        color: white;
+    }
+
+    .HomeText {
+        width: 10rem !important;
+    }
+
+    .Background {
+        padding: 1.5rem;
+    }
+
+    .HomeCount {
+        color: white;
+        display: flex;
+        align-items: flex-end;
+        height: 100vh;
+        padding: 1rem 0rem;
+    }
+
+    .divIconSectionBarHomeMenu {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding: 7rem 0rem;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .divIconHomeSec {
+        margin: 3rem 0rem;
+    }
+
+    .divAboutSectionHomeMenu {
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 0rem;
+    }
+
+    .divAboutSectionHomeMenuImg {
+        margin-top: 3rem;
+    }
+
+    .HomeImage1 {
+        width: 20rem;
+        bottom: 2rem;
+        left: 2rem;
+    }
+
+    .divAboutSectionHomeMenuImg {
+        width: 19rem;
+        height: 14rem;
+        margin-top: 4rem;
+    }
+
+    .divAboutSectionHomeMenuImg {
+        margin-right: 3rem;
+        margin-left: 0rem;
+    }
+
+    .HomeSectionText3 {
+        width: 22rem;
+        margin-top: 1rem;
+    }
+
+    .HomeSectionText2,
+    .HomeSectionText1 {
+        width: 22rem;
+    }
+
+    .GroupAboutSectionHomeMenuImg {
+        margin-inline: 3rem !important;
+    }
+
+    .HomeImage1:hover {
+        position: absolute;
+        width: 20rem;
+        border-radius: 7rem 0rem 7rem 0rem;
+        -webkit-border-radius: 7rem 0rem 7rem 0rem;
+        -moz-border-radius: 7rem 0rem 7rem 0rem;
+        -ms-border-radius: 7rem 0rem 7rem 0rem;
+        -o-border-radius: 7rem 0rem 7rem 0rem;
+        top: 2rem;
+        bottom: 0rem;
+        left: 2rem;
+    }
+    
+}
 
 /* Tablet */
-@media screen and (min-width: 767px) and (max-width: 1024px) {}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .bckText1 {
+        font-size: 2.5rem;
+        width: 35rem !important;
+        font-weight: 600;
+        color: white;
+    }
+
+    .HomeText {
+        width: 35rem !important;
+    }
+
+    .HomeIconSet {
+        width: 7rem;
+        margin-bottom: 1rem;
+    }
+
+    .HomeIconDesp {
+        margin-top: 1rem;
+        font-size: 1rem;
+        width: 13rem;
+        text-align: center;
+    }
+}
 
 /* Laptop */
 @media screen and (min-width: 1024px) {}

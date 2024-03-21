@@ -43,6 +43,10 @@
     font-size: 16px;
     cursor: pointer;
     transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .bckBtn:hover {

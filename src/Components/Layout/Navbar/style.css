@@ -175,6 +175,7 @@
     height: 0;
     overflow: hidden;
     transition: height 0.5s;
+    padding-inline: 5vw !important;
 }
 
 .mSection {
@@ -213,9 +214,7 @@
     justify-content: center;
 }
 
-.topnav {
-    padding-inline: 3vw;
-}
+
 
 .top {
     margin-top: 4rem;

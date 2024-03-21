@@ -17,6 +17,10 @@
         background: linear-gradient(180deg, rgba(25, 25, 25, 0.5) 0%, rgba(97, 97, 97, 0.4) 19%, rgba(255, 255, 255, 0) 46%);
     }
 
+    .TopSection {
+        padding-inline: 1.5rem;
+    }
+
     /* Hamburger Menu */
 
 .topnav {
@@ -48,6 +52,7 @@
     height: 0;
     overflow: hidden;
     transition: height 0.5s;
+    padding-inline: 1.2rem;
 }
 
 .mSection {
@@ -113,7 +118,11 @@ margin-top: 8rem;
     .HamMenuIcon {
         z-index: 2 !important;
     }
+    .topnav #myLinks {
 
+        transition: height 0.5s;
+        padding-inline: 1.2rem;
+    }
 }
 
 /* Laptop */

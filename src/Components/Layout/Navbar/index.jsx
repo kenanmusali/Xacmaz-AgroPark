@@ -57,7 +57,7 @@ function Navbar() {
   return (
     <div className={`Navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className={`TopSection ${isScrolled ? 'none' : ''}`}>
-        <p className='text'>+994 50 123 45 67 / For More Info, Contact Us</p>
+        <p className='text'>+994 50 123 45 67 / Contact Us</p>
         <div className="navSocialSection">
           <EmailIcon className='icon1' />
           <InstagramIcon className='icon1' />

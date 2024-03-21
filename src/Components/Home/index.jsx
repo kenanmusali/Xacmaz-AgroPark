@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
+import './responsive.css'
 import ArrowBackIosRoundedIcon from '@mui/icons-material/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRounded';
 import EastRoundedIcon from '@mui/icons-material/EastRounded';
@@ -12,6 +13,7 @@ import HomeImage3 from '../../../Public/Images/Rectangle8.png'
 import HomeImage4 from '../../../Public/Images/Rectangle6.png'
 import HomeImage5 from '../../../Public/Images/Rectangle5.png'
 import HomeIcons3 from '../../../Public/Icons/Group179.svg'
+import { Link } from 'react-router-dom';
 
 
 
@@ -60,9 +62,9 @@ function HomeSection() {
             <p className="bckText1">
               Biz aqrobiznes kommunikasiyaları ilə məşğul oluruq
             </p>
-            <button type="button" className="bckBtn">
+            <Link to={'/about'} className="bckBtn">
               Haqqımızda
-            </button>
+            </Link>
           </div>
           <div className="HomeCount">
             <div className="alineHome">
@@ -105,10 +107,12 @@ function HomeSection() {
           <p className='Nunito HomeSectionText1'>Haqqımızda</p>
           <p className='HomeSectionText2'>Xaçmaz Aqro Biznes</p>
           <p className='Nunito HomeSectionText3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>
-          <button className='Nunito bckBtn' type="button">Ətraflı</button>
+          <Link to={'/about'} className='Nunito bckBtn' >Ətraflı</Link>
         </div>
-        <div className="divAboutSectionHomeMenuImg">
-          <img src={HomeImage1} className='HomeImage1' />
+        <div className="GroupAboutSectionHomeMenuImg">
+          <div className="divAboutSectionHomeMenuImg">
+            <img src={HomeImage1} className='HomeImage1' />
+          </div>
         </div>
       </div>
 
@@ -167,7 +171,7 @@ function HomeSection() {
             <input className='inputCon' type="email" placeholder='Email*' />
           </div>
           <div className="inputbar1HomeSec">
-            <input  className='inputCon' type="text" placeholder='Mesaj*' />
+            <input className='inputCon' type="text" placeholder='Mesaj*' />
           </div>
           <button className='ContactSendBtn' type="button">Göndər</button>
         </div>
