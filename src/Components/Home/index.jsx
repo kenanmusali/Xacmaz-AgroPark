@@ -175,10 +175,12 @@ function HomeSection() {
         <div className="divGrisHomeMenuSection2">
           <div className="divGridSections1">
             <img src={HomeImage4} className='HomeImage4' />
-            <p className='HomeMenuTextGrid'>Şəkillər</p>
-            <div className="divGridSectionMenu">
-              <p className='Nunito HomeMenuTextGrid1 HomeMenuTextGridDesp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-              <EastRoundedIcon className='IconAdds' />
+            <div className="divGrisHomeMenuSectionfortext">
+              <p className='HomeMenuTextGrid'>Şəkillər</p>
+              <div className="divGridSectionMenu">
+                <p className='Nunito HomeMenuTextGrid1 HomeMenuTextGridDesp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                <EastRoundedIcon className='IconAdds' />
+              </div>
             </div>
           </div>
           <div className="divGridSections1">
@@ -186,10 +188,12 @@ function HomeSection() {
               <img src={HomeImage5} className='HomeImage4' />
               <img src={HomeIcons3} className='HomeIcons3' />
             </div>
-            <p className='HomeMenuTextGrid'>Videolar</p>
-            <div className="divGridSectionMenu">
-              <p className='Nunito HomeMenuTextGrid1 HomeMenuTextGridDesp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-              <EastRoundedIcon className='IconAdds' />
+            <div className="divGrisHomeMenuSectionfortext">
+              <p className='HomeMenuTextGrid'>Videolar</p>
+              <div className="divGridSectionMenu">
+                <p className='Nunito HomeMenuTextGrid1 HomeMenuTextGridDesp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                <EastRoundedIcon className='IconAdds' />
+              </div>
             </div>
           </div>
         </div>

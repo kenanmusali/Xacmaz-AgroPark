@@ -50,12 +50,18 @@
         width: 20rem;
         bottom: 2rem;
         left: 2rem;
-    }
+        border-radius: 60px 0px 60px 0px;
+        -webkit-border-radius: 60px 0px 60px 0px;
+        -moz-border-radius: 60px 0px 60px 0px;
+        -ms-border-radius: 60px 0px 60px 0px;
+        -o-border-radius: 60px 0px 60px 0px;
+}
 
     .divAboutSectionHomeMenuImg {
         width: 19rem;
         height: 14rem;
         margin-top: 4rem;
+        border-radius: 60px 0px 60px 0px;
     }
 
     .divAboutSectionHomeMenuImg {
@@ -137,29 +143,29 @@
 
     .divAboutSectionHomeMenuText {
         width: 90%;
-       }
-    
-       .divHomeMenuSectionContact {
+    }
+
+    .divHomeMenuSectionContact {
         padding: 5rem 0rem;
-       }
-    
-       .HomeSectionText2 {
+    }
+
+    .HomeSectionText2 {
         width: 20rem;
         font-size: 2rem;
-       }
+    }
 
-       .ContactSendBtn {
+    .ContactSendBtn {
         width: 100%;
         margin-top: 3rem;
         margin-bottom: 1rem;
-       }
+    }
 
-       .divHomeContactSec {
+    .divHomeContactSec {
         display: flex;
         flex-direction: column;
         width: 100%;
         padding-inline: 2rem;
-       }
+    }
 }
 
 /* Tablet */
@@ -285,17 +291,58 @@
         margin-top: 1.5rem;
     }
 
-   .divAboutSectionHomeMenuText {
-    width: 80%;
-   }
+    .divAboutSectionHomeMenuText {
+        width: 80%;
+    }
 
-   .divHomeMenuSectionContact {
-    padding: 5rem 0rem;
-   }
+    .divHomeMenuSectionContact {
+        padding: 5rem 0rem;
+    }
 
-   .HomeSectionText2 {
-    width: 40rem;
-   }
+    .HomeSectionText2 {
+        width: 40rem;
+    }
+
+    .divGridSections1 {
+        display: flex;
+    }
+
+    .divGrisHomeMenuSection2 .divGridSections1 .HomeMenuTextGrid {
+        height: fit-content;
+    }
+
+    .divGrisHomeMenuSection2 .divGridSections1 .divGridSectionMenu {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+
+    .divGrisHomeMenuSection2 .divGridSections1 .divGridSectionMenu {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divGrisHomeMenuSectionfortext {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divGrisHomeMenuSection2 p {
+        width: 15rem;
+        font-size: 1.5rem;
+    }
+
+    .divGrisHomeMenuSection2 .HomeMenuTextGrid {
+        width: 15rem;
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+    .divGrisHomeMenuSection2 .IconAdds {
+font-size: 2rem;
+margin-top: 2rem;
+    }
 }
 
 /* Laptop */
