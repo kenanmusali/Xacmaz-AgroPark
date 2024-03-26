@@ -63,7 +63,7 @@
     box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
     width: 43rem;
     background-color: white;
-    height: 28rem;
+    height: 24rem;
     border-radius: 12px;
     transition: all 0.4s;
 }
@@ -165,4 +165,13 @@
 
 .divNewsbar1 .divNewsTimeZone {
     margin-top: 2rem;
+}
+
+.divbarnewssection1 .NewsImage1 {
+    flex-grow: 1;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
 }
