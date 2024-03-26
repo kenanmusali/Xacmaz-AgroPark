@@ -144,6 +144,27 @@
     color: var(--color2);
 }
 
+.ContrastIcon {
+    cursor: pointer;
+}
+
+.ContrastIcon:hover {
+    color: var(--color2);
+}
+
+.scrolled .ContrastIcon {
+    color: var(--color2);
+}
+
+.scrolled .ContrastIcon:hover {
+    color: var(--color);
+}
+
+.scrolled .LanguageSection a:hover {
+    color: var(--color);
+    font-weight: 700;
+}
+
 
 /* Hamburger Menu */
 
@@ -261,3 +282,8 @@ margin-top: 7rem;
     -ms-transition: all 0.4s;
     -o-transition: all 0.4s;
 }
+
+body.dark-mode {
+    background-color: #333333; /* Dark mode background */
+    color: #ffffff; /* Dark mode text color */
+  }

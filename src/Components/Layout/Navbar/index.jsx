@@ -5,6 +5,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
+import ContrastIcon from '@mui/icons-material/Contrast';
 import { Link } from 'react-router-dom';
 
 // Navbar Hamburger Menu
@@ -78,6 +79,7 @@ function Navbar() {
             <Link to='/gallery'>Qalereya</Link>
             <Link to='/careers'>Vakansiyalar</Link>
             <Link to='/contact'>Əlaqə</Link>
+            <ContrastIcon className='ContrastIcon'/>
           </div>
           <MenuRoundedIcon className='HamMenuIcon' onClick={toggleMenu} />
 
