@@ -7,6 +7,10 @@
         color: white;
     }
 
+    .DivBottomtextShort {
+        padding-inline: 3rem !important;
+    }
+
     .HomeText {
         width: 10rem !important;
     }
@@ -177,6 +181,10 @@
         width: 35rem !important;
         font-weight: 600;
         color: white;
+    }
+
+    .DivBottomtextShort {
+        padding-inline: 4rem !important;
     }
 
     .HomeText {
