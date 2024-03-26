@@ -5,9 +5,9 @@
     background-size: cover;
     background-position: center;
     display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 4rem 0rem;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem 0rem;
 }
 
 .DivTopNavShort {
@@ -17,17 +17,17 @@
     align-items: center;
 }
 
-.DivTopNavShort p{
+.DivTopNavShort p {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
 }
 
-.DivBottomtextShort .bckText{
+.DivBottomtextShort .bckText {
     font-family: "Nunito", sans-serif;
     font-weight: 500;
 }
 
-.LinkNav{
+.LinkNav {
     color: white;
     text-decoration: none;
 }
@@ -43,10 +43,10 @@
 }
 
 .DivBottomtextShort {
-    padding-inline:10rem;
+    padding-inline: 10rem;
 }
 
-.LinkNav:hover{
+.LinkNav:hover {
     color: var(--color2);
     font-weight: 600;
     text-decoration: none;
@@ -60,16 +60,16 @@
 
 .divNewsbar {
     display: flex;
-    box-shadow: 0px 0px 33px 4px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
     width: 43rem;
-    background-color:white;
+    background-color: white;
     height: 28rem;
     border-radius: 12px;
     transition: all 0.4s;
 }
 
 .divNewsbar:hover {
-    background-color:var(--color2);
+    background-color: var(--color2);
     color: white;
 }
 
@@ -108,5 +108,61 @@
 }
 
 .divbarnewssection1 {
-    display: flex ;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.divNewsAddBarContainer {
+    padding: 4rem;
+}
+
+.divNewsAddBarContainer .divbarnewssection2-column {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    padding-inline: 11rem;
+
+}
+
+.divNewsbar1 {
+    box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 12px;
+    transition: all 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.divNewsbar1:hover {
+    background-color: var(--color2);
+    color: white;
+}
+
+
+.divNewsbar1 .NewsImage1 {
+    width: 18.5rem;
+    height: 18.5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.divNewsbar1 .NewsText1 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.divNewsbar1 .divNewsTextsSections {
+    padding: 1rem 1.5rem 1.5rem 1rem;
+}
+
+.divNewsbar1 .divNewsTimeZone {
+    margin-top: 2rem;
 }

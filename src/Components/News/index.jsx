@@ -6,7 +6,6 @@ import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRigh
 import WatchLaterRoundedIcon from "@mui/icons-material/WatchLaterRounded";
 import NewsImage1 from "../../../Public/Images/Rectangle22.png";
 import { useState, useEffect } from "react";
-// const url = "http://localhost:3001/News";
 
 const NewsSection = () => {
   const [text, setText] = useState([]);
@@ -21,7 +20,10 @@ const NewsSection = () => {
       });
   }, []);
 
-  // function NewsSection() {
+
+  const topSection = text.slice(0, 2);
+  const bottomSection = text.slice(2, 10);
+
   return (
     <div>
       <div className="DivMenuSectionHeaderNews">
@@ -39,18 +41,14 @@ const NewsSection = () => {
           </p>
         </div>
       </div>
-      {/* You Will start coding here*/}
 
-      
-      {text.map(({ id, text, desc, time, img, klas }) => (
-     
-        <div className="divNewsAddBarContainer">
-          <div className="divbarnewssection1">
+      <div className="divNewsAddBarContainer">
+        <div className="divbarnewssection1">
+          {topSection.map(({ id, text, desc, time, img, klas }) => (
             <div key={id} className={klas}>
-              <img className="NewsImage1" src={img} />
+              <img className="NewsImage1" src={img} alt="" />
               <div className="divNewsTextsSections">
                 <p className="NewsText1">{text}</p>
-
                 <p className="Newsdecp1">{desc}</p>
                 <div className="divNewsTimeZone">
                   <WatchLaterRoundedIcon className="NewsIconSet1" />
@@ -58,13 +56,28 @@ const NewsSection = () => {
                 </div>
               </div>
             </div>
-           
+          ))}
+        </div>
+
+        <div className="divbarnewssection2">
+          <div className="divbarnewssection2-column">
+            {bottomSection.map(({ id, text, desc, time, img, klas }) => (
+              <div key={id} className={klas}>
+                <img className="NewsImage1" src={img} alt="" />
+                <div className="divNewsTextsSections">
+                  <p className="NewsText1">{text}</p>
+                  <p className="Newsdecp1">{desc}</p>
+                  <div className="divNewsTimeZone">
+                    <WatchLaterRoundedIcon className="NewsIconSet1" />
+                    <p className="divNewsTime">{time}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-        
-      
-))}
       </div>
+    </div>
   );
 };
 
