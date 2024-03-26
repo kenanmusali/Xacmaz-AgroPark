@@ -53,3 +53,60 @@
 }
 
 /* You Will Start here */
+
+.divNewsAddBarContainer {
+    padding: 3rem;
+}
+
+.divNewsbar {
+    display: flex;
+    box-shadow: 0px 0px 33px 4px rgba(0,0,0,0.1);
+    width: 43rem;
+    background-color:white;
+    height: 28rem;
+    border-radius: 12px;
+    transition: all 0.4s;
+}
+
+.divNewsbar:hover {
+    background-color:var(--color2);
+    color: white;
+}
+
+.NewsImage1 {
+    border-radius: 7px;
+    margin: 0.5rem;
+}
+
+.divNewsTextsSections {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 1.5rem 1.5rem 1rem;
+    justify-content: space-between;
+}
+
+.NewsText1 {
+    font-size: 2rem;
+    color: var(--color);
+    font-weight: 700;
+}
+
+.divNewsTimeZone {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.divNewsTime {
+    font-weight: 600;
+    color: var(--color);
+}
+
+.NewsIconSet1 {
+    color: var(--color);
+}
+
+.divbarnewssection1 {
+    display: flex ;
+}
