@@ -27,3 +27,4 @@ For more information about Xacmaz Aqro Park and our services, please visit our w
 
 Thank you for choosing Xacmaz Aqro Park as your partner in agriculture.
 
+![alt text](<Screenshot 2024-03-26 122307.png>)
