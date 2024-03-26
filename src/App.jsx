@@ -12,6 +12,7 @@ import News from '../Page/News'
 import Products from '../Page/Products'
 import { Route, Routes } from 'react-router'
 import NotFound404 from '../Page/NotFound404'
+import Loading from '../Page/Loading'
 
 
 
@@ -19,6 +20,7 @@ import NotFound404 from '../Page/NotFound404'
 function App() {
   return (
     <div>
+      <Loading/>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
