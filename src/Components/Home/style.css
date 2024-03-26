@@ -163,7 +163,7 @@
     transition: all 0.5s;
     bottom: 2rem;
     left: 2rem;
-    -webkit-transition: all 1s;
+    -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -221,6 +221,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 .IconAdds {
@@ -233,7 +234,7 @@
     background-color: white;
     border-radius: 12px;
     transition: all 0.4s;
-    padding: 1rem;
+    padding: 0.5rem;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
@@ -251,7 +252,6 @@
     background-color: var(--color2);
     border-radius: 10px;
     color: white;
-    padding: 1rem;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -262,7 +262,7 @@
     box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
     background-color: white;
     border-radius: 12px;
-    padding: 1rem;
+    padding: 0.5rem;
     height: 100%;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -282,7 +282,6 @@
     background-color: var(--color2);
     border-radius: 10px;
     color: white;
-    padding: 1rem;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
@@ -301,7 +300,7 @@
 
 .HomeImage4,
 .HomeImage5 {
-    width: 29.5rem;
+    width: 29rem;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
