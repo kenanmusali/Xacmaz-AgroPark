@@ -17,6 +17,7 @@
     justify-content: space-between;
     padding-inline: 3rem;
     color: white;
+    border-bottom: 1px solid var(--color1) ;
 }
 
 .text {
@@ -242,4 +243,21 @@
 
 .topChildMargin {
 margin-top: 7rem;
+}
+
+.logoSec:hover {
+    border: 1px solid var(--color1);
+    padding: 0.3rem;
+    padding-right: 1.5rem;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    background-color: var(--color);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
 }

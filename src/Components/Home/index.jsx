@@ -15,6 +15,42 @@ import HomeImage5 from '../../../Public/Images/Rectangle5.png'
 import HomeIcons3 from '../../../Public/Icons/Group179.svg'
 import { Link } from 'react-router-dom';
 
+function ContactForm() {
+  const [backgroundClass, setBackgroundClass] = useState('defaultBackground');
+
+  const handleSendClick = () => {
+    const inputs = document.querySelectorAll('.inputCon');
+    const isEmpty = Array.from(inputs).some((input) => !input.value.trim());
+
+    if (isEmpty) {
+      setBackgroundClass('emptyInputBackground');
+    }
+  };
+
+  const handleInputChange = () => {
+    setBackgroundClass('defaultBackground');
+  };
+
+  return (
+    <div className={`divHomeMenuSectionContact ${backgroundClass}`}>
+      <div className="divAboutSectionHomeMenuText">
+        <p className='Nunito HomeSectionText1'>Nə etdiyimizi bilmək istəyirsiniz?</p>
+        <p className='HomeSectionText2 HomeContactSecText'>Yeniliklərdən xəbərdar olmaq üçün qeydiyyatdan keçin</p>
+      </div>
+      <div className="divHomeContactSec">
+        <div className="inputbar1HomeSec">
+          <input className='inputCon' type="text" placeholder='Ad, Soyad*' onChange={handleInputChange} />
+          <input className='inputCon' type="email" placeholder='Email*' onChange={handleInputChange} />
+        </div>
+        <div className="inputbar1HomeSec">
+          <input className='inputCon' type="text" placeholder='Mesaj*' onChange={handleInputChange} />
+        </div>
+        <button className='ContactSendBtn' type="button" onClick={handleSendClick}>Göndər</button>
+      </div>
+    </div>
+  );
+}
+
 
 
 function HomeSection() {
@@ -160,22 +196,7 @@ function HomeSection() {
       </div>
 
       {/* Contact Section */}
-      <div className="divHomeMenuSectionContact">
-        <div className="divAboutSectionHomeMenuText">
-          <p className='Nunito HomeSectionText1'>Nə etdiyimizi bilmək istəyirsiniz?</p>
-          <p className='HomeSectionText2 HomeContactSecText'>Yeniliklərdən xəbərdar olmaq üçün qeydiyyatdan keçin</p>
-        </div>
-        <div className="divHomeContactSec">
-          <div className="inputbar1HomeSec">
-            <input className='inputCon' type="text" placeholder='Ad, Soyad*' />
-            <input className='inputCon' type="email" placeholder='Email*' />
-          </div>
-          <div className="inputbar1HomeSec">
-            <input className='inputCon' type="text" placeholder='Mesaj*' />
-          </div>
-          <button className='ContactSendBtn' type="button">Göndər</button>
-        </div>
-      </div>
+      <ContactForm />
 
     </div>
   );
