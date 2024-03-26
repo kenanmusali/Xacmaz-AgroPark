@@ -1,16 +1,22 @@
 .loading-bar {
     width: 20rem;
-    height: 1rem;
-    border: 1.5px solid black;
+    height: 1.5rem;
+    border: 2px solid black;
     margin-bottom: 5rem;
+    border-radius: 100rem;
+    -webkit-border-radius: 100rem;
+    -moz-border-radius: 100rem;
+    -ms-border-radius: 100rem;
+    -o-border-radius: 100rem;
 }
 
 .fill {
     height: 100%;
     background-color: white;
-    outline: 1.5px solid black;
+
     animation: fillAnimation 1.5s  linear forwards;
     -webkit-animation: fillAnimation 1.5s  linear forwards;
+    border-radius: 100rem;
 }
 
 .loadingbackground {
@@ -48,8 +54,9 @@ justify-content: center;
 .Load {
     display: inline-block;
     height: 30rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 5rem;
     text-decoration: none !important;
+    margin-right: 2rem;
     
 }
 
