@@ -21,12 +21,11 @@ function NewsDetailSection() {
     const currentUrl = window.location.href;
     navigator.clipboard.writeText(currentUrl);
 
-    // Change text to "Copied" after copying
     const copyLinkText = document.querySelector(".shareNewsdetailicon .divNewsTime");
     copyLinkText.innerText = "Copied";
     setTimeout(() => {
       copyLinkText.innerText = "Copy Link";
-    }, 2000); // Reset text after 2 seconds
+    }, 2000); 
   };
 
   return (
