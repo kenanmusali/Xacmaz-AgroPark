@@ -4,7 +4,6 @@ import "./responsive.css";
 import { Link } from "react-router-dom";
 import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRightRounded";
 import WatchLaterRoundedIcon from "@mui/icons-material/WatchLaterRounded";
-import NewsImage1 from "../../../Public/Images/Rectangle22.png";
 import { useState, useEffect } from "react";
 
 const NewsSection = () => {
@@ -19,7 +18,6 @@ const NewsSection = () => {
         setText(data);
       });
   }, []);
-
 
   const topSection = text.slice(0, 2);
   const bottomSection = text.slice(2, 10);
