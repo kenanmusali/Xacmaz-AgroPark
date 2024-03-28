@@ -17,10 +17,20 @@ function NewsDetailSection() {
       .then(data => setText(data))
   }, [id])
 
+  const handleCopyLink = () => {
+    const currentUrl = window.location.href;
+    navigator.clipboard.writeText(currentUrl);
+
+    // Change text to "Copied" after copying
+    const copyLinkText = document.querySelector(".shareNewsdetailicon .divNewsTime");
+    copyLinkText.innerText = "Copied";
+    setTimeout(() => {
+      copyLinkText.innerText = "Copy Link";
+    }, 2000); // Reset text after 2 seconds
+  };
 
   return (
     <div>
-
       <div className="DivMenuSectionHeaderNewsDetails">
         <div className="DivTopNavShort">
           <Link to="/" className="LinkNav">
@@ -47,13 +57,12 @@ function NewsDetailSection() {
             <WatchLaterRoundedIcon className="NewsIconSet1" />
             <p className="divNewsTime">{text.time}</p>
           </div>
-          <div className="shareNewsdetailicon">
+          <div className="shareNewsdetailicon" onClick={handleCopyLink}>
             <ShareIcon />
-            <p className="divNewsTime">Share</p>
+            <p className="divNewsTime">Copy Link</p>
           </div>
         </div>
       </div>
-
     </div>
   );
 }
