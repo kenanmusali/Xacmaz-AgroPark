@@ -61,7 +61,7 @@
 .divNewsbar {
     display: flex;
     box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
-/* width:42rem; */
+    /* width:42rem; */
     background-color: white;
     height: fit-content;
     border-radius: 12px;
@@ -109,11 +109,12 @@
 
 .divbarnewssection1 {
     display: flex;
-    gap: 4vw;
+    gap: 1vw;
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding-inline: 2vw;
+    padding-inline: 1vw;
+    text-decoration: none;
 }
 
 .Newsdecp1 {
@@ -129,9 +130,13 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 2.5vw;
     margin-top: 4rem;
-width: 100%;
-padding-inline: 2vw;
+    width: 100%;
+    padding-inline: 2vw;
+    text-decoration: none;
 }
+
+
+
 
 .divNewsbar1 {
     box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
@@ -142,8 +147,9 @@ padding-inline: 2vw;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100% ;
+    width: 100%;
     padding: 0.5rem;
+    color: black;
 }
 
 
@@ -172,5 +178,44 @@ padding-inline: 2vw;
     background-position: center;
     /* margin: 0.5rem; */
     width: 100%;
+}
+
+.divbarnewssection1,
+.divbarnewssection2-column {
+    cursor: pointer;
+}
+
+.divNewsbar:active .NewsText1 {
+    color: var(--color2);
+}
+
+.divNewsbar:active .NewsIconSet1 {
+    color: var(--color2);
+}
+
+.divNewsbar:active .divNewsTime {
+    color: var(--color2);
+}
+
+.divNewsbar:active {
+    background-color: var(--color);
+    ;
+}
+
+.divNewsbar1:active .NewsText1 {
+    color: var(--color2);
+}
+
+.divNewsbar1:active .NewsIconSet1 {
+    color: var(--color2);
+}
+
+.divNewsbar1:active .divNewsTime {
+    color: var(--color2);
+}
+
+.divNewsbar1:active {
+    background-color: var(--color);
+    ;
 }
 

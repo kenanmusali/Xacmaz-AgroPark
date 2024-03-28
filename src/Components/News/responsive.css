@@ -1,68 +1,95 @@
 /* Phone */
 @media screen and (max-width: 767px) {
+   .divNewsAddBarContainer {
+      padding: 1rem;
+   }
 
-    .divbarnewssection1 {
-        display: flex;
-        flex-direction: column;
-    }
+   .divNewsbar {
+      display: flex;
+      flex-direction: column;
+   }
 
-    .divNewsAddBarContainer .divbarnewssection2-column {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 4rem;
-        align-items: center;
-        justify-content: center;
-        margin-top: 4rem;
-    }
+   
 
-    .NewsText1 {
-    font-size: 4vw;
- }
+   .divbarnewssection1 .NewsImage1 {
+      width: auto;
+   }
 
- .divNewsbar1 .NewsText1 {
-    font-size: 3vw;
- }
+   .divbarnewssection1 {
+      display: flex;
+      flex-direction: column;
+   }
 
- .Newsdecp1 {
-    font-size: 2vw;
- }
+   .divNewsbar {
+      margin-bottom: 1rem;
+   }
 
- .divNewsTime {
-    font-size: 2vw;
- }
+   .divNewsAddBarContainer .divbarnewssection2-column {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0.5rem;
+   }
+
+   .NewsText1 {
+      font-size: 5vw;
+      margin-bottom: 1rem;
+   }
+
+   .divNewsbar1 .NewsText1 {
+      font-size: 5vw;
+   }
+
+   .Newsdecp1 {
+      font-size: 3.5vw;
+   }
+
+   .divNewsTime {
+      font-size: 3.5vw;
+   }
 }
 
 /* Tablet */
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-    .divbarnewssection1 {
-        display: flex;
-        flex-direction: column;
-    }
+   .divbarnewssection1 {
+      display: flex;
+      flex-direction: column;
+   }
 
-    .divNewsAddBarContainer .divbarnewssection2-column {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 4rem;
-        align-items: center;
-        justify-content: center;
-        margin-top: 4rem;
-    }
+   .divNewsbar {
+      margin-bottom: 1rem;
+   }
 
-    .NewsText1 {
-    font-size: 4vw;
- }
+   .divNewsAddBarContainer .divbarnewssection2-column {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0.5rem;
+   }
 
- .divNewsbar1 .NewsText1 {
-    font-size: 3vw;
- }
+   .divNewsAddBarContainer {
+      padding-inline: 1rem;
+   }
 
- .Newsdecp1 {
-    font-size: 2vw;
- }
+   .NewsText1 {
+      font-size: 4vw;
+   }
 
- .divNewsTime {
-    font-size: 2vw;
- }
+   .divNewsbar1 .NewsText1 {
+      font-size: 3vw;
+   }
+
+   .Newsdecp1 {
+      font-size: 2vw;
+   }
+
+   .divNewsTime {
+      font-size: 2vw;
+   }
 }
 
 /* Laptop */

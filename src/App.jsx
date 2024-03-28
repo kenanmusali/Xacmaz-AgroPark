@@ -13,14 +13,12 @@ import Products from '../Page/Products'
 import { Route, Routes } from 'react-router'
 import NotFound404 from '../Page/NotFound404'
 import Loading from '../Page/Loading'
-
-
-
+import NewsDetail from '../Page/NewsDetais'
 
 function App() {
   return (
     <div>
-      <Loading/>
+      <Loading />
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -29,6 +27,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/news' element={<News />} />
+        <Route path='/news/:id' element={<NewsDetail />} />
         <Route path='/products' element={<Products />} />
         <Route path='*' element={<NotFound404 />} />
       </Routes>
