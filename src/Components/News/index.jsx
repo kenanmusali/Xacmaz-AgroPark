@@ -42,10 +42,10 @@ const NewsSection = () => {
       <div className="divNewsAddBarContainer">
 
         <div className="divbarnewssection1">
-          {topSection.map(({ id, text, desc, time, img, klas }) => (
+          {topSection.map(({ id, text, desc, time, image, klas }) => (
             <Link key={id} to={`/news/${id}`} className="divbarnewssection1">
               <div className={klas}>
-                <img className="NewsImage1" src={img} alt="" />
+                <img className="NewsImage1" src={image} alt="" />
                 <div className="divNewsTextsSections">
                   <p className="NewsText1">{text}</p>
                   <p className="Newsdecp1">{desc}</p>
@@ -62,9 +62,9 @@ const NewsSection = () => {
 
         <div className="divbarnewssection2">
           <div className="divbarnewssection2-column">
-            {bottomSection.map(({ id, text, desc, time, img, klas }) => (
-             <Link key={id} to={`/news/${id}`}  className={klas}>
-                <img className="NewsImage1" src={img} alt="" />
+            {bottomSection.map(({ id, text, desc, time, image, klas }) => (
+              <Link key={id} to={`/news/${id}`} className={klas}>
+                <img className="NewsImage1" src={image} alt="" />
                 <div className="divNewsTextsSections">
                   <p className="NewsText1">{text}</p>
                   <p className="Newsdecp1">{desc}</p>

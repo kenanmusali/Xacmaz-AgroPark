@@ -1,0 +1,31 @@
+/* Phone */
+@media screen and (max-width: 767px) {
+    .textNewsSectionDetails {
+        width: 95%;
+    }
+    
+    .sharetimenewsdetailicongroup {
+        width:95%;
+    }
+
+    .sharetimenewsdetailicongroup {
+        display: flex;
+        flex-direction: column;
+    }
+    
+ }
+ 
+ /* Tablet */
+ @media screen and (min-width: 767px) and (max-width: 1024px) {
+    .textNewsSectionDetails {
+        width: 80%;
+    }
+    
+    .sharetimenewsdetailicongroup {
+        width: 80%;
+    }
+    
+ }
+ 
+ /* Laptop */
+ @media screen and (min-width: 1024px) {}
