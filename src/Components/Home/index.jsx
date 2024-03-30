@@ -200,7 +200,9 @@ function HomeSection() {
       </div>
 
       {/* Contact Section */}
-      <ContactForm />
+      <div id="contactSection">
+        <ContactForm />
+      </div>
 
     </div>
   );

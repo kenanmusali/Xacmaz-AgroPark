@@ -14,11 +14,13 @@ import { Route, Routes } from 'react-router'
 import NotFound404 from '../Page/NotFound404'
 import Loading from '../Page/Loading'
 import NewsDetail from '../Page/NewsDetais'
+import ShortCut from './Components/ShortCut'
 
 function App() {
   return (
     <div>
       <Loading />
+      <ShortCut/>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
