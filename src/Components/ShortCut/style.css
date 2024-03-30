@@ -10,12 +10,14 @@
 }
 
 .divScollbuttonNavMenuSection1,
-.divScollbuttonNavMenuSection2 {
+.divScollbuttonNavMenuSection2,
+.divScollbuttonNavMenuSection3 {
     position: relative; 
 }
 
 .divScollbuttonNavMenuSection1 #name,
-.divScollbuttonNavMenuSection2 #name{
+.divScollbuttonNavMenuSection2 #name,
+.divScollbuttonNavMenuSection3 #name{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +42,19 @@
 }
 
 .divScollbuttonNavMenuSection2 #name:hover{
+    background-color: var(--color2); 
+    height: 4.5rem; 
+    width: 4.5rem; 
+    border-radius: 100px; 
+    border: 2px solid var(--color); 
+    color: var(--color);
+    transition: all 0.4s;
+    outline: 2px var(--color2) solid;
+}
+
+
+
+.divScollbuttonNavMenuSection3 #name:hover{
     background-color: var(--color2); 
     height: 4.5rem; 
     width: 4.5rem; 

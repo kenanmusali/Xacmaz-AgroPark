@@ -20,7 +20,6 @@ function App() {
   return (
     <div>
       <Loading />
-      <ShortCut/>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -34,6 +33,7 @@ function App() {
         <Route path='*' element={<NotFound404 />} />
       </Routes>
       <Footer />
+      <ShortCut/>
     </div>
   )
 }
