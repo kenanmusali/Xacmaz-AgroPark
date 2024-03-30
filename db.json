@@ -120,5 +120,64 @@
             "time": "May 23, 2023 5:23AM",
             "klas": "divNewsbar1"
         }
+    ],
+    
+    "Gallery": [
+        {
+            "id": 1,
+            "image": "./Public/Images/Rectangle621.png"
+        },
+        {
+            "id": 2,
+            "image": "./Public/Images/Rectangle617.png"
+        },
+        {
+            "id": 3,
+            "image": "./Public/Images/Rectangle616.png"
+        },
+        {
+            "id": 4,
+            "image": "./Public/Images/Rectangle615.png"
+        },
+        {
+            "id": 5,
+            "image": "./Public/Images/Rectangle620.png"
+        },
+        {
+            "id": 6,
+            "image": "./Public/Images/Rectangle619.png"
+        },
+        {
+            "id": 7,
+            "image": "./Public/Images/Rectangle618.png"
+        },
+        {
+            "id": 8,
+            "image": "./Public/Images/Rectangle625.png"
+        },
+        {
+            "id": 9,
+            "image": "./Public/Images/Rectanglee624.png"
+        },
+        {
+            "id": 10,
+            "image": "./Public/Images/Rectangle623.png"
+        },
+        {
+            "id": 11,
+            "image": "./Public/Images/Rectangle628.png"
+        },
+        {
+            "id": 12,
+            "image": "./Public/Images/Rectangle627.png"
+        },
+        {
+            "id": 13,
+            "image": "./Public/Images/Rectangle626.png"
+        },
+        {
+            "id": 14,
+            "image": "./Public/Images/Rectangle622.png"
+        }
     ]
 }
