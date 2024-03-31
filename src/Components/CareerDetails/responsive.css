@@ -3,18 +3,55 @@
     .divCareerSectionSubmitContainer {
         padding: 2rem 1rem;
     }
+
     .divCareerSectionSubmit {
         padding: 2rem;
     }
+
+    .divSubmitCareerSectionbtnGroup {
+        position: absolute;
+        top: 70%;
+        bottom: 0%;
+        left: 50%;
+        width: 90%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    .divSubmitCareerSectionbtn {
+        padding: 3rem;
+    }
+
 }
 
 /* Tablet */
 @media screen and (min-width: 767px) and (max-width: 1024px) {
     .divCareerSectionSubmitContainer {
-        padding: 5rem 5rem;
+        padding: 2rem 2rem;
     }
+
     .divCareerSectionSubmit {
         padding: 4rem;
+    }
+    
+    .divSubmitCareerSectionbtnGroup {
+        position: absolute;
+        top: 58.5%;
+        bottom: 0%;
+        left: 50%;
+        width: 90%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    .divSubmitCareerSectionbtn {
+        padding: 3rem;
     }
 }
 
