@@ -20,7 +20,6 @@ function GallerySection() {
       </div>
       {/* You Will start coding here*/}
 
-
     </div>
   )
 }
