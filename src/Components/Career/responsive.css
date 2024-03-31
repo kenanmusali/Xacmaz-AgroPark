@@ -4,6 +4,7 @@
         display: flex;
         flex-direction: column;
         align-items: normal;
+        
     }
 
     .divLine {
@@ -11,9 +12,6 @@
         margin-bottom: 2rem;
         height: 2px;
         width: 100%;
-    }
-    .divCareerBarContainer {
-        margin-inline: 1rem;
     }
 
     .reset1 {
@@ -23,9 +21,10 @@
     }
 
     .reset0 {
-        padding: 0rem 1rem 0rem 1rem !important;
-        margin-bottom: 4rem;
+        padding-inline: 0rem;
+        margin-inline: 1rem !important;
     }
+
 }
 
 /* Tablet */
@@ -44,7 +43,8 @@
     }
     .reset0 {
         padding: 0rem 0rem 0rem 0rem !important;
-        margin-bottom: 4rem;
+        margin-bottom: 0rem;
+        margin-inline: 1rem;
     }
     
 }

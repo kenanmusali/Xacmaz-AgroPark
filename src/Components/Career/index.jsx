@@ -61,11 +61,10 @@ function CareerSection() {
           </div>
         </div>
       </div>
-
-      <div className="divNewsAddBarContainer reset0">
-        <div className="divbarnewssection2">
-          <div className="divCareerBarContainer">
-
+      
+      <div className="divNewsAddBarContainer reset00">
+        <div className="divbarnewssection2 reset0">
+          <div className="divCareerBarContainer ">
             <div className="divcareerbar1">
               <p className="NewsText1 Nunito">Əlaqə</p>
               <p className="Nunito Newsdecp1">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
