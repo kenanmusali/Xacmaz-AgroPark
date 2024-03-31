@@ -15,6 +15,7 @@ import NotFound404 from '../Page/NotFound404'
 import Loading from '../Page/Loading'
 import NewsDetail from '../Page/NewsDetais'
 import ShortCut from './Components/ShortCut'
+import CareerDetails from '../Page/CareerDetails'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/careers' element={<Careers />} />
+        <Route path='/careers/:id' element={<CareerDetails />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/news' element={<News />} />

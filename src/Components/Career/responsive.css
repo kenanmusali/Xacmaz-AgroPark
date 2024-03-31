@@ -1,8 +1,53 @@
 /* Phone */
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+    .divCareerBarContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .divLine {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 2px;
+        width: 100%;
+    }
+    .divCareerBarContainer {
+        margin-inline: 1rem;
+    }
+
+    .reset1 {
+        display: flex;
+        flex-direction: column;
+        align-items: normal !important;
+    }
+
+    .reset0 {
+        padding: 0rem 1rem 0rem 1rem !important;
+        margin-bottom: 4rem;
+    }
+}
 
 /* Tablet */
-@media screen and (min-width: 767px) and (max-width: 1024px) {}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .divCareerBarContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .divLine {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 2px;
+        width: 100%;
+    }
+    .reset0 {
+        padding: 0rem 0rem 0rem 0rem !important;
+        margin-bottom: 4rem;
+    }
+    
+}
 
 /* Laptop */
 @media screen and (min-width: 1024px) {}

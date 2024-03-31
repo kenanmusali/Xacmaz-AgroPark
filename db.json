@@ -121,7 +121,7 @@
             "klas": "divNewsbar1"
         }
     ],
-    
+
     "Gallery": [
         {
             "id": 1,
@@ -178,6 +178,73 @@
         {
             "id": 14,
             "image": "./Public/Images/Rectangle622.png"
+        }
+    ],
+
+    "Careers": [
+        {
+            "id": 1,
+            "title": "Lorem Ipsum is simply text",
+            "price": "Razılaşma əsasında",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
+            "time": "May 23, 2023",
+            "klas": "divNewsbar1"
+        },
+        {
+            "id": 2,
+            "title": "Lorem Ipsum is simply text",
+            "price": "Razılaşma əsasında",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
+            "time": "May 23, 2023",
+            "klas": "divNewsbar1"
+        },
+        {
+            "id": 3,
+            "title": "Lorem Ipsum is simply text",
+            "price": "₼1000-1200",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
+            "time": "May 23, 2023",
+            "klas": "divNewsbar1"
+        },
+        {
+            "id": 4,
+            "title": "Lorem Ipsum is simply text",
+            "price": "Razılaşma əsasında",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
+            "time": "May 23, 2023",
+            "klas": "divNewsbar1"
+        },
+        {
+            "id": 5,
+            "title": "Lorem Ipsum is simply text",
+            "price": "₼500-600",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
+            "time": "May 23, 2023",
+            "klas": "divNewsbar1"
+        },
+        {
+            "id": 6,
+            "title": "Lorem Ipsum is simply text",
+            "price": "₼600-750",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
+            "time": "May 23, 2023",
+            "klas": "divNewsbar1"
+        },
+        {
+            "id": 7,
+            "title": "Lorem Ipsum is simply text",
+            "price": "Razılaşma əsasında",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
+            "time": "May 23, 2023",
+            "klas": "divNewsbar1"
+        },
+        {
+            "id": 8,
+            "title": "Lorem Ipsum is simply text",
+            "price": "₼900-1000",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
+            "time": "May 23, 2023",
+            "klas": "divNewsbar1"
         }
     ]
 }
