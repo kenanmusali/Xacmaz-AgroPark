@@ -1,0 +1,891 @@
+/* About Menu Section */
+
+/* Phone */
+@media screen and (max-width: 767px) {}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}
+
+
+/* Career Menu Section */
+
+/* Phone */
+@media screen and (max-width: 767px) {
+    .divCareerBarContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+
+    }
+
+    .divLine {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 2px;
+        width: 100%;
+    }
+
+    .reset1 {
+        display: flex;
+        flex-direction: column;
+        align-items: normal !important;
+    }
+
+    .reset0 {
+        padding-inline: 0rem;
+        margin-inline: 1rem !important;
+    }
+
+}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .divCareerBarContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .divLine {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 2px;
+        width: 100%;
+    }
+
+    .reset0 {
+        padding: 0rem 0rem 0rem 0rem !important;
+        margin-bottom: 0rem;
+        margin-inline: 1rem;
+    }
+
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}
+
+
+/* Career Detail Menu Section */
+
+/* Phone */
+@media screen and (max-width: 767px) {
+    .divCareerSectionSubmitContainer {
+        padding: 2rem 1rem;
+    }
+
+    .divCareerSectionSubmit {
+        padding: 2rem;
+    }
+
+    .divSubmitCareerSectionbtnGroup {
+        position: absolute;
+        top: 70%;
+        bottom: 0%;
+        left: 50%;
+        width: 90%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    .divSubmitCareerSectionbtn {
+        padding: 3rem;
+    }
+
+}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .divCareerSectionSubmitContainer {
+        padding: 2rem 2rem;
+    }
+
+    .divCareerSectionSubmit {
+        padding: 4rem;
+    }
+
+    .divSubmitCareerSectionbtnGroup {
+        position: absolute;
+        top: 58.5%;
+        bottom: 0%;
+        left: 50%;
+        width: 90%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    .divSubmitCareerSectionbtn {
+        padding: 3rem;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}
+
+
+/* Contact Menu Section */
+
+/* Phone */
+@media screen and (max-width: 767px) {}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}
+
+
+/* Gallery Menu Section */
+
+/* Phone */
+@media screen and (max-width: 767px) {}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}
+
+
+/* Home Menu Section */
+
+/* Phone */
+@media screen and (max-width: 767px) {
+    .bckText1 {
+        font-size: 1.7rem;
+        width: 20rem !important;
+        font-weight: 600;
+        color: white;
+    }
+
+    .DivBottomtextShort {
+        padding-inline: 3rem !important;
+    }
+
+    .HomeText {
+        width: 10rem !important;
+    }
+
+    .Background {
+        padding: 1.5rem;
+    }
+
+    .HomeCount {
+        color: white;
+        display: flex;
+        align-items: flex-end;
+        height: 100vh;
+        padding: 1rem 0rem;
+    }
+
+    .divIconSectionBarHomeMenu {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding: 7rem 0rem;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .divIconHomeSec {
+        margin: 3rem 0rem;
+    }
+
+    .divAboutSectionHomeMenu {
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 0rem;
+    }
+
+    .divAboutSectionHomeMenuImg {
+        margin-top: 3rem;
+    }
+
+    .HomeImage1 {
+        width: 20rem;
+        bottom: 2rem;
+        left: 2rem;
+        border-radius: 60px 0px 60px 0px;
+        -webkit-border-radius: 60px 0px 60px 0px;
+        -moz-border-radius: 60px 0px 60px 0px;
+        -ms-border-radius: 60px 0px 60px 0px;
+        -o-border-radius: 60px 0px 60px 0px;
+    }
+
+    .divAboutSectionHomeMenuImg {
+        width: 19rem;
+        height: 14rem;
+        margin-top: 4rem;
+        border-radius: 60px 0px 60px 0px;
+        -webkit-border-radius: 60px 0px 60px 0px;
+        -moz-border-radius: 60px 0px 60px 0px;
+        -ms-border-radius: 60px 0px 60px 0px;
+        -o-border-radius: 60px 0px 60px 0px;
+    }
+
+    .HomeImage1:hover {
+        border-radius: 60px 0px 60px 0px;
+    }
+
+    .divAboutSectionHomeMenuImg {
+        margin-right: 3rem;
+        margin-left: 0rem;
+    }
+
+    .HomeSectionText3 {
+        width: 22rem;
+        margin-top: 1rem;
+    }
+
+    .HomeSectionText2,
+    .HomeSectionText1 {
+        width: 22rem;
+    }
+
+    .GroupAboutSectionHomeMenuImg {
+        margin-inline: 3rem !important;
+    }
+
+    .HomeImage1:hover {
+        position: absolute;
+        width: 20rem;
+        top: 2rem;
+        bottom: 0rem;
+        left: 2rem;
+    }
+
+    .divGrisHomeMenuSection1 {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .divGrisHomeMenuSection2 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .divHomemenuSectionAdds {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divGridSections {
+        width: 100% !important;
+    }
+
+    .divGridSections1 {
+        margin: 0;
+    }
+
+    .HomeImage2,
+    .HomeImage3,
+    .HomeImage4 {
+        width: 100%;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+
+
+    .divGridSections1 {
+        margin-top: 1.5rem;
+    }
+
+    .HomeMenuTextGridDesp {
+        width: 20rem;
+    }
+
+    .divAboutSectionHomeMenuText {
+        width: 90%;
+    }
+
+    .divHomeMenuSectionContact {
+        padding: 5rem 0rem;
+    }
+
+    .HomeSectionText2 {
+        width: 20rem;
+        font-size: 2rem;
+    }
+
+    .ContactSendBtn {
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .divHomeContactSec {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-inline: 2rem;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .bckText1 {
+        font-size: 2.5rem;
+        width: 35rem !important;
+        font-weight: 600;
+        color: white;
+    }
+
+    .DivBottomtextShort {
+        padding-inline: 4rem !important;
+    }
+
+    .HomeText {
+        width: 35rem !important;
+    }
+
+    .HomeIconSet {
+        width: 7rem;
+        margin-bottom: 1rem;
+    }
+
+    .HomeIconDesp {
+        margin-top: 1rem;
+        font-size: 1rem;
+        width: 13rem;
+        text-align: center;
+    }
+
+    .divAboutSectionHomeMenu {
+        display: flex;
+        flex-direction: column;
+        padding: 6rem 0rem;
+    }
+
+    .divAboutSectionHomeMenuImg {
+        margin-top: 6rem !important;
+    }
+
+    .HomeImage1 {
+        width: 30rem;
+        bottom: 2rem;
+        left: 2rem;
+    }
+
+    .divAboutSectionHomeMenuImg {
+        width: 30rem;
+        height: 20rem;
+        margin-top: 4rem;
+    }
+
+    .divAboutSectionHomeMenuImg {
+        margin-right: 3rem;
+        margin-left: 0rem;
+    }
+
+    .HomeSectionText3 {
+        width: 45rem;
+        margin-top: 1rem;
+    }
+
+    .HomeSectionText2,
+    .HomeSectionText1 {
+        width: 45rem;
+    }
+
+    .HomeSectionText2 {
+        font-size: 2.5rem;
+    }
+
+    .GroupAboutSectionHomeMenuImg {
+        margin-inline: 3rem !important;
+    }
+
+    .HomeImage1:hover {
+        position: absolute;
+        width: 30rem;
+        border-radius: 7rem 0rem 7rem 0rem;
+        -webkit-border-radius: 7rem 0rem 7rem 0rem;
+        -moz-border-radius: 7rem 0rem 7rem 0rem;
+        -ms-border-radius: 7rem 0rem 7rem 0rem;
+        -o-border-radius: 7rem 0rem 7rem 0rem;
+        top: 2rem;
+        bottom: 0rem;
+        left: 2rem;
+    }
+
+    .divGrisHomeMenuSection1 {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .divGrisHomeMenuSection2 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .divHomemenuSectionAdds {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divGridSections {
+        width: 100% !important;
+    }
+
+    .divGridSections1 {
+        margin: 0;
+    }
+
+    .HomeImage2,
+    .HomeImage3 {
+        width: 100%;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+
+
+    .divGridSections1 {
+        margin-top: 1.5rem;
+    }
+
+    .divAboutSectionHomeMenuText {
+        width: 80%;
+    }
+
+    .divHomeMenuSectionContact {
+        padding: 5rem 0rem;
+    }
+
+    .HomeSectionText2 {
+        width: 40rem;
+    }
+
+    .divGridSections1 {
+        display: flex;
+    }
+
+    .divGrisHomeMenuSection2 .divGridSections1 .HomeMenuTextGrid {
+        height: fit-content;
+    }
+
+    .divGrisHomeMenuSection2 .divGridSections1 .divGridSectionMenu {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+
+    .divGrisHomeMenuSection2 .divGridSections1 .divGridSectionMenu {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divGrisHomeMenuSectionfortext {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divGrisHomeMenuSection2 p {
+        width: 15rem;
+        font-size: 1.5rem;
+    }
+
+    .divGrisHomeMenuSection2 .HomeMenuTextGrid {
+        width: 15rem;
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+
+    .divGrisHomeMenuSection2 .IconAdds {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}
+
+
+/* Footer Menu Section */
+
+/* Phone */
+@media screen and (max-width: 767px) {
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 3rem;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .Footertexts {
+        font-size: 1.2rem;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-inline: 4rem;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-inline: 4rem;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section1 {
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 4rem;
+    }
+
+    .section2 {
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 4rem;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}
+
+
+/* Navbar Menu Section */
+
+/* Phone */
+@media screen and (max-width: 767px) {
+    .LanguageSection {
+        display: none;
+    }
+
+    .HamMenuIcon {
+        z-index: 2 !important;
+    }
+
+    .BottomSection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 1.5rem !important;
+        height: 6rem;
+        color: white;
+        background: linear-gradient(180deg, rgba(25, 25, 25, 0.5) 0%, rgba(97, 97, 97, 0.4) 19%, rgba(255, 255, 255, 0) 46%);
+    }
+
+    .TopSection {
+        padding-inline: 1.5rem;
+    }
+
+    /* Hamburger Menu */
+
+    .topnav {
+        overflow: hidden;
+        background-color: var(--color2);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transition: background-color 0.3s;
+    }
+
+    .icon4 {
+        font-size: 26px;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .icon4:hover {
+        font-size: 26px;
+        z-index: 2;
+        color: var(--color);
+    }
+
+    .topnav #myLinks {
+        height: 0;
+        overflow: hidden;
+        transition: height 0.5s;
+        padding-inline: 1.2rem;
+    }
+
+    .mSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        background: url(../../../../Public/Elements/footer.svg);
+    }
+
+    .topnav.show #myLinks {
+        height: 100vh;
+    }
+
+    .topnav a {
+        display: block;
+        transition: color 0.3s;
+    }
+
+    .Links a {
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        line-height: 3rem;
+
+    }
+
+    .topChildMargin {
+        margin-top: 8rem;
+    }
+
+    .menutext {
+        color: white;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 1rem;
+
+    }
+
+    .menutext1 {
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 20rem;
+    }
+
+    .Links {
+        color: white;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .LanguageSection {
+        display: none;
+    }
+
+    .HamMenuIcon {
+        z-index: 2 !important;
+    }
+
+    .topnav #myLinks {
+
+        transition: height 0.5s;
+        padding-inline: 1.2rem;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {
+    .HamMenuIcon {
+        display: none !important;
+    }
+}
+
+
+/* News Menu Section */
+
+/* Phone */
+@media screen and (max-width: 767px) {
+    .divNewsAddBarContainer {
+        padding: 1rem;
+    }
+
+    .divNewsbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .divbarnewssection1 .NewsImage1 {
+        width: auto;
+    }
+
+    .divbarnewssection1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divNewsbar {
+        margin-bottom: 1rem;
+    }
+
+    .divNewsAddBarContainer .divbarnewssection2-column {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+
+    .NewsText1 {
+        font-size: 5vw;
+        margin-bottom: 1rem;
+    }
+
+    .divNewsbar1 .NewsText1 {
+        font-size: 5vw;
+    }
+
+    .Newsdecp1 {
+        font-size: 3.5vw;
+    }
+
+    .divNewsTime {
+        font-size: 4vw;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .divbarnewssection1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divNewsbar {
+        margin-bottom: 1rem;
+    }
+
+    .divNewsAddBarContainer .divbarnewssection2-column {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+
+    .divNewsAddBarContainer {
+        padding-inline: 1rem;
+    }
+
+    .NewsText1 {
+        font-size: 4vw;
+    }
+
+    .divNewsbar1 .NewsText1 {
+        font-size: 3vw;
+    }
+
+    .Newsdecp1 {
+        font-size: 2vw;
+    }
+
+    .divNewsTime {
+        font-size: 2vw;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}
+
+
+/* News Detail Menu Section */
+
+/* Phone */
+@media screen and (max-width: 767px) {
+    .textNewsSectionDetails {
+        width: 95%;
+    }
+
+    .sharetimenewsdetailicongroup {
+        width: 95%;
+    }
+
+    .sharetimenewsdetailicongroup {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .textNewsSectionDetails {
+        width: 80%;
+    }
+
+    .sharetimenewsdetailicongroup {
+        width: 80%;
+    }
+
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}
+
+
+/* NotFound Menu Section */
+
+/* Phone */
+@media screen and (max-width: 767px) {}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}
+
+
+/* Products Menu Section */
+
+/* Phone */
+@media screen and (max-width: 767px) {}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}

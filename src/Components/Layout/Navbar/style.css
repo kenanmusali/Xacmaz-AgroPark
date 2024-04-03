@@ -146,11 +146,13 @@
 .HamMenuIcon {
     font-size: 2rem !important;
     color: white;
+    text-shadow: 0px 0px 10px black !important;
 }
 
 .scrolled .HamMenuIcon {
     font-size: 2rem !important;
     color: var(--color2);
+    text-shadow: none;
 }
 
 .scrolled .LanguageSection a:hover {

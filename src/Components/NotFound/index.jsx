@@ -1,6 +1,5 @@
 import React from 'react'
 import './style.css'
-import './responsive.css'
 import Notfound404 from '../../../Public/Images/404.png'
 import { Link } from 'react-router-dom'
 

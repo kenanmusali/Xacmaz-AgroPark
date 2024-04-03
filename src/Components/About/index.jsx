@@ -1,6 +1,5 @@
 import React from 'react'
 import './style.css'
-import './responsive.css'
 import { Link } from 'react-router-dom'
 import KeyboardArrowRightRoundedIcon from '@mui/icons-material/KeyboardArrowRightRounded';
 

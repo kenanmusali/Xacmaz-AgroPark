@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
-import './responsive.css';
 import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';

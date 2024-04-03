@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './style.css'
-import './responsive.css'
 import { Link } from 'react-router-dom'
 import WatchLaterRoundedIcon from '@mui/icons-material/WatchLaterRounded';
 import KeyboardArrowRightRoundedIcon from '@mui/icons-material/KeyboardArrowRightRounded';
