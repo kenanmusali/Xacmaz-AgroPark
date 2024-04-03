@@ -29,7 +29,9 @@ function CareerDetailSection() {
         <div className="DivTopNavShort">
           <Link to='/' className='LinkNav'>Ana Səhifə</Link>
           <KeyboardArrowRightRoundedIcon className='IconRight' />
-          <p className='RecentMenu'>Vakansiyalar</p>
+          <Link to='/careers' className='LinkNav'>Vakansiyalar</Link>
+          <KeyboardArrowRightRoundedIcon className='IconRight' />
+          <p className='RecentMenu'>Vakansiyalar Bölməsi</p>
         </div>
         <div className="DivBottomtextShort">
           <p className="bckText Menutexts">Vakansiyalar</p>

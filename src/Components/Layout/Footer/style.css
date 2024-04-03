@@ -1,7 +1,7 @@
 .Footer {
     padding: 4rem 0rem;
     background: url(../../../../Public/Elements/footer.svg);
-
+background-color: var(--color1);
     background-position: center;
     display: flex;
     flex-direction: column;

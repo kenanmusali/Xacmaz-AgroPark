@@ -73,6 +73,14 @@
     color: white;
 }
 
+.divNewsbar:hover .Newsdecp1{
+    color: var(--color8);
+}
+
+.divNewsbar1:hover .Newsdecp1{
+    color: var(--color8);
+}
+
 .NewsImage1 {
     border-radius: 7px;
 }
@@ -119,7 +127,10 @@
 
 .Newsdecp1 {
     font-size: 1vw;
+    color: var(--color9);
 }
+
+
 
 .divNewsAddBarContainer {
     padding: 4rem;

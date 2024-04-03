@@ -82,6 +82,11 @@
     color: var(--color2);
     color: white;
     font-size: 1.1rem;
+    text-shadow: 0px 0px 30px black;
+}
+
+.scrolled .LanguageSection a {
+    text-shadow: none;
 }
 
 
@@ -107,6 +112,11 @@
     font-weight: 600;
     color: white;
     margin-left: 1rem;
+    text-shadow: 0px 0px 30px black;
+}
+
+.scrolled .logotext {
+    text-shadow: none;
 }
 
 .LanguageSection {
@@ -117,7 +127,7 @@
 
 .LanguageSection a:hover {
     color: var(--color2);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .LanguageSection a {
@@ -264,3 +274,10 @@ margin-top: 7rem;
     -ms-transition: all 0.4s;
     -o-transition: all 0.4s;
 }
+
+
+.Navbar .MenuSection .LanguageSection .active {
+    color: var(--color);
+    font-weight: 700;
+}
+

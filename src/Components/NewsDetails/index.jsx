@@ -47,7 +47,11 @@ function NewsDetailSection() {
               Ana Səhifə
             </Link>
             <KeyboardArrowRightRoundedIcon className="IconRight" />
-            <p className="RecentMenu">Xəbərlər</p>
+            <Link to="/news" className="LinkNav">
+            Xəbərlər
+            </Link>
+            <KeyboardArrowRightRoundedIcon className="IconRight" />
+            <p className="RecentMenu">Xəbərlər Bölməsi</p>
           </div>
           <div className="DivBottomtextShort">
             <p className="bckText Menutexts">Xəbərlər</p>

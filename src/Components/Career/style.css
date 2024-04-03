@@ -124,7 +124,7 @@
 
 .reset00 {
     margin-bottom: 4rem;
-    padding-top: 0rem;
+    padding-top: 0rem !important;
 }
 
 .reset0 {
