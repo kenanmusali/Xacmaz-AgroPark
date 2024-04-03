@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './style.css';
-import './responsive.css';
 import { Link, useParams } from 'react-router-dom';
 import KeyboardArrowRightRoundedIcon from '@mui/icons-material/KeyboardArrowRightRounded';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';

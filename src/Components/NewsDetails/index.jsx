@@ -4,7 +4,6 @@ import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRigh
 import WatchLaterRoundedIcon from "@mui/icons-material/WatchLaterRounded";
 import ShareIcon from '@mui/icons-material/Share';
 import './style.css'
-import './responsive.css'
 
 function NewsDetailSection() {
   const { id } = useParams();

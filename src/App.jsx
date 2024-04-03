@@ -16,6 +16,9 @@ import Loading from '../Page/Loading'
 import NewsDetail from '../Page/NewsDetais'
 import ShortCut from './Components/ShortCut'
 import CareerDetails from '../Page/CareerDetails'
+import DarkMode from './Assets/DarkMode'
+import Responsive from './Assets/Responsive'
+
 
 function App() {
   return (
@@ -36,6 +39,8 @@ function App() {
       </Routes>
       <Footer />
       <ShortCut/>
+      <DarkMode/>
+      <Responsive/>
     </div>
   )
 }
