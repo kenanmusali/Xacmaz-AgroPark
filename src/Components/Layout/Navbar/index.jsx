@@ -67,12 +67,12 @@ function Navbar() {
         </Link>
         <div className="MenuSection">
           <div className="LanguageSection">
-            <NavLink to='/about' activeClassName="active">Haqqımıda</NavLink>
-            <NavLink to='/products' activeClassName="active">Məhsullar</NavLink>
-            <NavLink to='/news' activeClassName="active">Xəbərlər</NavLink>
-            <NavLink to='/gallery' activeClassName="active">Qalereya</NavLink>
-            <NavLink to='/careers' activeClassName="active">Vakansiyalar</NavLink>
-            <NavLink to='/contact' activeClassName="active">Əlaqə</NavLink>
+            <NavLink to='/about' activeclassname="active">Haqqımıda</NavLink>
+            <NavLink to='/products' activeclassname="active">Məhsullar</NavLink>
+            <NavLink to='/news' activeclassname="active">Xəbərlər</NavLink>
+            <NavLink to='/gallery' activeclassname="active">Qalereya</NavLink>
+            <NavLink to='/careers' activeclassname="active">Vakansiyalar</NavLink>
+            <NavLink to='/contact' activeclassname="active">Əlaqə</NavLink>
           </div>
           <MenuRoundedIcon className='HamMenuIcon' onClick={toggleMenu} />
 
@@ -81,12 +81,12 @@ function Navbar() {
           <div className="topnav">
             <div className="mSection">
               <div id="myLinks" className='Links'>
-                <NavLink className='Nunito topChildMargin' to='/about' activeClassName="active">Haqqımıda</NavLink>
-                <NavLink className='Nunito' to='/products' activeClassName="active">Məhsullar</NavLink>
-                <NavLink className='Nunito' to='/news' activeClassName="active">Xəbərlər</NavLink>
-                <NavLink className='Nunito' to='/gallery' activeClassName="active">Qalereya</NavLink>
-                <NavLink className='Nunito' to='/careers' activeClassName="active">Vakansiyalar</NavLink>
-                <NavLink className='Nunito' to='/contact' activeClassName="active">Əlaqə</NavLink>
+                <NavLink className='Nunito topChildMargin' to='/about' activeclassname="active">Haqqımıda</NavLink>
+                <NavLink className='Nunito' to='/products' activeclassname="active">Məhsullar</NavLink>
+                <NavLink className='Nunito' to='/news' activeclassname="active">Xəbərlər</NavLink>
+                <NavLink className='Nunito' to='/gallery' activeclassname="active">Qalereya</NavLink>
+                <NavLink className='Nunito' to='/careers' activeclassname="active">Vakansiyalar</NavLink>
+                <NavLink className='Nunito' to='/contact' activeclassname="active">Əlaqə</NavLink>
                 <p className='menutext'>Xaçmaz AqroPark</p>
                 <p className='menutext1 bottom'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                 <p className='menutext1'>+994 50 123 45 67 / +994 70 123 45 67</p>
