@@ -43,19 +43,20 @@ function ShortCut() {
   };
 
   const scrollToContact = () => {
-    const contactSection = document.getElementById("Form");
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: "smooth" });
+    const formElement = document.querySelector('.divHomeMenuSectionContact');
+    if (formElement) {
+      formElement.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  
 
   useEffect(() => {
     const currentPath = location.pathname;
 
     if (
       currentPath.startsWith("/careers") ||
-      currentPath.startsWith("/contact") ||
       currentPath.startsWith("/gallery") ||
+      currentPath.startsWith("/about") ||
       currentPath.startsWith("/news") ||
       currentPath.startsWith("/products")
     ) {
