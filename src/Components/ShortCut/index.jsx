@@ -5,6 +5,7 @@ import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 
+
 function ShortCut() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
     const savedMode = localStorage.getItem("darkMode");
@@ -19,8 +20,6 @@ function ShortCut() {
       }
     }, [isDarkMode]); 
   
-
-    
     useEffect(()=>{
         document.body.style.backgroundColor = isDarkMode ? "#121212" : "white";
     }, [isDarkMode]);
@@ -44,7 +43,7 @@ function ShortCut() {
   };
 
   const scrollToContact = () => {
-    const contactSection = document.getElementById("contactSection");
+    const contactSection = document.getElementById("Form");
     if (contactSection) {
       contactSection.scrollIntoView({ behavior: "smooth" });
     }

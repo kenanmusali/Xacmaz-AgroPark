@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./style.css";
 import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRightRounded";
 
-const Header = () => {
+const NewsHeader = () => {
 
 
   return (
@@ -26,4 +27,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NewsHeader;

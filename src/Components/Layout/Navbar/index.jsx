@@ -5,42 +5,17 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import { Link, NavLink } from 'react-router-dom';
+import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
 // Navbar Hamburger Menu
-function toggleMenu() {
-  var body = document.body;
-  var myLinks = document.getElementById('myLinks');
-  var scrollDisabled = body.classList.contains('scroll-disabled');
-  var hamMenuIcon = document.querySelector('.HamMenuIcon');
-  var TopSection = document.querySelector('.TopSection'); 
-  
-  if (!scrollDisabled) {
-    body.classList.add('scroll-disabled');
-    body.style.overflow = 'hidden';
-    myLinks.style.height = '100vh';
-    hamMenuIcon.style.color = 'white';
-    TopSection.style.display = 'none'; 
-  } else {
-    body.classList.remove('scroll-disabled');
-    body.style.overflow = '';
-    myLinks.style.height = '0';
-    hamMenuIcon.style.color = '';
-    TopSection.style.display = ''; 
-  }
-}
-
-// Navbar
 function Navbar() {
+  const [isMenuOpen, setMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      if (scrollTop > 0) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(scrollTop > 0);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -48,6 +23,29 @@ function Navbar() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+    const body = document.body;
+    const myLinks = document.getElementById('myLinks');
+    const scrollDisabled = body.classList.contains('scroll-disabled');
+    const hamMenuIcon = document.querySelector('.HamMenuIcon');
+    const TopSection = document.querySelector('.TopSection');
+
+    if (!scrollDisabled) {
+      body.classList.add('scroll-disabled');
+      body.style.overflow = 'hidden';
+      myLinks.style.height = '100vh';
+      hamMenuIcon.style.color = 'white';
+      TopSection.style.display = 'none';
+    } else {
+      body.classList.remove('scroll-disabled');
+      body.style.overflow = '';
+      myLinks.style.height = '0';
+      hamMenuIcon.style.color = '';
+      TopSection.style.display = '';
+    }
+  };
 
   return (
     <div className={`Navbar ${isScrolled ? 'scrolled' : ''}`}>
@@ -74,9 +72,8 @@ function Navbar() {
             <NavLink to='/careers' activeclassname="active">Vakansiyalar</NavLink>
             <NavLink to='/contact' activeclassname="active">Əlaqə</NavLink>
           </div>
-          <MenuRoundedIcon className='HamMenuIcon' onClick={toggleMenu} />
-
-
+          <MenuRoundedIcon className='HamMenuIcon' onClick={toggleMenu} style={{ display: isMenuOpen ? 'none' : 'flex' }} />
+          <CloseRoundedIcon className='HamMenuIcon1' onClick={toggleMenu} style={{ display: isMenuOpen ? 'flex' : 'none' }} />
 
           <div className="topnav">
             <div className="mSection">
@@ -99,10 +96,8 @@ function Navbar() {
               </div>
             </div>
           </div>
-
         </div>
       </div>
-
     </div>
   );
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import WatchLaterRoundedIcon from "@mui/icons-material/WatchLaterRounded";
 import { useState, useEffect } from "react";
+import './style.css'
 
 const NewsCategory = () => {
   const [text, setText] = useState([]);

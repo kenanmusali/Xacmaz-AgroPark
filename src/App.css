@@ -43,3 +43,17 @@ body {
 .Nunito {
   font-family: "Nunito", sans-serif;
 }
+
+
+@media screen and (max-width: 767px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+}

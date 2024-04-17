@@ -1,13 +1,13 @@
-.DivMenuSectionHeaderAbout {
-    background: no-repeat url(../../../Public/Images/Group170.png);
+.DivMenuSectionHeaderNewsDetails {
+    background: no-repeat url(../../../Public/Images/Group174.png);
     width: 100%;
     height: 70vh;
     background-size: cover;
     background-position: center;
     display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 4rem 0rem;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem 0rem;
 }
 
 .DivTopNavShort {
@@ -17,17 +17,17 @@
     align-items: center;
 }
 
-.DivTopNavShort p{
+.DivTopNavShort p {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
 }
 
-.DivBottomtextShort .bckText{
+.DivBottomtextShort .bckText {
     font-family: "Nunito", sans-serif;
     font-weight: 500;
 }
 
-.LinkNav{
+.LinkNav {
     color: white;
     text-decoration: none;
 }
@@ -43,13 +43,11 @@
 }
 
 .DivBottomtextShort {
-    padding-inline:10rem;
+    padding-inline: 10rem;
 }
 
-.LinkNav:hover{
+.LinkNav:hover {
     color: var(--color2);
     font-weight: 600;
     text-decoration: none;
 }
-
-/* You Will Start here */

@@ -1,0 +1,58 @@
+.Background {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.Background {
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.bckText1 {
+    font-size: 2.5rem;
+    width: 45rem;
+    font-weight: 600;
+    color: white;
+}
+
+.bckText {
+    font-size: 1.3rem;
+    width: 45rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0.6rem;
+}
+
+.bckBtn {
+    margin-top: 2rem;
+    width: 15rem;
+    height: 4rem;
+    background-color: var(--color);
+    border: solid var(--color2) 1px;
+    border-radius: 100px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.bckBtn:hover {
+    background-color: var(--color2);
+    border: solid var(--color) 1px;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import HomeImage1 from '../../../Public/Images/image19.png'
+import HomeImage1 from '../../../../Public/Images/image19.png'
 import { Link } from 'react-router-dom';
 
 
@@ -8,8 +8,6 @@ function Info() {
  
   return (
     <div>
-
-
       <div className="divAboutSectionHomeMenu">
         <div className="divAboutSectionHomeMenuText">
           <p className='Nunito HomeSectionText1 HomeSectionText01'>Haqqımızda</p>

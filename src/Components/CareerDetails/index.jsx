@@ -1,14 +1,13 @@
 import React from 'react';
-import './style.css';
-import HeaderCareer from './index1';
-import CareerDetailCategory from './index2';
+import CareerHeader from '../Header/Career';
+import CareerDetailCategory from './Category';
 
 
 function CareerDetailSection() {
 
   return (
     <div>
-      <HeaderCareer />
+      <CareerHeader />
       <CareerDetailCategory />
     </div>
   );

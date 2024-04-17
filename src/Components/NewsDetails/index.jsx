@@ -1,14 +1,13 @@
 import React from 'react';
-import './style.css'
-import HeaderNews from './index1';
-import NewsDetailCategory from './index2';
+import NewsDetailHeader from '../Header/NewsDetails';
+import NewsDetailCategory from './Category';
 
 function NewsDetailSection() {
 
   return (
     <div>
-      <HeaderNews />
-      <NewsDetailCategory/>
+      <NewsDetailHeader />
+      <NewsDetailCategory />
     </div>
   );
 }

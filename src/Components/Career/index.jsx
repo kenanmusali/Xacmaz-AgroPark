@@ -1,7 +1,7 @@
 import React from 'react';
-import './style.css'
-import HeaderCareer from './index1';
-import CareerCategory from './index2';
+
+import CareerHeader from '../Header/Career';
+import CareerCategory from './Category';
 
 
 function CareerSection() {
@@ -9,7 +9,7 @@ function CareerSection() {
 
   return (
     <div>
-      <HeaderCareer />
+      <CareerHeader />
       <CareerCategory/>
     </div>
   );

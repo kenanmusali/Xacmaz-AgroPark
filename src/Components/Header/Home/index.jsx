@@ -5,7 +5,7 @@ import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRound
 import { Link } from 'react-router-dom';
 
 
-function Header() {
+function HomeHeader() {
   const images = [
     'Group171.png',
     'Group172.png',
@@ -73,4 +73,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HomeHeader;

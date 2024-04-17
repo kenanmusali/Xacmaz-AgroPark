@@ -1,0 +1,161 @@
+
+/* ContactForm.css */
+
+.defaultBackground {
+    background-image: url(../../../Public/Images/Group180.svg);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.defaultBackground .HomeSectionText1{
+    color: var(--color2) !important;
+}
+
+.emptyInputBackground .HomeSectionText1{
+    color: var(--color6) !important;
+}
+
+.emptyInputBackground {
+    background-image: url(../../../Public/Elements/Group181.svg);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.emptyInputBackground .inputCon {
+    background-color: var(--color5);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    border-bottom: 2px solid var(--color6);
+}
+
+.emptyInputBackground .ContactSendBtn {
+    border: 2px solid var(--color6);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    color: red;
+}
+
+.emptyInputBackground .ContactSendBtn:hover {
+    border: 2px solid var(--color6);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    color: white;
+    background-color: red;
+}
+
+.emptyInputBackground .inputCon::placeholder {
+    color: var(--color6);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.emptyInputBackground .HomeSectionText1 {
+    color: var(--color6);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.emptyInputBackground .HomeContactSecText {
+    color: red;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.HomeContactSecText {
+    width: 40rem;
+}
+
+.inputCon {
+    background-color: var(--color3);
+    border: none;
+    border-bottom: 2px solid var(--color1);
+    width: 100%;
+    font-size: 1.2rem;
+    height: 4rem;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.inputCon:focus {
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.inputCon::placeholder {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color1);
+
+}
+
+.inputbar1HomeSec {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.divHomeContactSec {
+    width: 40rem;
+
+}
+
+.ContactSendBtn {
+    width: 40rem;
+    margin-top: 5rem;
+    height: 3.5rem;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    background-color: transparent;
+    border: 2px solid var(--color1);
+    font-size: 1.1rem;
+    color: var(--color1);
+    font-weight: 600;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    margin-bottom: 2rem;
+}
+
+.ContactSendBtn:hover {
+    background-color: var(--color1);
+    border: 2px solid var(--color);
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 500;
+}
+
+.divAboutSectionHomeMenuText {
+    margin-top: 1rem;
+}

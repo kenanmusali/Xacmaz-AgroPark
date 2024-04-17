@@ -1,0 +1,164 @@
+
+
+.divHomemenuSectionAdds {
+    height: fit-content;
+    padding: 7rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeMenuTextGrid {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    color: var(--color9);
+}
+
+.HomeMenuTextGrid1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 0.3rem;
+    color: var(--color);
+}
+
+.divGridSectionMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.IconAdds {
+    margin-top: 0.5rem;
+    color: var(--color);
+}
+
+.divGridSections {
+    box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--color8);
+    border-radius: 12px;
+    transition: all 0.4s;
+    padding: 0.5rem;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    cursor: pointer;
+}
+
+.divGridSections:hover {
+    box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--color2);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.divGridSections:hover .HomeMenuTextGrid{
+    color: var(--color8);
+}
+
+.divGridSections1:hover .HomeMenuTextGrid{
+    color: var(--color8);
+}
+
+.divGridSections1 {
+    box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--color8);
+    border-radius: 12px;
+    padding: 0.5rem;
+    height: 100%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.divGridSections1:hover {
+    box-shadow: 0px 0px 33px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--color2);
+    border-radius: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.HomeImage2,
+.HomeImage3 {
+    width: 12rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.HomeImage4,
+.HomeImage5 {
+    width: 29rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.HomeImage5 {
+    position: relative;
+}
+
+.HomeIcons3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.divVideoAddSection {
+    position: relative;
+    display: inline-block;
+}
+
+.divGrisHomeMenuSection1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.divGrisHomeMenuSection2 {
+    display: flex;
+}
+
+.HomeMenuTextGridDesp {
+    width: 25rem;
+    margin-top: 1rem;
+    color: var(--color);
+}
+
+
+.divHomeMenuSectionContact {
+    width: 100%;
+    height: fit-content;
+    padding: 7rem 0rem;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

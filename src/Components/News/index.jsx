@@ -1,13 +1,11 @@
 import React from "react";
-import "./style.css";
-import Header from "./index1";
-import NewsCategory from "./index2";
-
+import NewsHeader from "../Header/News";
+import NewsCategory from "./Category/index";
 
 const NewsSection = () => {
   return (
     <div>
-      <Header />
+      <NewsHeader />
       <NewsCategory />
     </div>
   );

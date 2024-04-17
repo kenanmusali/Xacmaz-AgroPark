@@ -1,15 +1,14 @@
 import React from 'react';
-import './style.css';
-import Header from './index1';
-import Section from './index2';
-import Info from './index3';
-import Category from './index4';
-import Form from './index5';
+import HomeHeader from '../Header/Home';
+import Section from './Section';
+import Info from './Info';
+import Category from './Category';
+import Form from '../Form';
 
 function HomeSection() {
   return (
     <div>
-      <Header />
+      <HomeHeader />
       <Section />
       <Info />
       <Category />

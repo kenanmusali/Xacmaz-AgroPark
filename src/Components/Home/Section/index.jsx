@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
-import HomeIcons from '../../../Public/Icons/Group164.svg'
-import HomeIcons1 from '../../../Public/Icons/Group165.svg'
-import HomeIcons2 from '../../../Public/Icons/Group166.svg'
+import HomeIcons from '../../../../Public/Icons/Group164.svg'
+import HomeIcons1 from '../../../../Public/Icons/Group165.svg'
+import HomeIcons2 from '../../../../Public/Icons/Group166.svg'
 
 function Section() {
  

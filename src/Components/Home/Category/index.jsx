@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
 import EastRoundedIcon from '@mui/icons-material/EastRounded';
-import HomeImage2 from '../../../Public/Images/Rectangle9.png'
-import HomeImage3 from '../../../Public/Images/Rectangle8.png'
-import HomeImage4 from '../../../Public/Images/Rectangle6.png'
-import HomeImage5 from '../../../Public/Images/Rectangle5.png'
-import HomeIcons3 from '../../../Public/Icons/Group179.svg'
+import HomeImage2 from '../../../../Public/Images/Rectangle9.png'
+import HomeImage3 from '../../../../Public/Images/Rectangle8.png'
+import HomeImage4 from '../../../../Public/Images/Rectangle6.png'
+import HomeImage5 from '../../../../Public/Images/Rectangle5.png'
+import HomeIcons3 from '../../../../Public/Icons/Group179.svg'
 
 function Category() {
 

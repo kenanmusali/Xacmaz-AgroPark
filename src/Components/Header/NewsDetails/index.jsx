@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './style.css'
 import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRightRounded";
 
-function HeaderNews() {
+function NewsDetailHeader() {
 
     return (
       <div>
@@ -31,4 +31,4 @@ function HeaderNews() {
     );
   }
 
-  export default HeaderNews;
+  export default NewsDetailHeader;

@@ -1,5 +1,5 @@
-.DivMenuSectionHeaderContact {
-    background: no-repeat url(../../../Public/Images/Group172.png);
+.DivMenuSectionHeaderAbout {
+    background: no-repeat url(../../../Public/Images/Group170.png);
     width: 100%;
     height: 70vh;
     background-size: cover;
@@ -17,14 +17,14 @@
     align-items: center;
 }
 
-.DivBottomtextShort .bckText{
-    font-family: "Nunito", sans-serif;
-    font-weight: 500;
-}
-
 .DivTopNavShort p{
     font-family: "Nunito", sans-serif;
     font-weight: 700;
+}
+
+.DivBottomtextShort .bckText{
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
 }
 
 .LinkNav{
@@ -52,4 +52,3 @@
     text-decoration: none;
 }
 
-/* You Will Start here */

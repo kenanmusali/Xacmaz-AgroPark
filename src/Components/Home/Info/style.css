@@ -1,0 +1,76 @@
+
+.divAboutSectionHomeMenu {
+    background: url(../../../Public/Elements/footer.svg);
+    width: 100%;
+    height: fit-content;
+    padding: 7rem 0rem;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--color10);
+}
+
+.HomeSectionText1 {
+    width: 30rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--color2);
+}
+
+.HomeSectionText2 {
+    font-size: 2.2rem;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    color: var(--color9);
+}
+
+.HomeSectionText3 {
+    width: 30rem;
+    margin-top: 1rem;
+    color: var(--color9);
+}
+
+.HomeImage1 {
+    position: absolute;
+    width: 35rem;
+    border-radius: 7rem 0rem 7rem 0rem;
+    -webkit-border-radius: 7rem 0rem 7rem 0rem;
+    -moz-border-radius: 7rem 0rem 7rem 0rem;
+    -ms-border-radius: 7rem 0rem 7rem 0rem;
+    -o-border-radius: 7rem 0rem 7rem 0rem;
+    transition: all 0.5s;
+    bottom: 2rem;
+    left: 2rem;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+
+.HomeImage1:hover {
+    position: absolute;
+    width: 35rem;
+    border-radius: 7rem 0rem 7rem 0rem;
+    -webkit-border-radius: 7rem 0rem 7rem 0rem;
+    -moz-border-radius: 7rem 0rem 7rem 0rem;
+    -ms-border-radius: 7rem 0rem 7rem 0rem;
+    -o-border-radius: 7rem 0rem 7rem 0rem;
+    top: 2rem;
+    bottom: 0rem;
+    left: -2rem;
+}
+
+.divAboutSectionHomeMenuImg {
+    position: relative;
+    border: 2px solid var(--color9);
+    width: 35rem;
+    height: 23rem;
+    border-radius: 8rem 0rem 8rem 0rem;
+    -webkit-border-radius: 8rem 0rem 8rem 0rem;
+    -moz-border-radius: 8rem 0rem 8rem 0rem;
+    -ms-border-radius: 8rem 0rem 8rem 0rem;
+    -o-border-radius: 8rem 0rem 8rem 0rem;
+    margin-top: 2rem;
+}
