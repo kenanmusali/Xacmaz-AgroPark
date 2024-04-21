@@ -1,5 +1,5 @@
 import React from 'react'
-import GallerySection from '../../src/Components/Gallery'
+import GallerySection from '../../Components/Gallery'
 
 function Gallery() {
   return (

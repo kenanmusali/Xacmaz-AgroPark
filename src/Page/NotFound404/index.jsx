@@ -1,5 +1,5 @@
 import React from 'react'
-import NotFound from '../../src/Components/NotFound'
+import NotFound from '../../Components/NotFound'
 
 function NotFound404() {
   return (

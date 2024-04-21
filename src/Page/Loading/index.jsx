@@ -1,5 +1,5 @@
 import React from 'react'
-import LoadingSection from '../../src/Components/Loading'
+import LoadingSection from '../../Components/Loading'
 
 function Loading() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductSection from '../../src/Components/Products'
+import ProductSection from '../../Components/Products'
 
 function Products() {
   return (

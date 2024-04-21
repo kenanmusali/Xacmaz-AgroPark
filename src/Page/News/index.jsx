@@ -1,5 +1,5 @@
 import React from 'react'
-import NewsSection from '../../src/Components/News'
+import NewsSection from '../../Components/News'
 
 function News() {
   return (

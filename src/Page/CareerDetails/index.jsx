@@ -1,5 +1,5 @@
 import React from 'react'
-import CareerDetailSection from '../../src/Components/CareerDetails'
+import CareerDetailSection from '../../Components/CareerDetails'
 
 function CareerDetails() {
   return (
