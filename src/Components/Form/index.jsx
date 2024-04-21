@@ -9,6 +9,7 @@ function Form() {
   });
   const [backgroundClass, setBackgroundClass] = useState('defaultBackground');
   const [sentEmails, setSentEmails] = useState([]);
+  const [buttonText, setButtonText] = useState('Göndər'); 
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -42,6 +43,12 @@ function Form() {
       email: '',
       message: ''
     });
+
+    setButtonText('Mesajınız Göndərildi');
+
+    setTimeout(() => {
+      setButtonText('Göndər');
+    }, 2000);
   };
 
   const sendDataToBackend = async (data) => {
@@ -54,7 +61,7 @@ function Form() {
         body: JSON.stringify(data)
       });
       if (!response.ok) {
-        throw new Error('Network response was not ok');
+        throw new Error('Network response has problem');
       }
       const responseData = await response.json();
       console.log(responseData); 
@@ -98,7 +105,7 @@ function Form() {
             onChange={handleInputChange}
           />
         </div>
-        <button className='ContactSendBtn' type="button" onClick={handleSendClick}>Göndər</button>
+        <button className='ContactSendBtn' type="button" onClick={handleSendClick}>{buttonText}</button>
       </div>
     </div>
   );
