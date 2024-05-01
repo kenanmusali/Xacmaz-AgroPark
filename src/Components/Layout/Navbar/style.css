@@ -17,7 +17,7 @@
     justify-content: space-between;
     padding-inline: 3rem;
     color: white;
-    border-bottom: 1px solid var(--color1) ;
+    border-bottom: 1px solid var(--color1);
 }
 
 .text {
@@ -274,7 +274,7 @@
 }
 
 .topChildMargin {
-margin-top: 7rem;
+    margin-top: 7rem;
 }
 
 .logoSec:hover {
@@ -300,3 +300,68 @@ margin-top: 7rem;
     font-weight: 700;
 }
 
+.LanguageGroup {
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.11) !important;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+
+.scrolled .LanguageGroup {
+    box-shadow: none !important;
+}
+
+.LanguageGroup {
+    display: flex;
+    gap: 0.1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.divLanguageSection {
+    padding: 0.5rem;
+}
+
+
+.LanguageGroup>div:first-child {
+    border-radius: 10px 0px 0px 10px;
+    -webkit-border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px 0px 0px 10px;
+    -ms-border-radius: 10px 0px 0px 10px;
+    -o-border-radius: 10px 0px 0px 10px;
+}
+
+.LanguageGroup>div:first-child, .LanguageGroup>div:last-child {
+    background-color: var(--color11);
+    color: var(--color2);
+}
+
+.LanguageGroup>div:first-child:hover,
+.LanguageGroup>div:last-child:hover {
+    background-color: var(--color);
+    z-index: 1;
+    color: var(--color8);
+}
+
+.scrolled .LanguageGroup>div:first-child:hover,
+.scrolled .LanguageGroup>div:last-child:hover {
+    background-color: var(--color);
+    z-index: 1;
+}
+
+
+.scrolled .LanguageGroup>div:first-child,
+.scrolled .LanguageGroup>div:last-child {
+    background-color: var(--color11);
+}
+
+.LanguageGroup>div:last-child {
+    border-radius: 0px 10px 10px 0px;
+    -webkit-border-radius: 0px 10px 10px 0px;
+    -moz-border-radius: 0px 10px 10px 0px;
+    -ms-border-radius: 0px 10px 10px 0px;
+    -o-border-radius: 0px 10px 10px 0px;
+}

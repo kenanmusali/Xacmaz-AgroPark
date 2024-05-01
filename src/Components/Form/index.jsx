@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
+import { LanguageContext, LanguageProvider } from '../../Assets/Language';
 import './style.css';
 
 function Form() {
@@ -9,7 +10,7 @@ function Form() {
   });
   const [backgroundClass, setBackgroundClass] = useState('defaultBackground');
   const [sentEmails, setSentEmails] = useState([]);
-  const [buttonText, setButtonText] = useState('Göndər'); 
+  const [buttonText, setButtonText] = useState('Göndər');
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -44,10 +45,10 @@ function Form() {
       message: ''
     });
 
-    setButtonText('Mesajınız Göndərildi');
+    setButtonText(language === 'az' ? 'Mesajınız Göndərildi' : 'Message Sent');
 
     setTimeout(() => {
-      setButtonText('Göndər');
+      setButtonText(language === 'az' ? 'Göndər' : 'Sent');
     }, 2000);
   };
 
@@ -70,11 +71,19 @@ function Form() {
     }
   };
 
+  // Language
+  const { language } = useContext(LanguageContext);
+
+  useEffect(() => {
+    setButtonText(language === 'az' ? 'Göndər' : 'Sent');
+  }, [language]);
+
   return (
+    <LanguageProvider>
     <div className={`divHomeMenuSectionContact ${backgroundClass}`}>
       <div className="divAboutSectionHomeMenuText">
-        <p className='Nunito HomeSectionText1'>Nə etdiyimizi bilmək istəyirsiniz?</p>
-        <p className='HomeSectionText2 HomeContactSecText'>Yeniliklərdən xəbərdar olmaq üçün qeydiyyatdan keçin</p>
+        <p className='Nunito HomeSectionText1'>{language === 'az' ? 'Nə ettiğimizi bilmək istəyirsiniz?' : 'Want to know what we do?'}</p>
+        <p className='HomeSectionText2 HomeContactSecText'>{language === 'az' ? 'Yeniliklərdən xəbərdar olmaq üçün qeydiyyatdan keçin' : 'Sign up to be informed about innovations'}</p>
       </div>
       <div className="divHomeContactSec">
         <div className="inputbar1HomeSec">
@@ -82,7 +91,7 @@ function Form() {
             className='inputCon'
             type="text"
             name="name"
-            placeholder='Ad, Soyad*'
+            placeholder={language === 'az' ? 'Ad, Soyad*' : 'Name, LastName*'}
             value={inputs.name}
             onChange={handleInputChange}
           />
@@ -100,7 +109,7 @@ function Form() {
             className='inputCon'
             type="text"
             name="message"
-            placeholder='Mesaj*'
+            placeholder={language === 'az' ? 'Mesaj*' : 'Message*'}
             value={inputs.message}
             onChange={handleInputChange}
           />
@@ -108,6 +117,7 @@ function Form() {
         <button className='ContactSendBtn' type="button" onClick={handleSendClick}>{buttonText}</button>
       </div>
     </div>
+    </LanguageProvider>
   );
 }
 

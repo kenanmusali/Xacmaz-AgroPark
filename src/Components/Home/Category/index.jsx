@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { LanguageContext } from '../../../Assets/Language';
 import './style.css';
 import EastRoundedIcon from '@mui/icons-material/EastRounded';
 import HomeImage2 from '../../../../Public/Images/Rectangle9.png'
@@ -9,6 +10,9 @@ import HomeIcons3 from '../../../../Public/Icons/Group179.svg'
 
 function Category() {
 
+  // Language
+  const { language } = useContext(LanguageContext);
+
   return (
     <div>
       <div className="divHomemenuSectionAdds">
@@ -17,7 +21,7 @@ function Category() {
             <img src={HomeImage2} className='HomeImage2' />
             <p className='HomeMenuTextGrid'>Xəbərlər</p>
             <div className="divGridSectionMenu">
-              <p className='Nunito HomeMenuTextGrid1'>Ətraflı</p>
+              <p className='Nunito HomeMenuTextGrid1'>{language === 'az' ? 'Ətraflı' : 'See More'}</p>
               <EastRoundedIcon className='IconAdds' />
             </div>
           </div>
@@ -25,7 +29,7 @@ function Category() {
             <img src={HomeImage3} className='HomeImage3' />
             <p className='HomeMenuTextGrid'>Vakansiya</p>
             <div className="divGridSectionMenu">
-              <p className='Nunito HomeMenuTextGrid1'>Ətraflı</p>
+              <p className='Nunito HomeMenuTextGrid1'>{language === 'az' ? 'Ətraflı' : 'See More'}</p>
               <EastRoundedIcon className='IconAdds' />
             </div>
           </div>
@@ -34,9 +38,9 @@ function Category() {
           <div className="divGridSections1">
             <img src={HomeImage4} className='HomeImage4' />
             <div className="divGrisHomeMenuSectionfortext">
-              <p className='HomeMenuTextGrid'>Şəkillər</p>
+              <p className='HomeMenuTextGrid'>{language === 'az' ? 'Şəkillər' : 'Images'}</p>
               <div className="divGridSectionMenu">
-                <p className='Nunito HomeMenuTextGrid1 HomeMenuTextGridDesp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <p className='Nunito HomeMenuTextGrid1 HomeMenuTextGridDesp'>{language === 'az' ? 'Ətraflı' : 'See More'}</p>
                 <EastRoundedIcon className='IconAdds' />
               </div>
             </div>
@@ -47,9 +51,9 @@ function Category() {
               <img src={HomeIcons3} className='HomeIcons3' />
             </div>
             <div className="divGrisHomeMenuSectionfortext">
-              <p className='HomeMenuTextGrid'>Videolar</p>
+              <p className='HomeMenuTextGrid'>{language === 'az' ? 'Videolar' : 'Videos'}</p>
               <div className="divGridSectionMenu">
-                <p className='Nunito HomeMenuTextGrid1 HomeMenuTextGridDesp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                <p className='Nunito HomeMenuTextGrid1 HomeMenuTextGridDesp'>{language === 'az' ? 'Ətraflı' : 'See More'}</p>
                 <EastRoundedIcon className='IconAdds' />
               </div>
             </div>

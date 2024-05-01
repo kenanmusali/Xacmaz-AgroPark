@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import Language, { LanguageContext } from '../../../Assets/Language';
 import './style.css';
 import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -47,10 +48,13 @@ function Navbar() {
     }
   };
 
+  // Language
+  const { language } = useContext(LanguageContext);
+
   return (
     <div className={`Navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className={`TopSection ${isScrolled ? 'none' : ''}`}>
-        <p className='text'>+994 50 123 45 67 / Contact Us</p>
+        <p className='text Nunito'>{language === 'az' ? '+994 50 123 45 67 / Əlaqə' : '+994 50 123 45 67 / Contact Us'}</p>
         <div className="navSocialSection">
           <EmailIcon className='icon1' />
           <InstagramIcon className='icon1' />
@@ -65,29 +69,32 @@ function Navbar() {
         </Link>
         <div className="MenuSection">
           <div className="LanguageSection">
-            <NavLink to='/about' activeclassname="active">Haqqımıda</NavLink>
-            <NavLink to='/products' activeclassname="active">Məhsullar</NavLink>
-            <NavLink to='/news' activeclassname="active">Xəbərlər</NavLink>
-            <NavLink to='/gallery' activeclassname="active">Qalereya</NavLink>
-            <NavLink to='/careers' activeclassname="active">Vakansiyalar</NavLink>
-            <NavLink to='/contact' activeclassname="active">Əlaqə</NavLink>
+            <NavLink to='/about' activeclassname="active">{language === 'az' ? 'Haqqımıda' : 'About Us'}</NavLink>
+            <NavLink to='/products' activeclassname="active">{language === 'az' ? 'Məhsullar' : 'Products'}</NavLink>
+            <NavLink to='/news' activeclassname="active">{language === 'az' ? 'Xəbərlər' : 'News'}</NavLink>
+            <NavLink to='/gallery' activeclassname="active">{language === 'az' ? 'Qalereya' : 'Gallery'}</NavLink>
+            <NavLink to='/careers' activeclassname="active">{language === 'az' ? 'Vakansiyalar' : 'Careers'}</NavLink>
+            <NavLink to='/contact' activeclassname="active">{language === 'az' ? 'Əlaqə' : 'Contact'}</NavLink>
           </div>
+
+          <Language />
+
           <MenuRoundedIcon className='HamMenuIcon' onClick={toggleMenu} style={{ display: isMenuOpen ? 'none' : 'flex' }} />
           <CloseRoundedIcon className='HamMenuIcon1' onClick={toggleMenu} style={{ display: isMenuOpen ? 'flex' : 'none' }} />
 
           <div className="topnav">
             <div className="mSection">
               <div id="myLinks" className='Links'>
-                <NavLink className='Nunito topChildMargin' to='/about' activeclassname="active">Haqqımıda</NavLink>
-                <NavLink className='Nunito' to='/products' activeclassname="active">Məhsullar</NavLink>
-                <NavLink className='Nunito' to='/news' activeclassname="active">Xəbərlər</NavLink>
-                <NavLink className='Nunito' to='/gallery' activeclassname="active">Qalereya</NavLink>
-                <NavLink className='Nunito' to='/careers' activeclassname="active">Vakansiyalar</NavLink>
-                <NavLink className='Nunito' to='/contact' activeclassname="active">Əlaqə</NavLink>
+                <NavLink className='Nunito topChildMargin' to='/about' activeclassname="active">{language === 'az' ? 'Haqqımıda' : 'About Us'}</NavLink>
+                <NavLink className='Nunito' to='/products' activeclassname="active">{language === 'az' ? 'Məhsullar' : 'Products'}</NavLink>
+                <NavLink className='Nunito' to='/news' activeclassname="active">{language === 'az' ? 'Xəbərlər' : 'News'}</NavLink>
+                <NavLink className='Nunito' to='/gallery' activeclassname="active">{language === 'az' ? 'Qalereya' : 'Gallery'}</NavLink>
+                <NavLink className='Nunito' to='/careers' activeclassname="active">{language === 'az' ? 'Vakansiyalar' : 'Careers'}</NavLink>
+                <NavLink className='Nunito' to='/contact' activeclassname="active">{language === 'az' ? 'Əlaqə' : 'Contact'}</NavLink>
                 <p className='menutext'>Xaçmaz AqroPark</p>
-                <p className='menutext1 bottom'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                <p className='menutext1 bottom'>{language === 'az' ? 'Xaсhmaz Aqropark MMC 01.12.2021 tarixində fəaliyyətə başlayıb' : 'Xaсhmaz Agropark LLC started operating on 01.12.2021'}</p>
                 <p className='menutext1'>+994 50 123 45 67 / +994 70 123 45 67</p>
-                <p className='menutext1'>Lorem Ipsum is simply dummy text of the printing</p>
+                <p className='menutext1'>{language === 'az' ? 'Əlavə məlumat üçün müştəri xidmətlərimizlə əlaqə saxlayın.' : 'For more information, please contact our customer service.'}</p>
                 <div className="navSocialSection bottom">
                   <EmailIcon className='icon1' />
                   <InstagramIcon className='icon1' />

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { LanguageContext } from '../../../Assets/Language';
 import './style.css';
 import HomeImage1 from '../../../../Public/Images/image19.png'
 import { Link } from 'react-router-dom';
@@ -6,14 +7,17 @@ import { Link } from 'react-router-dom';
 
 function Info() {
 
+  // Language
+  const { language } = useContext(LanguageContext);
+
   return (
     <div>
       <div className="divAboutSectionHomeMenu">
         <div className="divAboutSectionHomeMenuText">
-          <p className='Nunito HomeSectionText1 HomeSectionText01'>Haqqımızda</p>
-          <p className='HomeSectionText2 HomeSectionText02'>Xaçmaz Aqro Biznes</p>
-          <p className='Nunito HomeSectionText3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>
-          <Link to={'/about'} className='Nunito bckBtn' >Ətraflı</Link>
+          <p className='Nunito HomeSectionText1 HomeSectionText01'>{language === 'az' ? 'Haqqımızda' : 'About Us'}</p>
+          <p className='HomeSectionText2 HomeSectionText02'>{language === 'az' ? 'Xaçmaz Aqro Biznes' : 'Xaçmaz Aqro Business'}</p>
+          <p className='Nunito HomeSectionText3'>{language === 'az' ? '2021-ci ildən bəri ailəmizə məxsus fermer şirkətimiz davamlı kənd təsərrüfatında qabaqcıl olmuşdur və yüksək keyfiyyətli məhsulların etibarlı təchizatçısına çevrilmişdir. İnnovasiyalara və ətraf mühitin mühafizəsinə sadiq olaraq, günümüzün çağırışlarına cavab verərkən köklərimizə hörmət etməyə davam edirik.' : 'Since 1987, our family-owned farming company has been a pioneer in sustainable agriculture, growing into a trusted provider of premium produce. Committed to innovation and environmental stewardship, we continue to honor our roots while meeting the challenges of today.'}</p>
+          <Link to={'/about'} className='Nunito bckBtn' >{language === 'az' ? 'Ətraflı' : 'See More'}</Link>
         </div>
         <div className="GroupAboutSectionHomeMenuImg">
           <div className="divAboutSectionHomeMenuImg">

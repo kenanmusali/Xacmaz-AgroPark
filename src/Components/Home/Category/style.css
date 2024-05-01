@@ -101,7 +101,7 @@
 
 .HomeImage2,
 .HomeImage3 {
-    width: 12rem;
+    width: 11.5rem;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -138,7 +138,7 @@
 .divGrisHomeMenuSection1 {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .divGrisHomeMenuSection2 {

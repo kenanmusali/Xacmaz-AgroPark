@@ -1,4 +1,5 @@
 import React from 'react'
+import { LanguageProvider } from './Assets/Language';
 import './App.css'
 import './font.css'
 import Navbar from './Components/Layout/Navbar'
@@ -24,23 +25,25 @@ function App() {
   return (
     <div>
       <Loading />
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/careers' element={<Careers />} />
-        <Route path='/careers/:id' element={<CareerDetails />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/gallery' element={<Gallery />} />
-        <Route path='/news' element={<News />} />
-        <Route path='/news/:id' element={<NewsDetail />} />
-        <Route path='/products' element={<Products />} />
-        <Route path='*' element={<NotFound404 />} />
-      </Routes>
-      <Footer />
-      <ShortCut/>
-      <DarkMode/>
-      <Responsive/>
+      <LanguageProvider>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/careers' element={<Careers />} />
+          <Route path='/careers/:id' element={<CareerDetails />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/news' element={<News />} />
+          <Route path='/news/:id' element={<NewsDetail />} />
+          <Route path='/products' element={<Products />} />
+          <Route path='*' element={<NotFound404 />} />
+        </Routes>
+        <Footer />
+      </LanguageProvider>
+      <ShortCut />
+      <DarkMode />
+      <Responsive />
     </div>
   )
 }

@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import { LanguageContext } from '../../../Assets/Language';
 import './style.css';
 import ArrowBackIosRoundedIcon from '@mui/icons-material/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRounded';
@@ -35,6 +36,9 @@ function HomeHeader() {
     );
   };
 
+    // Language
+    const { language } = useContext(LanguageContext);
+
   return (
     <div>
       <div className="divHeader">
@@ -45,12 +49,12 @@ function HomeHeader() {
           }}
         >
           <div className="HomeText">
-            <p className="bckText">Məhsullar</p>
+            <p className="bckText">{language === 'az' ? 'Məhsullar' : 'Products'}</p>
             <p className="bckText1">
-              Biz aqrobiznes kommunikasiyaları ilə məşğul oluruq
+            {language === 'az' ? 'Biz aqrobiznes kommunikasiyaları ilə məşğul oluruq' : 'We deal with agribusiness communications'}
             </p>
             <Link to={'/about'} className="bckBtn">
-              Haqqımızda
+            {language === 'az' ? 'Haqqımızda' : 'About Us'}
             </Link>
           </div>
           <div className="HomeCount">
