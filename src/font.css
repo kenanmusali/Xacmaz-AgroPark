@@ -1,39 +1,39 @@
 @font-face {
     font-family: 'Gotham-Bold-Italic';
-    src: url('./Fonts/Gotham-Rounded-Bold-Italic.otf') format('opentype');
+    src: url('./Assets/Fonts/Gotham-Rounded-Bold-Italic.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Gotham-Bold';
-    src: url('./Fonts/Gotham-Rounded-Bold.otf') format('opentype');
+    src: url('./Assets/Fonts/Gotham-Rounded-Bold.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Gotham-Book-Italic';
-    src: url('./Fonts/Gotham-Rounded-Book-Italic.otf') format('opentype');
+    src: url('./Assets/Fonts/Gotham-Rounded-Book-Italic.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Gotham-Book';
-    src: url('./Fonts/Gotham-Rounded-Book.otf') format('opentype');
+    src: url('./Assets/Fonts/Gotham-Rounded-Book.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Gotham-Light-Italic';
-    src: url('./Fonts/Gotham-Rounded-Light-Italic.otf') format('opentype');
+    src: url('./Assets/Fonts/Gotham-Rounded-Light-Italic.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Gotham-Light';
-    src: url('./Fonts/Gotham-Rounded-Light.otf') format('opentype');
+    src: url('./Assets/Fonts/Gotham-Rounded-Light.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Gotham-Medium-Italic';
-    src: url('./Fonts/Gotham-Rounded-Medium-Italic.otf') format('opentype');
+    src: url('./Assets/Fonts/Gotham-Rounded-Medium-Italic.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Gotham-Medium';
-    src: url('./Fonts/Gotham-Rounded-Medium.otf') format('opentype');
+    src: url('./Assets/Fonts/Gotham-Rounded-Medium.otf') format('opentype');
 }

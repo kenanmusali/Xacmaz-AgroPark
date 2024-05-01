@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 function Info() {
- 
+
   return (
     <div>
       <div className="divAboutSectionHomeMenu">
@@ -21,9 +21,7 @@ function Info() {
           </div>
         </div>
       </div>
-
-     
-        </div>
+    </div>
   );
 }
 
