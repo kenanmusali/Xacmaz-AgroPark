@@ -1,19 +1,14 @@
-/* About Menu Section */
-
-/* Phone */
-@media screen and (max-width: 767px) {}
-
-/* Tablet */
-@media screen and (min-width: 767px) and (max-width: 1024px) {}
-
-/* Laptop */
-@media screen and (min-width: 1024px) {}
-
-
-/* Career Menu Section */
-
 /* Phone */
 @media screen and (max-width: 767px) {
+    .inputbar1HomeSec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputbar1HomeSec001 {
+        margin-top: 3rem;
+    }
+
     .divCareerBarContainer {
         display: flex;
         flex-direction: column;
@@ -39,39 +34,6 @@
         margin-inline: 1rem !important;
     }
 
-}
-
-/* Tablet */
-@media screen and (min-width: 767px) and (max-width: 1024px) {
-    .divCareerBarContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: normal;
-    }
-
-    .divLine {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        height: 2px;
-        width: 100%;
-    }
-
-    .reset0 {
-        padding: 0rem 0rem 0rem 0rem !important;
-        margin-bottom: 0rem;
-        margin-inline: 1rem;
-    }
-
-}
-
-/* Laptop */
-@media screen and (min-width: 1024px) {}
-
-
-/* Career Detail Menu Section */
-
-/* Phone */
-@media screen and (max-width: 767px) {
     .divCareerSectionSubmitContainer {
         padding: 2rem 1rem;
     }
@@ -97,10 +59,6 @@
         padding: 3rem;
     }
 
-}
-
-/* Tablet */
-@media screen and (min-width: 767px) and (max-width: 1024px) {
     .divCareerSectionSubmitContainer {
         padding: 2rem 2rem;
     }
@@ -125,40 +83,7 @@
     .divSubmitCareerSectionbtn {
         padding: 3rem;
     }
-}
 
-/* Laptop */
-@media screen and (min-width: 1024px) {}
-
-
-/* Contact Menu Section */
-
-/* Phone */
-@media screen and (max-width: 767px) {}
-
-/* Tablet */
-@media screen and (min-width: 767px) and (max-width: 1024px) {}
-
-/* Laptop */
-@media screen and (min-width: 1024px) {}
-
-
-/* Gallery Menu Section */
-
-/* Phone */
-@media screen and (max-width: 767px) {}
-
-/* Tablet */
-@media screen and (min-width: 767px) and (max-width: 1024px) {}
-
-/* Laptop */
-@media screen and (min-width: 1024px) {}
-
-
-/* Home Menu Section */
-
-/* Phone */
-@media screen and (max-width: 767px) {
     .bckText1 {
         font-size: 1.7rem;
         width: 20rem !important;
@@ -167,7 +92,7 @@
     }
 
     .DivBottomtextShort {
-        padding-inline: 3rem !important;
+        padding-inline: 2rem !important;
     }
 
     .HomeText {
@@ -332,10 +257,238 @@
         width: 100%;
         padding-inline: 2rem;
     }
+
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 3rem;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .Footertexts {
+        font-size: 1.2rem;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-inline: 4rem;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-inline: 4rem;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .LanguageSection {
+        display: none;
+    }
+
+    .HamMenuIcon {
+        z-index: 2 !important;
+    }
+
+    .BottomSection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 1.5rem !important;
+        height: 6rem;
+        color: white;
+        background: linear-gradient(180deg, rgba(25, 25, 25, 0.5) 0%, rgba(97, 97, 97, 0.4) 19%, rgba(255, 255, 255, 0) 46%);
+    }
+
+    .TopSection {
+        padding-inline: 1.5rem;
+    }
+
+    /* Hamburger Menu */
+
+    .topnav {
+        overflow: hidden;
+        background-color: var(--color2);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transition: background-color 0.3s;
+    }
+
+    .icon4 {
+        font-size: 26px;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .icon4:hover {
+        font-size: 26px;
+        z-index: 2;
+        color: var(--color);
+    }
+
+    .topnav #myLinks {
+        height: 0;
+        overflow: hidden;
+        transition: height 0.5s;
+        padding-inline: 1.2rem;
+    }
+
+    .mSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        background: url(../../../../Public/Elements/footer.svg);
+    }
+
+    .topnav.show #myLinks {
+        height: 100vh;
+    }
+
+    .topnav a {
+        display: block;
+        transition: color 0.3s;
+    }
+
+    .Links a {
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        line-height: 3rem;
+
+    }
+
+    .topChildMargin {
+        margin-top: 8rem;
+    }
+
+    .menutext {
+        color: white;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 1rem;
+
+    }
+
+    .menutext1 {
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 20rem;
+    }
+
+    .Links {
+        color: white;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .divNewsAddBarContainer {
+        padding: 1rem;
+    }
+
+    .divNewsbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .divbarnewssection1 .NewsImage1 {
+        width: auto;
+    }
+
+    .divbarnewssection1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divNewsbar {
+        margin-bottom: 1rem;
+    }
+
+    .divNewsAddBarContainer .divbarnewssection2-column {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+
+    .NewsText1 {
+        font-size: 5vw;
+        margin-bottom: 1rem;
+    }
+
+    .divNewsbar1 .NewsText1 {
+        font-size: 5vw;
+    }
+
+    .Newsdecp1 {
+        font-size: 3.5vw;
+    }
+
+    .divNewsTime {
+        font-size: 4vw;
+    }
+
+    .textNewsSectionDetails {
+        width: 95%;
+    }
+
+    .sharetimenewsdetailicongroup {
+        width: 95%;
+    }
+
+    .sharetimenewsdetailicongroup {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
 
 /* Tablet */
 @media screen and (min-width: 767px) and (max-width: 1024px) {
+    .divCareerBarContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .divLine {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 2px;
+        width: 100%;
+    }
+
+    .reset0 {
+        padding: 0rem 0rem 0rem 0rem !important;
+        margin-bottom: 0rem;
+        margin-inline: 1rem;
+    }
+
     .bckText1 {
         font-size: 2.5rem;
         width: 35rem !important;
@@ -514,55 +667,7 @@
         font-size: 2rem;
         margin-top: 2rem;
     }
-}
 
-/* Laptop */
-@media screen and (min-width: 1024px) {}
-
-
-/* Footer Menu Section */
-
-/* Phone */
-@media screen and (max-width: 767px) {
-    .Footer {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 3rem;
-    }
-
-    .section1 {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .Footertexts {
-        font-size: 1.2rem;
-    }
-
-    .section1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding-inline: 4rem;
-    }
-
-    .section2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding-inline: 4rem;
-    }
-
-    .flex {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-/* Tablet */
-@media screen and (min-width: 767px) and (max-width: 1024px) {
     .Footer {
         display: flex;
         flex-direction: column;
@@ -585,129 +690,7 @@
         justify-content: space-between;
         padding-inline: 4rem;
     }
-}
 
-/* Laptop */
-@media screen and (min-width: 1024px) {}
-
-
-/* Navbar Menu Section */
-
-/* Phone */
-@media screen and (max-width: 767px) {
-    .LanguageSection {
-        display: none;
-    }
-
-    .HamMenuIcon {
-        z-index: 2 !important;
-    }
-
-    .BottomSection {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-inline: 1.5rem !important;
-        height: 6rem;
-        color: white;
-        background: linear-gradient(180deg, rgba(25, 25, 25, 0.5) 0%, rgba(97, 97, 97, 0.4) 19%, rgba(255, 255, 255, 0) 46%);
-    }
-
-    .TopSection {
-        padding-inline: 1.5rem;
-    }
-
-    /* Hamburger Menu */
-
-    .topnav {
-        overflow: hidden;
-        background-color: var(--color2);
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        top: 0;
-        left: 0;
-        width: 100%;
-        transition: background-color 0.3s;
-    }
-
-    .icon4 {
-        font-size: 26px;
-        z-index: 2;
-        cursor: pointer;
-    }
-
-    .icon4:hover {
-        font-size: 26px;
-        z-index: 2;
-        color: var(--color);
-    }
-
-    .topnav #myLinks {
-        height: 0;
-        overflow: hidden;
-        transition: height 0.5s;
-        padding-inline: 1.2rem;
-    }
-
-    .mSection {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: space-between;
-        background: url(../../../../Public/Elements/footer.svg);
-    }
-
-    .topnav.show #myLinks {
-        height: 100vh;
-    }
-
-    .topnav a {
-        display: block;
-        transition: color 0.3s;
-    }
-
-    .Links a {
-        color: white;
-        font-size: 2rem;
-        text-decoration: none;
-        line-height: 3rem;
-
-    }
-
-    .topChildMargin {
-        margin-top: 8rem;
-    }
-
-    .menutext {
-        color: white;
-        font-size: 2rem;
-        font-weight: 600;
-        margin-top: 1rem;
-
-    }
-
-    .menutext1 {
-        color: white;
-        font-size: 1rem;
-        font-weight: 400;
-        width: 20rem;
-    }
-
-    .Links {
-        color: white;
-        width: fit-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-}
-
-/* Tablet */
-@media screen and (min-width: 767px) and (max-width: 1024px) {
     .LanguageSection {
         display: none;
     }
@@ -721,73 +704,7 @@
         transition: height 0.5s;
         padding-inline: 1.2rem;
     }
-}
 
-/* Laptop */
-@media screen and (min-width: 1024px) {
-    .HamMenuIcon {
-        display: none !important;
-    }
-}
-
-
-/* News Menu Section */
-
-/* Phone */
-@media screen and (max-width: 767px) {
-    .divNewsAddBarContainer {
-        padding: 1rem;
-    }
-
-    .divNewsbar {
-        display: flex;
-        flex-direction: column;
-    }
-
-
-
-    .divbarnewssection1 .NewsImage1 {
-        width: auto;
-    }
-
-    .divbarnewssection1 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .divNewsbar {
-        margin-bottom: 1rem;
-    }
-
-    .divNewsAddBarContainer .divbarnewssection2-column {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1rem;
-        align-items: center;
-        justify-content: center;
-        margin-top: 0.5rem;
-    }
-
-    .NewsText1 {
-        font-size: 5vw;
-        margin-bottom: 1rem;
-    }
-
-    .divNewsbar1 .NewsText1 {
-        font-size: 5vw;
-    }
-
-    .Newsdecp1 {
-        font-size: 3.5vw;
-    }
-
-    .divNewsTime {
-        font-size: 4vw;
-    }
-}
-
-/* Tablet */
-@media screen and (min-width: 767px) and (max-width: 1024px) {
     .divbarnewssection1 {
         display: flex;
         flex-direction: column;
@@ -824,34 +741,7 @@
     .divNewsTime {
         font-size: 2vw;
     }
-}
 
-/* Laptop */
-@media screen and (min-width: 1024px) {}
-
-
-/* News Detail Menu Section */
-
-/* Phone */
-@media screen and (max-width: 767px) {
-    .textNewsSectionDetails {
-        width: 95%;
-    }
-
-    .sharetimenewsdetailicongroup {
-        width: 95%;
-    }
-
-    .sharetimenewsdetailicongroup {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-}
-
-/* Tablet */
-@media screen and (min-width: 767px) and (max-width: 1024px) {
     .textNewsSectionDetails {
         width: 80%;
     }
@@ -859,32 +749,11 @@
     .sharetimenewsdetailicongroup {
         width: 80%;
     }
-
 }
 
 /* Laptop */
-@media screen and (min-width: 1024px) {}
-
-
-/* NotFound Menu Section */
-
-/* Phone */
-@media screen and (max-width: 767px) {}
-
-/* Tablet */
-@media screen and (min-width: 767px) and (max-width: 1024px) {}
-
-/* Laptop */
-@media screen and (min-width: 1024px) {}
-
-
-/* Products Menu Section */
-
-/* Phone */
-@media screen and (max-width: 767px) {}
-
-/* Tablet */
-@media screen and (min-width: 767px) and (max-width: 1024px) {}
-
-/* Laptop */
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+    .HamMenuIcon {
+        display: none !important;
+    }
+}

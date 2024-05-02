@@ -104,7 +104,7 @@ function Form() {
             onChange={handleInputChange}
           />
         </div>
-        <div className="inputbar1HomeSec">
+        <div className="inputbar1HomeSec inputbar1HomeSec001">
           <input
             className='inputCon'
             type="text"

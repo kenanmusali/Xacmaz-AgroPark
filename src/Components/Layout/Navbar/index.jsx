@@ -85,12 +85,14 @@ function Navbar() {
           <div className="topnav">
             <div className="mSection">
               <div id="myLinks" className='Links'>
-                <NavLink className='Nunito topChildMargin' to='/about' activeclassname="active">{language === 'az' ? 'Haqqımıda' : 'About Us'}</NavLink>
-                <NavLink className='Nunito' to='/products' activeclassname="active">{language === 'az' ? 'Məhsullar' : 'Products'}</NavLink>
-                <NavLink className='Nunito' to='/news' activeclassname="active">{language === 'az' ? 'Xəbərlər' : 'News'}</NavLink>
-                <NavLink className='Nunito' to='/gallery' activeclassname="active">{language === 'az' ? 'Qalereya' : 'Gallery'}</NavLink>
-                <NavLink className='Nunito' to='/careers' activeclassname="active">{language === 'az' ? 'Vakansiyalar' : 'Careers'}</NavLink>
-                <NavLink className='Nunito' to='/contact' activeclassname="active">{language === 'az' ? 'Əlaqə' : 'Contact'}</NavLink>
+             
+                <NavLink onClick={toggleMenu} className='Nunito topChildMargin' to='/about' activeclassname="active">{language === 'az' ? 'Haqqımıda' : 'About Us'}</NavLink>
+                <NavLink onClick={toggleMenu} className='Nunito' to='/products' activeclassname="active">{language === 'az' ? 'Məhsullar' : 'Products'}</NavLink>
+                <NavLink onClick={toggleMenu} className='Nunito' to='/news' activeclassname="active">{language === 'az' ? 'Xəbərlər' : 'News'}</NavLink>
+                <NavLink onClick={toggleMenu} className='Nunito' to='/gallery' activeclassname="active">{language === 'az' ? 'Qalereya' : 'Gallery'}</NavLink>
+                <NavLink onClick={toggleMenu} className='Nunito' to='/careers' activeclassname="active">{language === 'az' ? 'Vakansiyalar' : 'Careers'}</NavLink>
+                <NavLink onClick={toggleMenu} className='Nunito' to='/contact' activeclassname="active">{language === 'az' ? 'Əlaqə' : 'Contact'}</NavLink>
+
                 <p className='menutext'>Xaçmaz AqroPark</p>
                 <p className='menutext1 bottom'>{language === 'az' ? 'Xaсhmaz Aqropark MMC 01.12.2021 tarixində fəaliyyətə başlayıb' : 'Xaсhmaz Agropark LLC started operating on 01.12.2021'}</p>
                 <p className='menutext1'>+994 50 123 45 67 / +994 70 123 45 67</p>
