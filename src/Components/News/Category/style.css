@@ -1,4 +1,3 @@
-
 /* .divNewsAddBarContainer {
     padding: 3rem;
 } */
@@ -18,11 +17,11 @@
     color: white;
 }
 
-.divNewsbar:hover .Newsdecp1{
+.divNewsbar:hover .Newsdecp1 {
     color: var(--color8);
 }
 
-.divNewsbar1:hover .Newsdecp1{
+.divNewsbar1:hover .Newsdecp1 {
     color: var(--color8);
 }
 
@@ -35,6 +34,11 @@
     flex-direction: column;
     padding: 2rem 1.5rem 1.6rem 1rem;
     justify-content: space-between;
+
+}
+
+.divNewsTextsSections001 {
+    height: 100%;
 }
 
 .NewsText1 {
@@ -102,7 +106,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 100%;
     padding: 0.5rem;
     color: black;
@@ -174,4 +177,3 @@
     background-color: var(--color);
     ;
 }
-

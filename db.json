@@ -3,121 +3,340 @@
     {
       "id": "1",
       "image": "./Public/Images/Rectangle22.png",
-      "text": "Lorem Ipsum is simply dummy text of the printing",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...",
-      "article": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to makeLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "article2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article3": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-      "time": "May 23, 2023 5:23AM",
+      "text": {
+        "az": "Davamlı Kənd Təsərrüfatı",
+        "en": "Sustainable Agriculture"
+      },
+      "desc": {
+        "az": "Torpağın sağlamlığını, biomüxtəlifliyi və səmərəli su istifadəsini təşviq edən təcrübələrdən istifadə etməklə ətraf mühitə təsiri minimuma endirməyi, təbii ehtiyatları qorumağı və fermerlər üçün həm indi, həm də gələcəkdə gəlirliliyi qorumağı hədəfləyən vahid kənd təsərrüfatı yanaşması.",
+        "en": "A holistic farming approach that aims to minimize environmental impact, conserve natural resources, and maintain profitability for farmers both now and in the future, by employing practices that promote soil health, biodiversity, and efficient water use."
+      },
+      "article": {
+        "az": "Daimi kənd təsərrüfatı, ətraf mühitin ziyan verməyən, işçilərə hörmət edən, heyvanlar üçün human mənbəyi olan və kəndlilərə ədalətli maaşlar təmin edən bir kəndçilik təcrübəsi olaraq fokuslanan bir kənd təsərrüfatı növüdür.",
+        "en": "Sustainable agriculture is a farming practice that focuses on producing food in a way that is not harmful to the environment, respects workers, is humane for animals, and provides fair wages to the farmers."
+      },
+      "article1": {
+        "az": "Bu, gələcək nəsillərin öz ehtiyaclarını qarşılaya biləcəyi bir yolla hal-hazırkı ehtiyacları qarşılamağa çalışır. Bu yanaşma, torpaq səhiyyəsini və bioloji nədivənin qorunması, sintetik gübrə və pestisidin istifadəsini azaltmaq və su və enerji qənaət etmək üçün məişət çevrəsində dövriyyəsini təmin etmək üçün toxum dövriyyəsi, torpaq zənginləşdirmə və təbii xəstəlik nəzarəti kimi texnikaların istifadəsini içərir.",
+        "en": "It aims to meet the needs of the present without compromising the ability of future generations to meet their own needs. This approach involves using techniques such as crop rotation, soil enrichment, and natural pest control to maintain soil health and biodiversity, reduce the use of synthetic fertilizers and pesticides, and conserve water and energy."
+      },
+      "article2": {
+        "az": "Daimi kənd təsərrüfatı məşğulları, məhsuldarlığı və ekosistem resistensiyanı artırmaq üçün ağacları və qitələri kəndçilik peyzajlarına inteqrasiya etməklə əməkdaşlıq etməklə kənd təsərrüfatı, tərəddüdlü təsərrüf edənlərə çox maraqlıdırlar.",
+        "en": "Farmers practicing sustainable agriculture often employ methods like agroforestry, which integrates trees and shrubs into farming landscapes to enhance productivity and ecosystem resilience."
+      },
+      "article3": {
+        "az": "Ekoloji qalıqların təşviqi və kənd təsərrüfünün karbon ayakizinin minimalizasiyası ilə, daimi kənd təsərrüfatı, planetin və yaşayırlarının ümumi sağlamlığına kömək edir.",
+        "en": "By promoting ecological balance and minimizing the carbon footprint of agriculture, sustainable farming contributes to the overall health of the planet and its inhabitants."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar"
     },
+
     {
       "id": "2",
       "image": "./Public/Images/Rectangle23.png",
-      "text": "Lorem Ipsum is simply dummy text of the printing",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...",
-      "article": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to makeLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "article2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article3": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-      "time": "May 23, 2023 5:23AM",
+      "text": {
+        "az": "Üzvi əkinçilik",
+        "en": "Organic Farming"
+      },
+      "desc": {
+        "az": "Dayanıqlılığa, torpaq sağlamlığına və biomüxtəlifliyin qorunmasına diqqət yetirməklə, sintetik kimyəvi maddələr əvəzinə təbii gübrələrin və bioloji zərərvericilərə qarşı mübarizə üsullarının istifadəsini vurğulayan kənd təsərrüfatı istehsalı üsulu.",
+        "en": "A method of agricultural production that emphasizes the use of natural fertilizers and biological pest control methods instead of synthetic chemicals, with a focus on sustainability, soil health, and biodiversity conservation."
+      },
+      "article": {
+        "az": "Orqanik kəndçilik, təbii daxili mənbələrin və bioloji proseslərin istifadəsini vurğulayan bir kəndçilik baxımından bütün münasibətdir.",
+        "en": "Organic farming is a holistic approach to agriculture that emphasizes the use of natural inputs and biological processes."
+      },
+      "article1": {
+        "az": "Bu, sintetik gübrələr, pestisidlər və genetik olaraq dəyişdirilmiş organizmların istifadəsindən yayınır. Əvəzində, orqanik kəndçilər toxum dövriyyəsi, kompostlaşdırma və bioloji xəstəlik nəzarəti ilə torpaq məhrəyini qorumaq və zararlıları idarə etmək üçün güvənirlər.",
+        "en": "It avoids the use of synthetic fertilizers, pesticides, and genetically modified organisms. Instead, organic farmers rely on crop rotation, composting, and biological pest control to maintain soil fertility and manage pests."
+      },
+      "article2": {
+        "az": "Orqanik kəndçilik həmçinin bioloji çeşidliliyi, sağlam ekosistemləri və çevrəmizdə faydalı olan ətraf mühitlərinə xidmət edən davamlı praktikaların təşviki edir.",
+        "en": "Organic farming also promotes biodiversity, healthy ecosystems, and sustainable practices that benefit the environment and human health."
+      },
+      "article3": {
+        "az": "Müştərilər çox zaman orqanik məhsulları müşahidə olunan sağlamlıq faydaları və ətraf mühitlərinin davamlılığı üçün seçirlər.",
+        "en": "Consumers often choose organic products for their perceived health benefits and environmental sustainability."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar"
     },
+
     {
       "id": "3",
       "image": "./Public/Images/Rectangle25.png",
-      "text": "Lorem Ipsum is simply dummy text of the printing",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...",
-      "article": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to makeLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "article2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article3": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-      "time": "May 23, 2023 5:23AM",
+      "text": {
+        "az": "Şumlanmış sahə",
+        "en": "Ploughed field"
+      },
+      "desc": {
+        "az": "Torpağın sağlamlığını yaxşılaşdırmaq və zərərvericiləri və xəstəlikləri azaltmaq üçün ardıcıl mövsümlər ərzində eyni ərazidə müxtəlif bitkilərin əkilməsi təcrübəsi.",
+        "en": "A practice where different crops are planted in the same area over sequential seasons to improve soil health and reduce pests and diseases."
+      },
+      "article": {
+        "az": "Məhsul dövriyyəsi, müxtəlif məhsulların ardıcıllıq fasillərdə eyni əraziyə ekilməsi olan bir kənd təsərrüfatı təcrübəsidir. Bu texnika, fərqli besin ehtiyaclarına malik məhsulların dəyişdirilməsi ilə torpaq səhiyyəsini və məhrəməti yaxşılaşdırmağa kömək edir.",
+        "en": "Crop rotation is a farming practice where different crops are grown in the same area in sequential seasons. This technique helps improve soil health and fertility by alternating crops with different nutrient needs."
+      },
+      "article1": {
+        "az": "Bu, eyni məhsul illərlə ərzində eyni əraziyə ekiləndə qurdların və xəstəliklərin nəzarət altına alınmasına kömək edir.",
+        "en": "It also helps control pests and diseases that can build up when the same crop is grown in the same location year after year."
+      },
+      "article2": {
+        "az": "Əlavə olaraq, məhsul dövriyyəsi məhsul verimliliyini və keyfiyyətini yaxşılaşdırıb, sintetik gübrə və pestisidlərin ehtiyacını azaldaraq, davamlı kənd təsərrüfatı praktikalarını təşviq edə bilər.",
+        "en": "Additionally, crop rotation can improve crop yield and quality, reduce the need for synthetic fertilizers and pesticides, and promote sustainable agriculture practices."
+      },
+      "article3": {
+        "az": "Kəndçilər çox zaman məhsul dövriyyəsini, qapaq məhsullar və azaltdılmış beləkəmə kimi digər praktikalarla birləşdirilmiş cəmiyyətləşdirilmiş məhsul idarəetmə yanaşmasının bir hissəsi kimi istifadə edirlər.",
+        "en": "Farmers often use crop rotation as part of an integrated approach to crop management, along with other practices like cover cropping and reduced tillage."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1"
     },
+
     {
       "id": "4",
       "image": "./Public/Images/Rectangle27.png",
-      "text": "Lorem Ipsum is simply dummy text of the printing",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...",
-      "article": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to makeLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "article2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article3": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-      "time": "May 23, 2023 5:23AM",
+      "text": {
+        "az": "Dəqiq Kənd Təsərrüfatı",
+        "en": "Precision Agriculture"
+      },
+      "desc": {
+        "az": "Bitki sağlamlığı və məhsuldarlığının sahə səviyyəsində idarə edilməsini optimallaşdırmaq üçün GPS, sensorlar və məlumatların təhlili kimi texnologiyalardan istifadə.",
+        "en": "Using technology like GPS, sensors, and data analysis to optimize field-level management of crop health and yield."
+      },
+      "article": {
+        "az": "Ətraf mühitə təsirini minimuma endirərkən məhsul hasilatını və mənfəətini optimallaşdırmaq üçün texnologiyadan istifadə edən bir kəndçilik yanaşması olan presizyon kəndçiliyi olaraq da bilinir.",
+        "en": "Precision agriculture, also known as precision farming, is an approach to farming that uses technology to optimize crop yields and profitability while minimizing waste and environmental impact."
+      },
+      "article1": {
+        "az": "Bu, torpaq vəziyyətləri, məhsul sağlamlığı və hava şəraitləri ilə bağlı məlumatları toplamaq və analiz etmək üçün GPS, sensorlar, dronlar və digər müasir texnologiyalardan istifadəni əhatə edir.",
+        "en": "It involves the use of GPS, sensors, drones, and other advanced technology to collect and analyze data about soil conditions, crop health, and weather patterns."
+      },
+      "article2": {
+        "az": "Bu məlumatlar, əkin, irigasiya, gübrələmə və zararlı nəzarəti haqqında məlumatlı qərarlar vermək üçün istifadə olunur, bu da kəndçilərə yalnız ehtiyac olduğu zaman və yerlərdə məhsulları tətbiq etməyə imkan verir.",
+        "en": "This information is used to make informed decisions about planting, irrigation, fertilization, and pest control, allowing farmers to apply inputs only where and when they are needed."
+      },
+      "article3": {
+        "az": "Presizyon kəndçiliyi, su, gübrə və pestisidlərin istifadəsini minimuma endirərək kəndlilərin effektivliyini artırmaq, xərcləri azaltmaq və ətraf mühitlərin davamlılığını yaxşılaşdırmaq üçün kömək edə bilər.",
+        "en": "Precision agriculture can help farmers increase efficiency, reduce costs, and improve environmental sustainability by minimizing the use of water, fertilizers, and pesticides."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1"
     },
+
     {
       "id": "5",
       "image": "./Public/Images/Rectangle30.png",
-      "text": "Lorem Ipsum is simply dummy text of the printing",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...",
-      "article": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to makeLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "article2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article3": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-      "time": "May 23, 2023 5:23AM",
+      "text": {
+        "az": "Heyvandarlığın idarə edilməsi",
+        "en": "Livestock Management"
+      },
+      "desc": {
+        "az": "Qida, lif və ya digər məhsullar üçün heyvanların yetişdirilməsinin diqqətlə planlaşdırılması və nəzarəti, onların rifahını və məhsuldarlığını təmin etmək.",
+        "en": "The careful planning and oversight of raising animals for food, fiber, or other products, ensuring their welfare and productivity."
+      },
+      "article": {
+        "az": "Ət, lif və ya digər məhsullar üçün yetişdirilən heyvanların baxımı, yetişdirilməsi və nəzarəti ilə əlaqəlidir.",
+        "en": "Livestock management involves the care, breeding, and oversight of animals raised for food, fiber, or other products."
+      },
+      "article1": {
+        "az": "Bu, heyvanların rifahını və verimliliyini təmin etmək üçün yemləmə, qorxana, sağlamlıq nəzarəti və yetişmə kimi müxtəlif praktikaları əhatə edir. Effektiv sığınma idarəetməsi həmçinin qrazing torpaqlarını və digər resursları idarə etməyi daxil edir, bu da davamlı təsərrüfata təmin edir.",
+        "en": "It encompasses various practices such as feeding, housing, health care, and breeding to ensure the welfare and productivity of the animals. Effective livestock management also involves managing grazing land and other resources to ensure sustainable practices."
+      },
+      "article2": {
+        "az": "Heyvan idarəçiləri effektivliyi və heyvan rifahını yaxşılaşdırmaq üçün adi biliklər və müasir texnologiyaların qarışımından istifadə edirlər.",
+        "en": "Livestock managers often use a combination of traditional knowledge and modern technology to improve efficiency and animal welfare."
+      },
+      "article3": {
+        "az": "Düzgün heyvan idarəetməsi sağlam və verimli sürüyü qorumaq üçün əsasən mühimdir, həmçinin ətraf mühitin təsirini minimuma endirir.",
+        "en": "Proper livestock management is essential for maintaining healthy and productive herds while also minimizing environmental impact."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1"
     },
+
     {
       "id": "6",
       "image": "./Public/Images/Rectangle31.png",
-      "text": "Lorem Ipsum is simply dummy text of the printing",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...",
-      "article": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to makeLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "article2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article3": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-      "time": "May 23, 2023 5:23AM",
+      "text": {
+        "az": "Aqromeşəçilik",
+        "en": "Agroforestry"
+      },
+      "desc": {
+        "az": "Məhsuldarlığı, biomüxtəlifliyi və ekosistemin dayanıqlığını artırmaq üçün ağac və kolların əkinçilik landşaftlarına inteqrasiyası.",
+        "en": "Integrating trees and shrubs into farming landscapes to enhance productivity, biodiversity, and ecosystem resilience."
+      },
+      "article": {
+        "az": "Agroforestriya, ağacları və qitələri toxuma və məhsul cəlb edən praktikalar, məsələn, toxum və məhsulçuluq kimi, kənd təsərrüfatına inteqrasiya edən torpaq idarəetmə sistemi.",
+        "en": "Agroforestry is a land management system that integrates trees and shrubs into agricultural practices, such as crop and livestock farming."
+      },
+      "article1": {
+        "az": "Bu, kəndçilik və dənizçiliyin məqsədli birləşməsi, torpaq səhiyyəsinin yaxşılaşdırılması, bioloji nədivələrin artırılması və ekosistem resistensiyanın artırılması daxil olmaqla bir çox faydalara malikdir.",
+        "en": "This intentional combination of agriculture and forestry has numerous benefits, including improved soil health, increased biodiversity, and enhanced ecosystem resilience."
+      },
+      "article2": {
+        "az": "Agroforestriya praktikaları atmosferdən karbon dioksidinin özünə götürülməsi ilə iqlim dəyişikliyini hafiflətməyə kömək edə bilər. Əlavə olaraq, agroforestriya kənd tərəfindən tikilmiş məhsulların, meyvələrin, fındıqların və digər ağac məhsullarının satışı ilə kəndlilərə əlavə gəlir mənbəyi təmin edə bilər.",
+        "en": "Agroforestry practices can help mitigate climate change by sequestering carbon dioxide from the atmosphere. Additionally, agroforestry can provide farmers with additional sources of income through the sale of timber, fruits, nuts, and other tree products."
+      },
+      "article3": {
+        "az": "Ümumiyyətlə, agroforestriya, kənd təsərrüfatını dəstəkləyən kəndciliyin idarə olunmasını təmin edərək, ətraf mühafizəni təşviq edən bir torpaq istifadəsi yanaşmasıdır.",
+        "en": "Overall, agroforestry is a sustainable approach to land use that promotes environmental conservation while supporting agricultural production and rural livelihoods."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1"
     },
+
     {
       "id": "7",
       "image": "./Public/Images/Rectangle36.png",
-      "text": "Lorem Ipsum is simply dummy text of the printing",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...",
-      "article": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to makeLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "article2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article3": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-      "time": "May 23, 2023 5:23AM",
+      "text": {
+        "az": "İnteqrasiya edilmiş Zərərverici İdarəetmə (IPM)",
+        "en": "Integrated Pest Management (IPM)"
+      },
+      "desc": {
+        "az": "İqtisadi, sağlamlıq və ekoloji riskləri minimuma endirəcək şəkildə bioloji, mədəni, fiziki və kimyəvi vasitələri birləşdirərək zərərvericilərin idarə olunmasına davamlı yanaşma.",
+        "en": "A sustainable approach to managing pests by combining biological, cultural, physical, and chemical tools in a way that minimizes economic, health, and environmental risks."
+      },
+      "article": {
+        "az": "Inteqrasiya Olunmuş Zararlı Nəzarəti (IPM), zararlıları idarə etmək üçün bioloji, mədəni, fiziki və kimyəvi alətləri ətraf mühit, iqtisadi və sağlamlıq risklərini minimuma endirən bir şəkildə birləşdirən davamlı bir yanaşmadır.",
+        "en": "Integrated Pest Management (IPM) is a sustainable approach to managing pests that combines biological, cultural, physical, and chemical tools in a way that minimizes economic, health, and environmental risks."
+      },
+      "article1": {
+        "az": "IPM, məhsulların dövriyyəsi, habitat manipulyasiyası və zararlı populyasiyaları idarə etmək üçün təbii düşmənlərin istifadəsi kimi metodların birləşdirilməsi ilə zararlı problemlərin qarşısını almağa fokuslanır.",
+        "en": "IPM focuses on preventing pest problems by using a combination of techniques such as crop rotation, habitat manipulation, and the use of natural predators to control pest populations."
+      },
+      "article2": {
+        "az": "Kimyəvi pestisidlər tələb edildikdə, IPM çevrə dostu variantların istifadəsini və kimyəvi maddələrin məqsədli tətbiqini vurğulayaraq qeyri-məqsədli orqanizmlər üzərində təsirini minimuma endirməyə çalışır.",
+        "en": "When pesticides are necessary, IPM emphasizes the use of environmentally friendly options and the judicious application of chemicals to minimize impact on non-target organisms."
+      },
+      "article3": {
+        "az": "Kimyəvi pestisidlərə olan ehtiyatlılığı azaldaraq və zararlı nəzarəti üçün bütün bir yanaşmaya dəstək verərək, IPM ətraf mühiti, insan sağlamlığını və kənd təsərrüfatını qoruyur.",
+        "en": "By reducing reliance on chemical pesticides and promoting a holistic approach to pest management, IPM helps protect the environment, human health, and agricultural productivity."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1"
     },
+
     {
       "id": "8",
       "image": "./Public/Images/Rectangle38.png",
-      "text": "Lorem Ipsum is simply dummy text of the printing",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...",
-      "article": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to makeLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "article2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article3": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-      "time": "May 23, 2023 5:23AM",
+      "text": {
+        "az": "Örtüyü kəsmə",
+        "en": "Cover Cropping"
+      },
+      "desc": {
+        "az": "Mövsümlərarası fasilələrdə torpağı örtmək və qorumaq üçün xüsusi bitkilərin əkilməsi torpağın strukturunu və məhsuldarlığını yaxşılaşdırır.",
+        "en": "Planting specific crops to cover and protect the soil during off-seasons, improves soil structure and fertility."
+      },
+      "article": {
+        "az": "Örtük ekim, xüsusi bitkilərin qazan bitkiləri arasında və ya sezonların dışında torpağı örtmək və qorumaq üçün dikildiyi bir praktikadır.",
+        "en": "Cover cropping is a practice where specific crops are planted to cover and protect the soil during off-seasons or between cash crops."
+      },
+      "article1": {
+        "az": "Bu örtük məhsullar torpaq səhiyyəsini yaxşılaşdırmaq üçün torpaq sürüşməsini azaldaraq, orqanik maddəni artıraraq və yabancı otları dəzələyərək kömək edə bilərlər.",
+        "en": "These cover crops can help improve soil health by reducing erosion, increasing organic matter, and suppressing weeds."
+      },
+      "article2": {
+        "az": "Onlar həmçinin azot və digər maddələri fiksə edərək torpaq məhrəmətini artıra bilərlər, bu da sintetik gübrələrə ehtiyacı azalda bilər. Əlavə olaraq, örtük bitkilər su infiltirasiyasını və saxlanılmasını yaxşılaşdıra, su səngisinin azalmasına və faydalı bəstəkarlar üçün yaşayış məhəlli təmin etməyə kömək edə bilər.",
+        "en": "They also enhance soil fertility by fixing nitrogen and other nutrients, which can reduce the need for synthetic fertilizers. Additionally, cover crops can improve water infiltration and retention, reduce runoff, and provide habitat for beneficial insects."
+      },
+      "article3": {
+        "az": "Ümumiyyətlə, örtük ekim torpaq keyfiyyətini yaxşılaşdıra, giriş xərclərini azaltaraq və məhsul hasilatını artıraraq davamlı kəndçilik praktikasıdır.",
+        "en": "Overall, cover cropping is a sustainable farming practice that can improve soil quality, reduce input costs, and increase crop yields."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1"
     },
+
     {
       "id": "9",
       "image": "./Public/Images/Rectangle39.png",
-      "text": "Lorem Ipsum is simply dummy text of the printing",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...",
-      "article": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to makeLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "article2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article3": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-      "time": "May 23, 2023 5:23AM",
+      "text": {
+        "az": "Hidroponika",
+        "en": "Hydroponics"
+      },
+      "desc": {
+        "az": "Məhsulu maksimum dərəcədə artırmaq və resursları qorumaq üçün torpaqsız, çox vaxt nəzarət edilən mühitlərdə qida ilə zəngin su məhlulunda bitki yetişdirmək.",
+        "en": "Growing plants in a nutrient-rich water solution without soil, often in controlled environments, to maximize yield and conserve resources."
+      },
+      "article": {
+        "az": "Hidroponika bitkilərin torpaqsız, zəngin maddəli su həlləri istifadə edərək yetişdirilməsi üsuluudur.",
+        "en": "Hydroponics is a method of growing plants without soil, using nutrient-rich water solutions instead."
+      },
+      "article1": {
+        "az": "Bu texnika bitki mühitinə, o cümlədən maddələr, pH səviyyələri və su məkanları kimi, dəqiqlik kontrol verməyə imkan verir. Hidroponika sistemləri kiçik ölçülü ev bağlarından böyük sənaye əməliyyatlarına qədər müxtəlif mühitlərdə istifadə oluna bilər.",
+        "en": "This technique allows for precise control over the plant's environment, including nutrients, pH levels, and water availability. Hydroponic systems can be used in a variety of settings, from small-scale home gardens to large commercial operations."
+      },
+      "article2": {
+        "az": "Torpağa ehtiyacın aradan qaldırılması ilə, hidroponika su ehtiyatını qoruya, torpaqda nəhəng xəstəlik riskini azaldaraq və məhsul hasilatını artıraraq su ehtiyatını qoruya bilər. Əlavə olaraq, hidroponika sistemləri, əsasən şəhər mühitləri və qurudən bölgələr kimi, əsasən gələcəkdə kəndlilik üçün uyğun olmayan ərazilərdə istifadə oluna bilər.",
+        "en": "By eliminating the need for soil, hydroponics can conserve water, reduce the risk of soil-borne diseases, and increase crop yields. Additionally, hydroponic systems can be used in areas where traditional agriculture is not feasible, such as urban environments or arid regions."
+      },
+      "article3": {
+        "az": "Ümumiyyətlə, hidroponika gelenəkəl torpaq əsaslı kəndlilikə nisbətən bir çox üstünlükləri olan davamlı bir kəndlilik metodudur.",
+        "en": "Overall, hydroponics is a sustainable farming method that offers several advantages over traditional soil-based agriculture."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1"
     },
+
     {
       "id": "10",
       "image": "./Public/Images/Rectangle37.png",
-      "text": "Lorem Ipsum is simply dummy text of the printing",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...",
-      "article": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to makeLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "article2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
-      "article3": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-      "time": "May 23, 2023 5:23AM",
+      "text": {
+        "az": "Təsərrüfatdan masaya",
+        "en": "Farm-to-Table"
+      },
+      "desc": {
+        "az": "Yerli olaraq yetişdirilən və istehsal olunan ərzaqların istehlakını təşviq edən, yerli fermerlərə dəstək verən və qida nəqliyyatının ətraf mühitə təsirini azaldan hərəkat.",
+        "en": "A movement promoting the consumption of locally grown, and produced food, supporting local farmers and reducing the environmental impact of food transport."
+      },
+      "article": {
+        "az": "Çiftlikdən masaya, kəndlilər və istehlakçılar arasındakı doğrudan əlaqəni vurğulayan bir qida istehsalı və istehlakı hərəkəti hesab olunur.",
+        "en": "Farm-to-table is a food production and consumption movement that emphasizes the direct relationship between farmers and consumers."
+      },
+      "article1": {
+        "az": "Bu, qidanın mənbəyini yerli olaraq, çox zaman kiçik miqyaslı istehsalçılardan almağı və qidanın çiftlikdən masaya qədər gələn məsafəni azaltmağı təşviq edir.",
+        "en": "It promotes the idea of sourcing food locally, often from small-scale producers, and minimizing the distance food travels from farm to table."
+      },
+      "article2": {
+        "az": "Bu hərəkət, təxminən daha sağlam, dadlı və ən çox mühitə uyğun olduğuna inanılan təzə, mövsümlik və yerli yetişdirilmiş və ya hazırlanmış qidanı üstünlük verir. Yerli kəndliləri və istehsalçıları dəstəkləyərək, çiftlikdən masaya praktikaları həm də yerli iqtisadiyyatları və cəmiyyətləri gücləndirməyə kömək edir.",
+        "en": "This movement prioritizes fresh, seasonal, and locally grown or produced food, which is believed to be healthier, tastier, and more environmentally friendly. By supporting local farmers and producers, farm-to-table practices also help strengthen local economies and communities."
+      },
+      "article3": {
+        "az": "Ümumiyyətlə, çiftlikdən masaya, şəffaflığı, davamlılığı və insanların yedikləri qida arasındakı əlaqəni qiymətləndirən qidalara baxışın bütöv yanaşmasıdır.",
+        "en": "Overall, farm-to-table is a holistic approach to food that values transparency, sustainability, and the connection between people and the food they eat."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1"
     }
   ],
