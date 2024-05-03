@@ -21,7 +21,7 @@ function HomeHeader() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
-    const intervalTime = images[currentImageIndex].type === 'video' ? 51000 : 6000;
+    const intervalTime = images[currentImageIndex].type === 'video' ? 46000 : 6000;
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, intervalTime);
