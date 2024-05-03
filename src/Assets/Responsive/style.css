@@ -99,9 +99,18 @@
         width: 10rem !important;
     }
 
-    .Background {
-        padding: 1.5rem;
-    }
+    
+  .HomeText {
+    margin-left: 1.5rem;
+  }
+
+  .HomeCount {
+    margin-right: 1.5rem;
+  }
+
+  .HomeSectionCounts {
+    font-size: 2rem;
+  }
 
     .HomeCount {
         color: white;

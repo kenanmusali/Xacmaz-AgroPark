@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    padding: 3rem;
 }
 
 .Background {
@@ -56,3 +55,11 @@
     color: white;
     cursor: pointer;
 }
+
+  .HomeText {
+    margin-left: 3rem;
+  }
+
+  .HomeCount {
+    margin-right: 3rem;
+  }
