@@ -1,5 +1,4 @@
 import React from 'react';
-
 import CareerHeader from '../Header/Career';
 import CareerCategory from './Category';
 

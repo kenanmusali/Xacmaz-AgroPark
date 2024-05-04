@@ -33,7 +33,6 @@
       },
       "klas": "divNewsbar"
     },
-
     {
       "id": "2",
       "image": "./Public/Images/Rectangle23.png",
@@ -67,7 +66,6 @@
       },
       "klas": "divNewsbar"
     },
-
     {
       "id": "3",
       "image": "./Public/Images/Rectangle25.png",
@@ -101,7 +99,6 @@
       },
       "klas": "divNewsbar1"
     },
-
     {
       "id": "4",
       "image": "./Public/Images/Rectangle27.png",
@@ -135,7 +132,6 @@
       },
       "klas": "divNewsbar1"
     },
-
     {
       "id": "5",
       "image": "./Public/Images/Rectangle30.png",
@@ -169,7 +165,6 @@
       },
       "klas": "divNewsbar1"
     },
-
     {
       "id": "6",
       "image": "./Public/Images/Rectangle31.png",
@@ -203,7 +198,6 @@
       },
       "klas": "divNewsbar1"
     },
-
     {
       "id": "7",
       "image": "./Public/Images/Rectangle36.png",
@@ -237,7 +231,6 @@
       },
       "klas": "divNewsbar1"
     },
-
     {
       "id": "8",
       "image": "./Public/Images/Rectangle38.png",
@@ -271,7 +264,6 @@
       },
       "klas": "divNewsbar1"
     },
-
     {
       "id": "9",
       "image": "./Public/Images/Rectangle39.png",
@@ -305,7 +297,6 @@
       },
       "klas": "divNewsbar1"
     },
-
     {
       "id": "10",
       "image": "./Public/Images/Rectangle37.png",
@@ -401,234 +392,618 @@
   "Careers": [
     {
       "id": "1",
-      "title": "Lorem Ipsum is simply text",
-      "price": "Razılaşma əsasında",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
-      "time": "May 23, 2023",
+      "title": {
+        "az": "Ferma İşçisi",
+        "en": "Farm Worker"
+      },
+      "price": {
+        "az": "550 - 600₼",
+        "en": "550 - 600₼"
+      },
+      "text": {
+        "az": "Ferma işçisi olaraq çalışmaq üçün namizədlər axtarırıq.",
+        "en": "We are looking for candidates to work as a farm worker."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1",
       "article1": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title1": {
+          "az": "İş təklif edir",
+          "en": "What jobs offer"
+        },
+        "text": {
+          "az": "Ferma işçisi olaraq, siz bitkilərin ekilməsi və hasad olunması, heyvanların qulluq və təmizlənməsi ilə məşğul olacaqsınız.",
+          "en": "As a farm worker, you will be involved in planting and harvesting crops, caring for and cleaning animals."
+        }
       },
       "article2": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title1": {
+          "az": "Sizin məsuliyyətiniz nədir",
+          "en": "What is your responsibility"
+        },
+        "text1": {
+          "az": "Sizin məsuliyyətiniz bitkilərin ekilməsi və hasad olunmasıdır.",
+          "en": "Your responsibility is planting and harvesting crops."
+        },
+        "text2": {
+          "az": "Heyvanların qulluq və təmizlənməsi ilə məşğul olacaqsınız.",
+          "en": "You will be involved in caring for and cleaning animals."
+        },
+        "text3": {
+          "az": "Sizin məsuliyyətiniz həmçinin ferma avadanlıqlarının qulluq və təmiri daxildir.",
+          "en": "Your responsibility also includes maintenance and repair of farm equipment."
+        },
+        "text4": {
+          "az": "Sizin məsuliyyətiniz həmçinin ferma ərazisinin təmizliyi və təhlükəsizliyi daxildir.",
+          "en": "Your responsibility also includes cleanliness and safety of the farm premises."
+        }
       },
       "article3": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title1": {
+          "az": "Tələblər",
+          "en": "Requirements"
+        },
+        "text1": {
+          "az": "Namizədlərdən ferma işləri təcrübəsi tələb olunur.",
+          "en": "Candidates are required to have farm work experience."
+        },
+        "text2": {
+          "az": "Namizədlərdən fiziki cəhətdən güclü olmaları və ağır işlər görmək bacarığı tələb olunur.",
+          "en": "Candidates are required to be physically strong and capable of doing heavy work."
+        },
+        "text3": {
+          "az": "Namizədlərdən heyvanlarla işləmək bacarığı və onlara qayğı göstərmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with animals and care for them."
+        },
+        "text4": {
+          "az": "Namizədlərdən ferma avadanlıqları ilə işləmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with farm equipment."
+        }
       }
     },
     {
       "id": "2",
-      "title": "Lorem Ipsum is simply text",
-      "price": "Razılaşma əsasında",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
-      "time": "May 23, 2023",
+      "title": {
+        "az": "Agrokimya Mütəxəssisi",
+        "en": "Agrochemical Specialist"
+      },
+      "price": {
+        "az": "Razılaşma yolu ilə",
+        "en": "By agreement"
+      },
+      "text": {
+        "az": "Agrokimya mütəxəssisi olaraq çalışmaq üçün namizədlər axtarırıq.",
+        "en": "We are looking for candidates to work as an agrochemical specialist."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1",
       "article1": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title1": {
+          "az": "İş təklif edir",
+          "en": "What jobs offer"
+        },
+        "text": {
+          "az": "Agrokimya mütəxəssisi olaraq, siz bitkilərin kimyəvi təhlilini aparacaq, bitki və torpaq sağlamlığını yoxlayacaq və bitki dərmanları və gübrələr tətbiq edəcəksiniz.",
+          "en": "As an agrochemical specialist, you will conduct chemical analysis of plants, check plant and soil health, and apply plant medicines and fertilizers."
+        }
       },
       "article2": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Sizin məsuliyyətiniz nədir",
+          "en": "What is your responsibility"
+        },
+        "text1": {
+          "az": "Sizin məsuliyyətiniz bitkilərin kimyəvi təhlilini aparılmasıdır.",
+          "en": "Your responsibility is conducting chemical analysis of plants."
+        },
+        "text2": {
+          "az": "Sizin məsuliyyətiniz həmçinin bitki və torpaq sağlamlığını yoxlamaqdır.",
+          "en": "Your responsibility also includes checking plant and soil health."
+        },
+        "text3": {
+          "az": "Sizin məsuliyyətiniz həmçinin bitki dərmanları və gübrələr tətbiq etməkdir.",
+          "en": "Your responsibility also includes applying plant medicines and fertilizers."
+        },
+        "text4": {
+          "az": "Sizin məsuliyyətiniz həmçinin ferma ərazisinin təmizliyi və təhlükəsizliyi daxildir.",
+          "en": "Your responsibility also includes cleanliness and safety of the farm premises."
+        }
       },
       "article3": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Tələblər",
+          "en": "Requirements"
+        },
+        "text1": {
+          "az": "Namizədlərdən agrokimya sahəsində təhsil və təcrübə tələb olunur.",
+          "en": "Candidates are required to have education and experience in the field of agrochemistry."
+        },
+        "text2": {
+          "az": "Namizədlərdən bitkilər və torpaq haqqında geniş biliklərə malik olmaları tələb olunur.",
+          "en": "Candidates are required to have extensive knowledge about plants and soil."
+        },
+        "text3": {
+          "az": "Namizədlərdən bitki dərmanları və gübrələr ilə işləmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with plant medicines and fertilizers."
+        },
+        "text4": {
+          "az": "Namizədlərdən laboratoriya avadanlıqları ilə işləmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with laboratory equipment."
+        }
       }
     },
     {
       "id": "3",
-      "title": "Lorem Ipsum is simply text",
-      "price": "₼1000-1200",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
-      "time": "May 23, 2023",
+      "title": {
+        "az": "Ferma Meneceri",
+        "en": "Farm Manager"
+      },
+      "price": {
+        "az": "750 - 800₼",
+        "en": "750 - 800₼"
+      },
+      "text": {
+        "az": "Ferma meneceri olaraq çalışmaq üçün namizədlər axtarırıq.",
+        "en": "We are looking for candidates to work as a farm manager."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1",
       "article1": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title1": {
+          "az": "İş təklif edir",
+          "en": "What jobs offer"
+        },
+        "text": {
+          "az": "Ferma meneceri olaraq, siz ferma işlərinin idarə edilməsi, işçilərin idarə edilməsi və ferma maliyyəsinin idarə edilməsi ilə məşğul olacaqsınız.",
+          "en": "As a farm manager, you will be involved in managing farm operations, managing workers, and managing farm finances."
+        }
       },
       "article2": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Sizin məsuliyyətiniz nədir",
+          "en": "What is your responsibility"
+        },
+        "text1": {
+          "az": "Sizin məsuliyyətiniz ferma işlərinin idarə edilməsidir.",
+          "en": "Your responsibility is managing farm operations."
+        },
+        "text2": {
+          "az": "Sizin məsuliyyətiniz həmçinin işçilərin idarə edilməsidir.",
+          "en": "Your responsibility also includes managing workers."
+        },
+        "text3": {
+          "az": "Sizin məsuliyyətiniz həmçinin ferma maliyyəsinin idarə edilməsidir.",
+          "en": "Your responsibility also includes managing farm finances."
+        },
+        "text4": {
+          "az": "Sizin məsuliyyətiniz həmçinin ferma ərazisinin təmizliyi və təhlükəsizliyi daxildir.",
+          "en": "Your responsibility also includes cleanliness and safety of the farm premises."
+        }
       },
       "article3": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Tələblər",
+          "en": "Requirements"
+        },
+        "text1": {
+          "az": "Namizədlərdən ferma menecementi sahəsində təhsil və təcrübə tələb olunur.",
+          "en": "Candidates are required to have education and experience in the field of farm management."
+        },
+        "text2": {
+          "az": "Namizədlərdən işçilər və maliyyə ilə işləmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with workers and finances."
+        },
+        "text3": {
+          "az": "Namizədlərdən ferma avadanlıqları ilə işləmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with farm equipment."
+        },
+        "text4": {
+          "az": "Namizədlərdən ferma ərazisinin təmizliyi və təhlükəsizliyi ilə bağlı biliklərə malik olmaları tələb olunur.",
+          "en": "Candidates are required to have knowledge about cleanliness and safety of the farm premises."
+        }
       }
     },
     {
       "id": "4",
-      "title": "Lorem Ipsum is simply text",
-      "price": "Razılaşma əsasında",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
-      "time": "May 23, 2023",
+      "title": {
+        "az": "Agroekonomist",
+        "en": "Agro-economist"
+      },
+      "price": {
+        "az": "Razılaşma yolu ilə",
+        "en": "By agreement"
+      },
+      "text": {
+        "az": "Agroekonomist olaraq çalışmaq üçün namizədlər axtarırıq.",
+        "en": "We are looking for candidates to work as an agro-economist."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1",
       "article1": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title1": {
+          "az": "İş təklif edir",
+          "en": "What jobs offer"
+        },
+        "text": {
+          "az": "Agroekonomist olaraq, siz ferma maliyyəsinin idarə edilməsi, ferma işlərinin iqtisadi effektivliyinin qiymətləndirilməsi və ferma işlərinin iqtisadi planlaşdırılması ilə məşğul olacaqsınız.",
+          "en": "As an agro-economist, you will be involved in managing farm finances, evaluating the economic efficiency of farm operations, and economic planning of farm operations."
+        }
       },
       "article2": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Sizin məsuliyyətiniz nədir",
+          "en": "What is your responsibility"
+        },
+        "text1": {
+          "az": "Sizin məsuliyyətiniz ferma maliyyəsinin idarə edilməsidir.",
+          "en": "Your responsibility is managing farm finances."
+        },
+        "text2": {
+          "az": "Sizin məsuliyyətiniz həmçinin ferma işlərinin iqtisadi effektivliyinin qiymətləndirilməsidir.",
+          "en": "Your responsibility also includes evaluating the economic efficiency of farm operations."
+        },
+        "text3": {
+          "az": "Sizin məsuliyyətiniz həmçinin ferma işlərinin iqtisadi planlaşdırılmasıdır.",
+          "en": "Your responsibility also includes economic planning of farm operations."
+        },
+        "text4": {
+          "az": "Sizin məsuliyyətiniz həmçinin ferma ərazisinin təmizliyi və təhlükəsizliyi daxildir.",
+          "en": "Your responsibility also includes cleanliness and safety of the farm premises."
+        }
       },
       "article3": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Tələblər",
+          "en": "Requirements"
+        },
+        "text1": {
+          "az": "Namizədlərdən agroekonomiya sahəsində təhsil və təcrübə tələb olunur.",
+          "en": "Candidates are required to have education and experience in the field of agro-economy."
+        },
+        "text2": {
+          "az": "Namizədlərdən maliyyə və iqtisadiyyat ilə işləmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with finance and economics."
+        },
+        "text3": {
+          "az": "Namizədlərdən ferma avadanlıqları ilə işləmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with farm equipment."
+        },
+        "text4": {
+          "az": "Namizədlərdən ferma ərazisinin təmizliyi və təhlükəsizliyi ilə bağlı biliklərə malik olmaları tələb olunur.",
+          "en": "Candidates are required to have knowledge about cleanliness and safety of the farm premises."
+        }
       }
     },
     {
       "id": "5",
-      "title": "Lorem Ipsum is simply text",
-      "price": "₼500-600",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
-      "time": "May 23, 2023",
+      "title": {
+        "az": "Zootexnika Mütəxəssisi",
+        "en": "Zootechnician"
+      },
+      "price": {
+        "az": "Razılaşma yolu ilə",
+        "en": "By agreement"
+      },
+      "text": {
+        "az": "Zootexnika mütəxəssisi olaraq çalışmaq üçün namizədlər axtarırıq.",
+        "en": "We are looking for candidates to work as a zootechnician."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1",
       "article1": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title1": {
+          "az": "İş təklif edir",
+          "en": "What jobs offer"
+        },
+        "text": {
+          "az": "Zootexnika mütəxəssisi olaraq, siz heyvanların sağlamlığını yoxlamaq, heyvanların qulluq və təmizlənməsi ilə məşğul olacaqsınız.",
+          "en": "As a zootechnician, you will be involved in checking the health of animals, caring for and cleaning animals."
+        }
       },
       "article2": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Sizin məsuliyyətiniz nədir",
+          "en": "What is your responsibility"
+        },
+        "text1": {
+          "az": "Sizin məsuliyyətiniz heyvanların sağlamlığını yoxlamaqdır.",
+          "en": "Your responsibility is checking the health of animals."
+        },
+        "text2": {
+          "az": "Sizin məsuliyyətiniz həmçinin heyvanların qulluq və təmizlənməsi ilə məşğul olacaqsınız.",
+          "en": "Your responsibility also includes caring for and cleaning animals."
+        },
+        "text3": {
+          "az": "Sizin məsuliyyətiniz həmçinin heyvanların qidalanması və suyun təminatı ilə məşğul olacaqsınız.",
+          "en": "Your responsibility also includes feeding and watering animals."
+        },
+        "text4": {
+          "az": "Sizin məsuliyyətiniz həmçinin heyvanların aşılanması və dərman tətbiq edilməsi daxildir.",
+          "en": "Your responsibility also includes vaccinating and medicating animals."
+        }
       },
       "article3": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Tələblər",
+          "en": "Requirements"
+        },
+        "text1": {
+          "az": "Namizədlərdən zootexnika sahəsində təhsil və təcrübə tələb olunur.",
+          "en": "Candidates are required to have education and experience in the field of zootechnics."
+        },
+        "text2": {
+          "az": "Namizədlərdən heyvanlarla işləmək bacarığı və onlara qayğı göstərmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with animals and care for them."
+        },
+        "text3": {
+          "az": "Namizədlərdən heyvanların aşılanması və dərman tətbiq etmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to vaccinate and medicate animals."
+        },
+        "text4": {
+          "az": "Namizədlərdən heyvanların qidalanması və suyun təminatı ilə bağlı biliklərə malik olmaları tələb olunur.",
+          "en": "Candidates are required to have knowledge about feeding and watering animals."
+        }
       }
     },
     {
       "id": "6",
-      "title": "Lorem Ipsum is simply text",
-      "price": "₼600-750",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
-      "time": "May 23, 2023",
+      "title": {
+        "az": "Bitki Mühəndisi",
+        "en": "Plant Engineer"
+      },
+      "price": {
+        "az": "900 - 1000₼",
+        "en": "900 - 1000₼"
+      },
+      "text": {
+        "az": "Bitki mühəndisi olaraq çalışmaq üçün namizədlər axtarırıq.",
+        "en": "We are looking for candidates to work as a plant engineer."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1",
       "article1": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title1": {
+          "az": "İş təklif edir",
+          "en": "What jobs offer"
+        },
+        "text": {
+          "az": "Bitki mühəndisi olaraq, siz bitkilərin ekilməsi və hasad olunması, bitki dərmanları və gübrələr tətbiq edəcəksiniz.",
+          "en": "As a plant engineer, you will be involved in planting and harvesting crops, applying plant medicines and fertilizers."
+        }
       },
       "article2": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Sizin məsuliyyətiniz nədir",
+          "en": "What is your responsibility"
+        },
+        "text1": {
+          "az": "Sizin məsuliyyətiniz bitkilərin ekilməsi və hasad olunmasıdır.",
+          "en": "Your responsibility is planting and harvesting crops."
+        },
+        "text2": {
+          "az": "Sizin məsuliyyətiniz həmçinin bitki dərmanları və gübrələr tətbiq etməkdir.",
+          "en": "Your responsibility also includes applying plant medicines and fertilizers."
+        },
+        "text3": {
+          "az": "Sizin məsuliyyətiniz həmçinin bitkilərin sağlamlığını yoxlamaqdır.",
+          "en": "Your responsibility also includes checking the health of plants."
+        },
+        "text4": {
+          "az": "Sizin məsuliyyətiniz həmçinin ferma ərazisinin təmizliyi və təhlükəsizliyi daxildir.",
+          "en": "Your responsibility also includes cleanliness and safety of the farm premises."
+        }
       },
       "article3": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Tələblər",
+          "en": "Requirements"
+        },
+        "text1": {
+          "az": "Namizədlərdən bitki mühəndisliyi sahəsində təhsil və təcrübə tələb olunur.",
+          "en": "Candidates are required to have education and experience in the field of plant engineering."
+        },
+        "text2": {
+          "az": "Namizədlərdən bitkilər və torpaq haqqında geniş biliklərə malik olmaları tələb olunur.",
+          "en": "Candidates are required to have extensive knowledge about plants and soil."
+        },
+        "text3": {
+          "az": "Namizədlərdən bitki dərmanları və gübrələr ilə işləmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with plant medicines and fertilizers."
+        },
+        "text4": {
+          "az": "Namizədlərdən ferma avadanlıqları ilə işləmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with farm equipment."
+        }
       }
     },
     {
       "id": "7",
-      "title": "Lorem Ipsum is simply text",
-      "price": "Razılaşma əsasında",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
-      "time": "May 23, 2023",
+      "title": {
+        "az": "Ferma İdarəçisi",
+        "en": "Farm Supervisor"
+      },
+      "price": {
+        "az": "Razılaşma yolu ilə",
+        "en": "By agreement"
+      },
+      "text": {
+        "az": "Ferma idarəçisi olaraq çalışmaq üçün namizədlər axtarırıq.",
+        "en": "We are looking for candidates to work as a farm supervisor."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1",
       "article1": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title1": {
+          "az": "İş təklif edir",
+          "en": "What jobs offer"
+        },
+        "text": {
+          "az": "Ferma idarəçisi olaraq, siz ferma işlərinin idarə edilməsi, işçilərin idarə edilməsi və ferma maliyyəsinin idarə edilməsi ilə məşğul olacaqsınız.",
+          "en": "As a farm supervisor, you will be involved in supervising farm operations, managing workers, and overseeing farm finances."
+        }
       },
       "article2": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Sizin məsuliyyətiniz nədir",
+          "en": "What is your responsibility"
+        },
+        "text1": {
+          "az": "Sizin məsuliyyətiniz ferma işlərinin idarə edilməsidir.",
+          "en": "Your responsibility is supervising farm operations."
+        },
+        "text2": {
+          "az": "Sizin məsuliyyətiniz həmçinin işçilərin idarə edilməsidir.",
+          "en": "Your responsibility also includes managing workers."
+        },
+        "text3": {
+          "az": "Sizin məsuliyyətiniz həmçinin ferma maliyyəsinin idarə edilməsidir.",
+          "en": "Your responsibility also includes overseeing farm finances."
+        },
+        "text4": {
+          "az": "Sizin məsuliyyətiniz həmçinin ferma ərazisinin təmizliyi və təhlükəsizliyi daxildir.",
+          "en": "Your responsibility also includes cleanliness and safety of the farm premises."
+        }
       },
       "article3": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Tələblər",
+          "en": "Requirements"
+        },
+        "text1": {
+          "az": "Namizədlərdən ferma idarəçiliyi sahəsində təhsil və təcrübə tələb olunur.",
+          "en": "Candidates are required to have education and experience in the field of farm supervision."
+        },
+        "text2": {
+          "az": "Namizədlərdən işçilər və maliyyə ilə işləmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with workers and finances."
+        },
+        "text3": {
+          "az": "Namizədlərdən ferma avadanlıqları ilə işləmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with farm equipment."
+        },
+        "text4": {
+          "az": "Namizədlərdən ferma ərazisinin təmizliyi və təhlükəsizliyi ilə bağlı biliklərə malik olmaları tələb olunur.",
+          "en": "Candidates are required to have knowledge about cleanliness and safety of the farm premises."
+        }
       }
     },
     {
       "id": "8",
-      "title": "Lorem Ipsum is simply text",
-      "price": "₼900-1000",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Unknown printer a galley of...",
-      "time": "May 23, 2023",
+      "title": {
+        "az": "Agrolog",
+        "en": "Agronomist"
+      },
+      "price": {
+        "az": "700 - 900₼",
+        "en": "700 - 900₼"
+      },
+      "text": {
+        "az": "Agrolog olaraq çalışmaq üçün namizədlər axtarırıq.",
+        "en": "We are looking for candidates to work as an agronomist."
+      },
+      "time": {
+        "az": "May 23, 2023 5:23AM",
+        "en": "May 23, 2023 5:23AM"
+      },
       "klas": "divNewsbar1",
       "article1": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title1": {
+          "az": "İş təklif edir",
+          "en": "What jobs offer"
+        },
+        "text": {
+          "az": "Agrolog olaraq, siz bitkilərin ekilməsi və hasad olunması, bitki dərmanları və gübrələr tətbiq edəcəksiniz.",
+          "en": "As an agronomist, you will be involved in planting and harvesting crops, applying plant medicines and fertilizers."
+        }
       },
       "article2": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Sizin məsuliyyətiniz nədir",
+          "en": "What is your responsibility"
+        },
+        "text1": {
+          "az": "Sizin məsuliyyətiniz bitkilərin ekilməsi və hasad olunmasıdır.",
+          "en": "Your responsibility is planting and harvesting crops."
+        },
+        "text2": {
+          "az": "Sizin məsuliyyətiniz həmçinin bitki dərmanları və gübrələr tətbiq etməkdir.",
+          "en": "Your responsibility also includes applying plant medicines and fertilizers."
+        },
+        "text3": {
+          "az": "Sizin məsuliyyətiniz həmçinin bitkilərin sağlamlığını yoxlamaqdır.",
+          "en": "Your responsibility also includes checking the health of plants."
+        },
+        "text4": {
+          "az": "Sizin məsuliyyətiniz həmçinin ferma ərazisinin təmizliyi və təhlükəsizliyi daxildir.",
+          "en": "Your responsibility also includes cleanliness and safety of the farm premises."
+        }
       },
       "article3": {
         "id": 1,
-        "title1": "Lorem Ipsum is simply text",
-        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
-        "text4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        "title1": {
+          "az": "Tələblər",
+          "en": "Requirements"
+        },
+        "text1": {
+          "az": "Namizədlərdən agrologiya sahəsində təhsil və təcrübə tələb olunur.",
+          "en": "Candidates are required to have education and experience in the field of agronomy."
+        },
+        "text2": {
+          "az": "Namizədlərdən bitkilər və torpaq haqqında geniş biliklərə malik olmaları tələb olunur.",
+          "en": "Candidates are required to have extensive knowledge about plants and soil."
+        },
+        "text3": {
+          "az": "Namizədlərdən bitki dərmanları və gübrələr ilə işləmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with plant medicines and fertilizers."
+        },
+        "text4": {
+          "az": "Namizədlərdən ferma avadanlıqları ilə işləmək bacarığı tələb olunur.",
+          "en": "Candidates are required to have the ability to work with farm equipment."
+        }
       }
     }
   ],
