@@ -152,3 +152,21 @@
 .dark .scrolled .HamMenuIcon {
 color: var(--color);
 }
+
+.dark .divNewsbar1:hover {
+  background-color: var(--color2);
+  color: white;
+}
+
+.dark .divNewsbar:hover {
+  background-color: var(--color2);
+  color: white;
+}
+
+.dark .divGridSections1:hover {
+  background-color: var(--color2);
+}
+
+.dark .divGridSections:hover {
+  background-color: var(--color2);
+}
