@@ -10,6 +10,8 @@
 .Error404 {
     margin-top: 3rem;
     height: 35vw;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .Notfoundtext {
