@@ -68,7 +68,11 @@
   color: var(--color);
 }
 
-.dark .HomeSectionText2 {
+.dark .HomeSectionText02 {
+  color: var(--color3);
+}
+
+.dark .HomeContactSecText001 {
   color: var(--color12);
 }
 

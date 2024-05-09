@@ -20,26 +20,33 @@ import CareerDetails from './Page/CareerDetails'
 import DarkMode from './Assets/DarkMode'
 import Responsive from './Assets/Responsive'
 
+function Layout({ children }) {
+  return (
+    <>
+      <Navbar />
+      {children}
+      <Footer />
+    </>
+  )
+}
 
 function App() {
   return (
     <div>
       <Loading />
       <LanguageProvider>
-        <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/careers' element={<Careers />} />
-          <Route path='/careers/:id' element={<CareerDetails />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/gallery' element={<Gallery />} />
-          <Route path='/news' element={<News />} />
-          <Route path='/news/:id' element={<NewsDetail />} />
-          <Route path='/products' element={<Products />} />
+          <Route path='/' element={<Layout><Home /></Layout>} />
+          <Route path='/about' element={<Layout><About /></Layout>} />
+          <Route path='/careers' element={<Layout><Careers /></Layout>} />
+          <Route path='/careers/:id' element={<Layout><CareerDetails /></Layout>} />
+          <Route path='/contact' element={<Layout><Contact /></Layout>} />
+          <Route path='/gallery' element={<Layout><Gallery /></Layout>} />
+          <Route path='/news' element={<Layout><News /></Layout>} />
+          <Route path='/news/:id' element={<Layout><NewsDetail /></Layout>} />
+          <Route path='/products' element={<Layout><Products /></Layout>} />
           <Route path='*' element={<NotFound404 />} />
         </Routes>
-        <Footer />
       </LanguageProvider>
       <ShortCut />
       <DarkMode />

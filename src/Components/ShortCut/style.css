@@ -5,9 +5,14 @@
     display: flex;
     justify-content: space-between; 
     align-items: flex-end; 
-    gap: 15px; 
+    gap: 7px; 
     z-index: 5;
 }
+  
+  .divShortCutIcon.smallGap {
+    gap: 15px; 
+  }
+  
 
 .divScollbuttonNavMenuSection1,
 .divScollbuttonNavMenuSection2,

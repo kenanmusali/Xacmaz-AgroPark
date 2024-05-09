@@ -83,7 +83,7 @@ function Form() {
     <div className={`divHomeMenuSectionContact ${backgroundClass}`}>
       <div className="divAboutSectionHomeMenuText">
         <p className='Nunito HomeSectionText1'>{language === 'az' ? 'Nə ettiğimizi bilmək istəyirsiniz?' : 'Want to know what we do?'}</p>
-        <p className='HomeSectionText2 HomeContactSecText'>{language === 'az' ? 'Yeniliklərdən xəbərdar olmaq üçün qeydiyyatdan keçin' : 'Sign up to be informed about innovations'}</p>
+        <p className='HomeSectionText2 HomeContactSecText HomeContactSecText001'>{language === 'az' ? 'Yeniliklərdən xəbərdar olmaq üçün qeydiyyatdan keçin' : 'Sign up to be informed about innovations'}</p>
       </div>
       <div className="divHomeContactSec">
         <div className="inputbar1HomeSec">

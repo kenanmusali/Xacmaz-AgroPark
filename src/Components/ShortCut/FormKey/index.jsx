@@ -4,7 +4,7 @@ import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 
 function Formkey() {
 
-      const [showContactLink, setShowContactLink] = useState(true);
+      const [showLink, setShowLink] = useState(true);
       const location = useLocation();
     
       const scrollToContact = () => {
@@ -19,22 +19,19 @@ function Formkey() {
         const currentPath = location.pathname;
     
         if (
-          currentPath.startsWith("/careers") ||
-          currentPath.startsWith("/gallery") ||
-          currentPath.startsWith("/about") ||
-          currentPath.startsWith("/news") ||
-          currentPath.startsWith("/products")
+          currentPath.startsWith("/contact") ||
+          currentPath === "/"
         ) {
-          setShowContactLink(false);
+          setShowLink(true);
         } else {
-          setShowContactLink(true);
+          setShowLink(false);
         }
       }, [location.pathname]);
     
 
     return (
         <div>
-            {showContactLink && (
+            {showLink && (
               <div className="divScollbuttonNavMenuSection2">
                 <Link onClick={scrollToContact} id="name">
                   <ChatBubbleOutlineIcon />
