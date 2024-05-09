@@ -1,13 +1,15 @@
 .NotfoundPage {
     display: flex;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     align-items: center;
     justify-content: space-around;
+    padding-inline: 3rem;
 }
 
 .Error404 {
     margin-top: 3rem;
+    height: 35vw;
 }
 
 .Notfoundtext {

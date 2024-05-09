@@ -472,6 +472,17 @@
         flex-direction: column;
         gap: 2rem;
     }
+
+    .NotfoundPage {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 2rem;
+    }
+
+    .Error404 {
+        margin-top: 3rem;
+        height: 70vw;
+    }
 }
 
 /* Tablet */
@@ -758,6 +769,17 @@
 
     .divCareerSectionSubmitContainer {
         padding: 3rem 2rem;
+    }
+
+    .NotfoundPage {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 1rem;
+    }
+
+    .Error404 {
+        margin-top: 3rem;
+        height: 30rem;
     }
 }
 
