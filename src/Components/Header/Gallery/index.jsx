@@ -13,7 +13,7 @@ function GalleryHeader() {
     <div>
       <div className="DivMenuSectionHeaderGallery">
         <div className="DivTopNavShort">
-          <Link to='/' className='LinkNav'> {language === 'az' ? 'Ana Səhifə' : 'Home'}</Link>
+          <Link to='/' className='LinkNav'>{language === 'az' ? 'Ana Səhifə' : 'Home'}</Link>
           <KeyboardArrowRightRoundedIcon className='IconRight' />
           <p className='RecentMenu'>{language === 'az' ? 'Qalereya' : 'Gallery'}</p>
         </div>
@@ -22,7 +22,6 @@ function GalleryHeader() {
           <p className="bckText1 Menutexts">{language === 'az' ? 'Müxtəlif Qalereya Seçimlərimizi araşdırın' : 'Explore Our Diverse Gallery Selection'}</p>
         </div>
       </div>
-      {/* You Will start coding here*/}
 
     </div>
   )
