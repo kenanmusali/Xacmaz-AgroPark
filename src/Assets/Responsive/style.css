@@ -483,6 +483,11 @@
         margin-top: 3rem;
         height: 70vw;
     }
+
+    #gallery {
+        padding-inline: 1rem;
+      }
+
 }
 
 /* Tablet */
@@ -781,6 +786,10 @@
         margin-top: 3rem;
         height: 30rem;
     }
+
+    #gallery {
+        padding-inline: 2rem;
+      }
 }
 
 /* Laptop */

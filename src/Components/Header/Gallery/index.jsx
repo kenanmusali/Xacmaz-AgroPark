@@ -1,20 +1,25 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import { LanguageContext } from '../../../Assets/Language';
 import './style.css'
 import { Link } from 'react-router-dom'
 import KeyboardArrowRightRoundedIcon from '@mui/icons-material/KeyboardArrowRightRounded';
 
 function GalleryHeader() {
+
+   // Language
+   const { language } = useContext(LanguageContext);
+
   return (
     <div>
       <div className="DivMenuSectionHeaderGallery">
         <div className="DivTopNavShort">
-          <Link to='/' className='LinkNav'>Ana Səhifə</Link>
+          <Link to='/' className='LinkNav'> {language === 'az' ? 'Ana Səhifə' : 'Home'}</Link>
           <KeyboardArrowRightRoundedIcon className='IconRight' />
-          <p className='RecentMenu'>Qalereya</p>
+          <p className='RecentMenu'>{language === 'az' ? 'Qalereya' : 'Gallery'}</p>
         </div>
         <div className="DivBottomtextShort">
-          <p className="bckText Menutexts">Qalereya</p>
-          <p className="bckText1 Menutexts">Biz aqrobiznes kommunikasiyaları ilə məşğul oluruq</p>
+          <p className="bckText Menutexts">{language === 'az' ? 'Qalereya' : 'Gallery'}</p>
+          <p className="bckText1 Menutexts">{language === 'az' ? 'Müxtəlif Qalereya Seçimlərimizi araşdırın' : 'Explore Our Diverse Gallery Selection'}</p>
         </div>
       </div>
       {/* You Will start coding here*/}
