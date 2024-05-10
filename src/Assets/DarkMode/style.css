@@ -170,3 +170,20 @@ color: var(--color);
 .dark .divGridSections:hover {
   background-color: var(--color2);
 }
+
+.dark .about-header {
+  background-color: var(--color9);
+  box-shadow: none;
+}
+
+.dark #gallery #photo .gallery-img {
+  background-color: var(--color9);
+}
+
+.dark .gallery-img-1{
+  background-color: var(--color9);
+}
+
+.dark #gallery #video .gallery-video{
+  background-color: var(--color9);
+}
