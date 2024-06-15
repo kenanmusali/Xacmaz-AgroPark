@@ -1,0 +1,17 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 90px 0px ;
+}
+
+#about p {
+  width: 80%;
+  margin: auto;
+  font-weight: 500;
+  max-width: 956px;
+  margin-bottom: 25px;
+}

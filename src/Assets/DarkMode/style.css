@@ -187,3 +187,11 @@ color: var(--color);
 .dark #gallery #video .gallery-video{
   background-color: var(--color9);
 }
+
+.dark #about p{
+  color: var(--color8);
+}
+
+.dark #partner .title {
+  color: var(--color8);
+}

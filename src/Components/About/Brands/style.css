@@ -1,0 +1,30 @@
+#partner {
+    padding: 100px 0px;
+  }
+  #partner .title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2rem;
+  }
+  #partner .partner-img {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 750px;
+    margin: auto;
+    width: 100%;
+    justify-content: space-around;
+  }
+  #partner img {
+    filter: grayscale(1);
+    transition: all 0.4s linear;
+    cursor: pointer;
+    max-width: 110px;
+    width: 100%;
+    margin-bottom: 30px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin: 10px;
+  }
+  #partner img:hover {
+    filter: grayscale(0);
+  }
