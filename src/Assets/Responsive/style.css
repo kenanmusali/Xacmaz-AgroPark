@@ -136,9 +136,7 @@
         padding: 4rem 0rem;
     }
 
-    .divAboutSectionHomeMenuImg {
-        margin-top: 3rem;
-    }
+
 
     .HomeImage1 {
         width: 20rem;
@@ -154,7 +152,6 @@
     .divAboutSectionHomeMenuImg {
         width: 19rem;
         height: 14rem;
-        margin-top: 4rem;
         border-radius: 60px 0px 60px 0px;
         -webkit-border-radius: 60px 0px 60px 0px;
         -moz-border-radius: 60px 0px 60px 0px;
@@ -527,6 +524,30 @@
     #gallery #photo {
         padding-top: 20px;
     }
+
+    iframe {
+        width: 320px;
+        height: 320px;
+        border-radius: 2rem 0px 2rem 0px !important;
+        -webkit-border-radius: 2rem 0px 2rem 0px !important;
+        -moz-border-radius: 2rem 0px 2rem 0px !important;
+        -ms-border-radius: 2rem 0px 2rem 0px !important;
+        -o-border-radius: 2rem 0px 2rem 0px !important;
+}
+
+      
+.divAboutSectionHomeMenuImgMap {
+    width: 20rem !important;
+    height: 20rem !important;
+
+}
+
+.GMapFrame {
+    padding-left: 2rem !important;
+    padding-top: 2rem !important;
+    margin-bottom: 5rem;
+  }
+  
 }
 
 /* Tablet */
@@ -580,12 +601,12 @@
     .divAboutSectionHomeMenu {
         display: flex;
         flex-direction: column;
-        padding: 6rem 0rem;
+        padding: 4rem 0rem;
     }
 
-    .divAboutSectionHomeMenuImg {
+    /* .divAboutSectionHomeMenuImg {
         margin-top: 6rem !important;
-    }
+    } */
 
     .HomeImage1 {
         width: 30rem;
@@ -596,7 +617,9 @@
     .divAboutSectionHomeMenuImg {
         width: 30rem;
         height: 20rem;
-        margin-top: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
     }
 
     .divAboutSectionHomeMenuImg {
