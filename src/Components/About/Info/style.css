@@ -11,6 +11,10 @@
     background-color: var(--color10);
 }
 
+.divNewSectionHomeMenu {
+background: none !important;
+}
+
 .HomeSectionText1 {
     width: 30rem;
     font-weight: 600;

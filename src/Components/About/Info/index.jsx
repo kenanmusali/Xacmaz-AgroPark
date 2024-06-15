@@ -3,6 +3,7 @@ import { LanguageContext } from '../../../Assets/Language';
 import './style.css';
 import HomeImage1 from '../../../../Public/Images/image191.png'
 
+
 function Info() {
   const { language } = useContext(LanguageContext);
   

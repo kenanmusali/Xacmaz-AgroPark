@@ -3,6 +3,7 @@ import ProductHeader from '../Header/Products'
 import Section from './Section'
 
 function ProductSection() {
+  
   return (
     <div>
       <ProductHeader />
