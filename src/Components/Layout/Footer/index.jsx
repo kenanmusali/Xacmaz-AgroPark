@@ -36,7 +36,7 @@ function Footer() {
             </div>
             <div className="section2">
                 <div className="one">
-                    <img className='logoFooter' src="./Public/Favicon/Logo.svg" alt="Xacmaz Aqro Park Logo" />
+                    <img className='logoFooter' src="./Public/Favicon/Logo.svg" alt="XAP" />
                     <div className="flex">
                         <p className='Footertexts'>© 2024 Xaçmaz Aqro</p>
                         <p className='Footertexts'>{language === 'az' ? 'Müəllif hüquqları qorunur' : 'Copyright, All rights reserved'}</p>

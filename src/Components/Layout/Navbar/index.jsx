@@ -64,7 +64,7 @@ function Navbar() {
 
       <div className="BottomSection">
         <Link to='/' className="logoSec">
-          <img className='logo' src="./Public/Favicon/Logo.svg" alt="Xacmaz Aqro Park Logo" />
+          <img className='logo' src="./Public/Favicon/Logo.svg" alt="XAP" />
           <p className='logotext'>Xaçmaz AqroPark</p>
         </Link>
         <div className="MenuSection">
