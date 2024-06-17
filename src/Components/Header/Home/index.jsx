@@ -60,9 +60,9 @@ function HomeHeader() {
             />
           }
             <div className="HomeText">
-              <p className="bckText">{language === 'az' ? 'Məhsullar' : 'Products'}</p>
+              <p className="bckText">{language === 'az' ? 'Xoş gəldiniz' : 'Welcome'}</p>
               <p className="bckText1">
-                {language === 'az' ? 'Biz aqrobiznes kommunikasiyaları ilə məşğul oluruq' : 'We deal with agribusiness communications'}
+                {language === 'az' ? 'Daha yaşıl gələcək üçün davamlı kənd təsərrüfatını innovativ texnologiya ilə birləşdirin' : 'Uniting sustainable agriculture with innovative technology for a greener future'}
               </p>
               <Link to={'/about'} className="bckBtn">
                 {language === 'az' ? 'Haqqımızda' : 'About Us'}

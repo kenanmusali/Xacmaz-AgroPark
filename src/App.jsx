@@ -19,6 +19,8 @@ import ShortCut from './Components/ShortCut'
 import CareerDetails from './Page/CareerDetails'
 import DarkMode from './Assets/DarkMode'
 import Responsive from './Assets/Responsive'
+import NotAvailable from './Page/NotAvailable';
+
 
 function Layout({ children }) {
   return (
@@ -34,6 +36,7 @@ function App() {
   return (
     <div>
       <Loading />
+      <NotAvailable/>
       <LanguageProvider>
         <Routes>
           <Route path='/' element={<Layout><Home /></Layout>} />

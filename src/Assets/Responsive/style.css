@@ -1,5 +1,28 @@
+@media screen and (max-width: 400px) {
+    .NotAvailable {
+        background-color: var(--color);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex !important; 
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        z-index: 99999999;
+    }
+}
+
+
+.NotAvailable {
+    display: none ;
+}
+
 /* Phone */
-@media screen and (max-width: 767px) {
+@media screen  and (max-width: 767px) {
+
+
     .inputbar1HomeSec {
         display: flex;
         flex-direction: column;
@@ -533,25 +556,27 @@
         -moz-border-radius: 2rem 0px 2rem 0px !important;
         -ms-border-radius: 2rem 0px 2rem 0px !important;
         -o-border-radius: 2rem 0px 2rem 0px !important;
-}
+    }
 
-      
-.divAboutSectionHomeMenuImgMap {
-    width: 20rem !important;
-    height: 20rem !important;
 
-}
+    .divAboutSectionHomeMenuImgMap {
+        width: 20rem !important;
+        height: 20rem !important;
 
-.GMapFrame {
-    padding-left: 2rem !important;
-    padding-top: 2rem !important;
-    margin-bottom: 5rem;
-  }
-  
+    }
+
+    .GMapFrame {
+        padding-left: 2rem !important;
+        padding-top: 2rem !important;
+        margin-bottom: 5rem;
+    }
+
 }
 
 /* Tablet */
 @media screen and (min-width: 767px) and (max-width: 1024px) {
+
+
     .divCareerBarContainer {
         display: flex;
         flex-direction: column;
@@ -632,10 +657,7 @@
         margin-top: 1rem;
     }
 
-    .HomeSectionText2,
-    .HomeSectionText1 {
-        width: 45rem;
-    }
+
 
     .HomeSectionText2 {
         font-size: 2.5rem;
@@ -856,8 +878,11 @@
 
 /* Laptop */
 @media screen and (min-width: 1025px) {
+
+
     .HamMenuIcon {
         display: none !important;
     }
 
 }
+
