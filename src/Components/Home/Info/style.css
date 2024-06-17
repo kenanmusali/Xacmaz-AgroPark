@@ -1,4 +1,3 @@
-
 .divAboutSectionHomeMenu {
     background: url(../../../Public/Elements/footer.svg);
     width: 100%;
@@ -12,7 +11,7 @@
 }
 
 .HomeSectionText1 {
-
+    width: fit-content !important;
     font-weight: 600;
     font-size: 1.3rem;
     color: var(--color2);
@@ -23,6 +22,7 @@
     margin-top: 0.5rem;
     font-weight: 700;
     color: var(--color9);
+    width: fit-content !important;
 }
 
 .HomeSectionText3 {

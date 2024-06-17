@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
     .NotAvailable {
         background-color: var(--color);
         position: fixed;
@@ -21,6 +21,19 @@
 
 /* Phone */
 @media screen  and (max-width: 767px) {
+
+    .HomeIconDesp {
+        margin-top: 1rem;
+        font-size: 1rem;
+        width: fit-content !important;
+        text-align: center;
+    }
+
+    .HomeSectionText3 {
+        width: fit-content !important;
+        margin-top: 1rem;
+        color: var(--color9);
+    }
 
 
     .inputbar1HomeSec {
@@ -162,7 +175,7 @@
 
 
     .HomeImage1 {
-        width: 20rem;
+        width: 100%;
         bottom: 2rem;
         left: 2rem;
         border-radius: 60px 0px 60px 0px;
@@ -187,7 +200,7 @@
     }
 
     .divAboutSectionHomeMenuImg {
-        margin-right: 3rem;
+        margin-right: 1rem;
         margin-left: 0rem;
     }
 

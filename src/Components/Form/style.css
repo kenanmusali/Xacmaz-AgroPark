@@ -8,6 +8,7 @@
     -moz-transition: all 0.4s;
     -ms-transition: all 0.4s;
     -o-transition: all 0.4s;
+    height: 100vh;
 }
 
 .defaultBackground .HomeSectionText1{
