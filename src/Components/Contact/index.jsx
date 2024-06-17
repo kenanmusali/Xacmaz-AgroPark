@@ -8,8 +8,8 @@ function ContactSection() {
   return (
     <div>
       <ContactHeader />
-      <Form />
       <Map />
+      <Form />
     </div>
   )
 }

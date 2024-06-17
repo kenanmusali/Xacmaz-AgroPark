@@ -6,7 +6,7 @@
         left: 0;
         width: 100vw;
         height: 100vh;
-        display: flex !important; 
+        display: flex !important;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -16,11 +16,14 @@
 
 
 .NotAvailable {
-    display: none ;
+    display: none;
 }
 
 /* Phone */
-@media screen  and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+    .defaultBackground {
+        height: 100vh;
+    }
 
     .HomeIconDesp {
         margin-top: 1rem;
@@ -903,4 +906,3 @@
     }
 
 }
-

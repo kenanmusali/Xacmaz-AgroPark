@@ -1,21 +1,21 @@
-
 /* ContactForm.css */
 
 .defaultBackground {
+    height: fit-content;
     background-image: url(../../../Public/Images/Group180.svg);
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -ms-transition: all 0.4s;
     -o-transition: all 0.4s;
-    height: 100vh;
+
 }
 
-.defaultBackground .HomeSectionText1{
+.defaultBackground .HomeSectionText1 {
     color: var(--color2) !important;
 }
 
-.emptyInputBackground .HomeSectionText1{
+.emptyInputBackground .HomeSectionText1 {
     color: var(--color6) !important;
 }
 
