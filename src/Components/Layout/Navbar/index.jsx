@@ -7,6 +7,7 @@ import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import { Link, NavLink } from 'react-router-dom';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
+import logo from '../../../../Public/Favicon/Logo.svg'
 
 // Navbar Hamburger Menu
 function Navbar() {
@@ -64,7 +65,7 @@ function Navbar() {
 
       <div className="BottomSection">
         <Link to='/' className="logoSec">
-          <img className='logo' src="./Public/Favicon/Logo.svg" alt="XAP" />
+        <img className='logo' src={logo} alt="XAP" />
           <p className='logotext'>Xaçmaz AqroPark</p>
         </Link>
         <div className="MenuSection">
